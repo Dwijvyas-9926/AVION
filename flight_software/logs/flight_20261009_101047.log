@@ -1,0 +1,1561 @@
+10:10:47 [INFO    ] Log file: logs/flight_20261009_101047.log
+10:10:53 [INFO    ] ==================================================
+10:10:53 [INFO    ]   TerraAvis — Autonomous Mission System
+10:10:53 [INFO    ]   RoboFest National Competition
+10:10:53 [INFO    ] ==================================================
+10:10:53 [INFO    ] CPU governor set to powersave.
+10:10:53 [INFO    ] CPU Temperature: temp=38.9'C
+10:10:54 [INFO    ] Connecting to Pixhawk → /dev/ttyACM0 @ 57600
+10:10:54 [DEBUG   ] mav recv error: invalid MAVLink prefix '188'
+10:10:55 [INFO    ] ArduCopter V4.7.1 (dbe79216)
+10:10:55 [INFO    ] ChibiOS: d103983f
+10:10:55 [INFO    ] fmuv3 001A0027 3533510B 37313531
+10:10:55 [INFO    ] IOMCU: 0 0 411FC231
+10:10:55 [INFO    ] RCOut: PWM:1-14
+10:10:55 [INFO    ] IMU0: fast sampling enabled 8.0kHz/1.0kHz
+10:10:55 [INFO    ] Frame: QUAD/X
+10:10:56 [DEBUG   ] Still waiting for data from vehicle: parameters,gps_0,attitude
+10:10:57 [DEBUG   ] Still waiting for data from vehicle: parameters
+10:10:58 [DEBUG   ] Still waiting for data from vehicle: parameters
+10:10:59 [DEBUG   ] Still waiting for data from vehicle: parameters
+10:11:00 [DEBUG   ] Still waiting for data from vehicle: parameters
+10:11:01 [DEBUG   ] Still waiting for data from vehicle: parameters
+10:11:02 [DEBUG   ] Still waiting for data from vehicle: parameters
+10:11:03 [DEBUG   ] Still waiting for data from vehicle: parameters
+10:11:04 [DEBUG   ] Still waiting for data from vehicle: parameters
+10:11:05 [DEBUG   ] Still waiting for data from vehicle: parameters
+10:11:06 [DEBUG   ] Still waiting for data from vehicle: parameters
+10:11:07 [DEBUG   ] Still waiting for data from vehicle: parameters
+10:11:08 [DEBUG   ] Still waiting for data from vehicle: parameters
+10:11:09 [DEBUG   ] Still waiting for data from vehicle: parameters
+10:11:10 [INFO    ] Pixhawk connected.
+10:11:10 [INFO    ]   Firmware : APM:Copter-4.7.1
+10:11:10 [INFO    ]   GPS      : fix=3 sats=26
+10:11:10 [INFO    ]   Battery  : 0.0V
+10:11:10 [INFO    ]   Mode     : STABILIZE
+10:11:10 [INFO    ]   Heartbeat watchdog started.
+10:11:10 [INFO    ] RealSense D455 started.
+10:11:10 [INFO    ]   Resolution : 640x480 @ 15fps
+10:11:10 [INFO    ]   Zone edges : Left=213px  Right=426px
+10:11:10 [WARNING ] Rover: pigpio daemon not running — rover disabled.
+10:11:10 [WARNING ] Rover: GPIO not ready — cannot start.
+10:11:10 [INFO    ] --------------------------------------------------
+10:11:10 [INFO    ] System ready.
+10:11:10 [INFO    ]   Press [S] in the window to START mission.
+10:11:10 [INFO    ]   Press [A] to ABORT at any time.
+10:11:10 [INFO    ]   Press [Q] to quit.
+10:11:10 [INFO    ] --------------------------------------------------
+10:11:10 [INFO    ] ==================================================
+10:11:10 [INFO    ]   Browser GUI starting...
+10:11:10 [INFO    ]   Open in browser: http://<RPi-IP>:5000
+10:11:10 [INFO    ] ==================================================
+10:11:10 [INFO    ] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.69.110.233:5000
+10:11:10 [INFO    ] [33mPress CTRL+C to quit[0m
+10:11:13 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:11:13] "GET / HTTP/1.1" 200 -
+10:11:13 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:11:13] "GET /gcs_config.json HTTP/1.1" 200 -
+10:11:13 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:11:13] "GET /socket.io/?EIO=4&transport=polling&t=Q4Uznvb HTTP/1.1" 200 -
+10:11:13 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:11:13] "POST /socket.io/?EIO=4&transport=polling&t=Q4Uznza&sid=nE0DozKC5z_5Paj7AAAA HTTP/1.1" 200 -
+10:11:13 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:11:13] "GET /socket.io/?EIO=4&transport=polling&t=Q4Uznzb&sid=nE0DozKC5z_5Paj7AAAA HTTP/1.1" 200 -
+10:11:13 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:11:13] "GET /socket.io/?EIO=4&transport=polling&t=Q4Uzn_k&sid=nE0DozKC5z_5Paj7AAAA HTTP/1.1" 200 -
+10:11:13 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:11:13] "GET /video_feed HTTP/1.1" 200 -
+10:12:55 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:12:55] "GET /socket.io/?EIO=4&transport=polling&t=Q4U-AnD HTTP/1.1" 200 -
+10:12:55 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:12:55] "POST /socket.io/?EIO=4&transport=polling&t=Q4U-Apq&sid=FQDZG-V5KLu1jPstAAAC HTTP/1.1" 200 -
+10:12:55 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:12:55] "GET /socket.io/?EIO=4&transport=polling&t=Q4U-Apt&sid=FQDZG-V5KLu1jPstAAAC HTTP/1.1" 200 -
+10:12:55 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:12:55] "GET /socket.io/?EIO=4&transport=polling&t=Q4U-AsY&sid=FQDZG-V5KLu1jPstAAAC HTTP/1.1" 200 -
+10:14:20 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:14:20] "GET /socket.io/?EIO=4&transport=polling&t=Q4U-VbG HTTP/1.1" 200 -
+10:14:20 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:14:20] "POST /socket.io/?EIO=4&transport=polling&t=Q4U-VeC&sid=1Ifw2Vut5S9PKvO3AAAE HTTP/1.1" 200 -
+10:14:20 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:14:20] "GET /socket.io/?EIO=4&transport=polling&t=Q4U-VeD&sid=1Ifw2Vut5S9PKvO3AAAE HTTP/1.1" 200 -
+10:14:20 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:14:20] "GET /socket.io/?EIO=4&transport=polling&t=Q4U-Vgg&sid=1Ifw2Vut5S9PKvO3AAAE HTTP/1.1" 200 -
+10:14:21 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:14:21] "GET /socket.io/?EIO=4&transport=polling&t=Q4U-Vmz HTTP/1.1" 200 -
+10:14:21 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:14:21] "POST /socket.io/?EIO=4&transport=polling&t=Q4U-Vqi&sid=0Fo-ZLZMCVjU8MhfAAAG HTTP/1.1" 200 -
+10:14:21 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:14:21] "GET /socket.io/?EIO=4&transport=polling&t=Q4U-Vqj&sid=0Fo-ZLZMCVjU8MhfAAAG HTTP/1.1" 200 -
+10:14:21 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:14:21] "GET /socket.io/?EIO=4&transport=polling&t=Q4U-Vsw&sid=0Fo-ZLZMCVjU8MhfAAAG HTTP/1.1" 200 -
+10:14:24 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:14:24] "GET / HTTP/1.1" 200 -
+10:14:24 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:14:24] "GET /gcs_config.json HTTP/1.1" 200 -
+10:14:24 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:14:24] "GET /video_feed HTTP/1.1" 200 -
+10:14:24 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:14:24] "GET /socket.io/?EIO=4&transport=polling&t=Q4U-WeF HTTP/1.1" 200 -
+10:14:25 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:14:25] "POST /socket.io/?EIO=4&transport=polling&t=Q4U-Wic&sid=Q-6thb6f96glVj9dAAAI HTTP/1.1" 200 -
+10:14:25 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:14:25] "GET /socket.io/?EIO=4&transport=polling&t=Q4U-Wid&sid=Q-6thb6f96glVj9dAAAI HTTP/1.1" 200 -
+10:14:25 [INFO    ] 127.0.0.1 - - [09/Oct/2026 10:14:25] "GET /socket.io/?EIO=4&transport=polling&t=Q4U-Wlz&sid=Q-6thb6f96glVj9dAAAI HTTP/1.1" 200 -
+10:15:51 [INFO    ] START commanded from browser.
+10:15:51 [INFO    ] ▶ PREFLIGHT — Running Pre-Flight Checks
+10:15:51 [INFO    ] Mission thread started.
+10:15:51 [INFO    ] Running pre-flight checks...
+10:15:51 [INFO    ] Servo test before arming...
+10:15:51 [INFO    ] Servo pre-flight test — opening...
+10:15:51 [INFO    ] Servo CH9 → 1100us
+10:15:53 [INFO    ] Servo pre-flight test — closing...
+10:15:53 [INFO    ] Servo CH9 → 1900us
+10:15:54 [INFO    ] Servo pre-flight test complete ✅
+10:15:54 [INFO    ] Pre-flight checks passed ✅
+10:15:54 [INFO    ] ▶ ARMING — Arming & GUIDED Mode
+10:15:54 [INFO    ] Setting GUIDED mode...
+10:15:54 [INFO    ] GUIDED mode confirmed.
+10:15:55 [INFO    ] Arming motors...
+10:15:55 [WARNING ] Radio Failsafe - Disarming
+10:16:06 [WARNING ] ABORT commanded from browser.
+10:16:06 [WARNING ] ABORT commanded — landing in place.
+10:16:08 [INFO    ] Switching to LAND mode...
+10:16:08 [INFO    ] ▶ ABORTED — Mission Aborted
+10:16:10 [ERROR   ] Arming timed out — check pre-arm conditions in GCS.
+10:16:10 [ERROR   ] Arming failed — check Pixhawk pre-arm messages.
+10:16:10 [ERROR   ] Mission exception: Arming failed
+Traceback (most recent call last):
+  File "/home/av/Desktop/codes/mission_manager.py", line 237, in _run
+    self._step_arm()
+  File "/home/av/Desktop/codes/mission_manager.py", line 357, in _step_arm
+    raise RuntimeError("Arming failed")
+RuntimeError: Arming failed
+10:16:10 [INFO    ] ▶ ERROR — Error — Check Logs
+10:16:16 [DEBUG   ] RCInput: decoding PPM (IOMCU)
+10:16:16 [WARNING ] Radio Failsafe Cleared
+10:16:19 [INFO    ] START commanded from browser.
+10:16:19 [INFO    ] ▶ PREFLIGHT — Running Pre-Flight Checks
+10:16:19 [INFO    ] Mission thread started.
+10:16:19 [INFO    ] Running pre-flight checks...
+10:16:19 [INFO    ] Servo test before arming...
+10:16:19 [INFO    ] Servo pre-flight test — opening...
+10:16:19 [INFO    ] Servo CH9 → 1100us
+10:16:21 [INFO    ] Servo pre-flight test — closing...
+10:16:21 [INFO    ] Servo CH9 → 1900us
+10:16:22 [INFO    ] Servo pre-flight test complete ✅
+10:16:22 [INFO    ] Pre-flight checks passed ✅
+10:16:22 [INFO    ] ▶ ARMING — Arming & GUIDED Mode
+10:16:22 [INFO    ] Setting GUIDED mode...
+10:16:22 [INFO    ] GUIDED mode confirmed.
+10:16:23 [INFO    ] Arming motors...
+10:16:24 [INFO    ] Motors ARMED.
+10:16:26 [INFO    ] Armed and ready ✅
+10:16:26 [INFO    ] ▶ TAKEOFF — Taking Off
+10:16:26 [INFO    ] Taking off to 1.7m...
+10:16:26 [INFO    ] Takeoff → 1.7m
+10:16:26 [DEBUG   ]   Alt: -0.01m / 1.7m
+10:16:26 [DEBUG   ]   Alt: -0.01m / 1.7m
+10:16:26 [DEBUG   ]   Alt: 0.06m / 1.7m
+10:16:27 [DEBUG   ]   Alt: 0.21m / 1.7m
+10:16:27 [DEBUG   ]   Alt: 0.39m / 1.7m
+10:16:27 [DEBUG   ]   Alt: 0.61m / 1.7m
+10:16:28 [DEBUG   ]   Alt: 0.89m / 1.7m
+10:16:28 [DEBUG   ]   Alt: 1.38m / 1.7m
+10:16:28 [DEBUG   ]   Alt: 1.53m / 1.7m
+10:16:29 [DEBUG   ]   Alt: 1.64m / 1.7m
+10:16:29 [INFO    ] Takeoff complete. Altitude: 1.64m
+10:16:29 [DEBUG   ]   Altitude: 1.64m / 1.7m
+10:16:29 [INFO    ] Takeoff complete: 1.64m ✅
+10:16:29 [INFO    ] Home recorded: [redacted], [redacted]
+10:16:29 [INFO    ] ▶ HOVER — Hovering — Stabilising
+10:16:29 [INFO    ] Stabilising for 2.0s...
+10:16:31 [INFO    ] =============================================
+10:16:31 [INFO    ]   PHASE 1 — RED DUMMY
+10:16:31 [INFO    ] =============================================
+10:16:31 [INFO    ] Vision target → RED
+10:16:31 [INFO    ] ▶ YAW_SEARCH — Yaw Searching for Target
+10:16:31 [INFO    ] Yaw search — looking for RED dummy...
+10:16:31 [INFO    ] RED dummy already in frame — skipping sweep.
+10:16:31 [INFO    ] ▶ TARGET_LOCK — Target Confirmed — Locking
+10:16:31 [INFO    ] Confirming lock — need 3 stable frames...
+10:16:31 [DEBUG   ]   Lock 1/3 — depth=3.552m
+10:16:31 [DEBUG   ]   Lock 2/3 — depth=3.5m
+10:16:31 [DEBUG   ]   Lock 3/3 — depth=Nonem
+10:16:31 [INFO    ] TARGET LOCKED ✅  depth=beyond depth range  area=1462px²
+10:16:31 [INFO    ] Centering target for operator view...
+10:16:33 [INFO    ] ▶ CONFIRM_TARGET — ⚠ Awaiting Operator Confirmation
+10:16:33 [INFO    ] TARGET CONFIRMATION REQUIRED — RED object  dist=3.4m  area=6394px²
+10:16:33 [INFO    ] Waiting for operator: APPROACH or IGNORE...
+10:16:36 [INFO    ] GUI: operator chose IGNORE — continuing search.
+10:16:36 [INFO    ] Operator: IGNORE — continuing yaw search.
+10:16:37 [INFO    ] Operator chose: IGNORE
+10:16:37 [INFO    ] Ignored RED object at bearing 323° (3.4m away)
+10:16:37 [INFO    ] Resuming yaw search (1 object(s) ignored this phase)...
+10:16:37 [INFO    ] ▶ YAW_SEARCH — Yaw Searching for Target
+10:16:37 [INFO    ] Yaw search — looking for RED dummy...
+10:16:37 [INFO    ] Only an ignored object in view — rotating past it.
+10:16:37 [DEBUG   ]   Yaw CW  step=1.8°  total=0°
+10:16:37 [DEBUG   ]   Yaw CW  step=1.8°  total=2°
+10:16:37 [DEBUG   ]   Yaw CW  step=1.8°  total=4°
+10:16:37 [DEBUG   ]   Yaw CW  step=1.8°  total=5°
+10:16:38 [DEBUG   ]   Yaw CW  step=1.8°  total=7°
+10:16:38 [DEBUG   ]   Yaw CW  step=1.8°  total=9°
+10:16:38 [DEBUG   ]   Yaw CW  step=1.8°  total=11°
+10:16:38 [DEBUG   ]   Yaw CW  step=1.8°  total=13°
+10:16:38 [DEBUG   ]   Yaw CW  step=1.8°  total=14°
+10:16:39 [DEBUG   ]   Yaw CW  step=1.8°  total=16°
+10:16:39 [DEBUG   ]   Yaw CW  step=1.8°  total=18°
+10:16:39 [DEBUG   ]   Yaw CW  step=1.8°  total=20°
+10:16:39 [DEBUG   ]   Yaw CW  step=1.8°  total=22°
+10:16:39 [DEBUG   ]   Yaw CW  step=1.8°  total=23°
+10:16:40 [DEBUG   ]   Yaw CW  step=1.8°  total=25°
+10:16:40 [INFO    ] RED dummy found after 27° ✅
+10:16:40 [INFO    ] ▶ TARGET_LOCK — Target Confirmed — Locking
+10:16:40 [INFO    ] Confirming lock — need 3 stable frames...
+10:16:40 [DEBUG   ]   Lock 1/3 — depth=Nonem
+10:16:40 [DEBUG   ]   Lock 2/3 — depth=Nonem
+10:16:40 [WARNING ] ABORT commanded from browser.
+10:16:40 [WARNING ] ABORT commanded — landing in place.
+10:16:40 [DEBUG   ]   Lock 3/3 — depth=Nonem
+10:16:40 [INFO    ] TARGET LOCKED ✅  depth=beyond depth range  area=5848px²
+10:16:40 [INFO    ] Centering target for operator view...
+10:16:40 [WARNING ] Abort flag — stopping mission.
+10:16:40 [INFO    ] ▶ ABORTED — Mission Aborted
+10:16:40 [WARNING ] Abort flag — stopping mission.
+10:16:40 [INFO    ] ▶ ABORTED — Mission Aborted
+10:16:40 [WARNING ] Abort flag — stopping mission.
+10:16:40 [INFO    ] ▶ ABORTED — Mission Aborted
+10:16:41 [INFO    ] Switching to LAND mode...
+10:16:41 [INFO    ] ▶ ABORTED — Mission Aborted
+10:17:48 [INFO    ] START commanded from browser.
+10:17:48 [INFO    ] ▶ PREFLIGHT — Running Pre-Flight Checks
+10:17:48 [INFO    ] Running pre-flight checks...
+10:17:48 [INFO    ] Mission thread started.
+10:17:48 [INFO    ] Servo test before arming...
+10:17:48 [INFO    ] Servo pre-flight test — opening...
+10:17:48 [INFO    ] Servo CH9 → 1100us
+10:17:50 [INFO    ] Servo pre-flight test — closing...
+10:17:50 [INFO    ] Servo CH9 → 1900us
+10:17:51 [INFO    ] Servo pre-flight test complete ✅
+10:17:51 [INFO    ] Pre-flight checks passed ✅
+10:17:51 [INFO    ] ▶ ARMING — Arming & GUIDED Mode
+10:17:51 [INFO    ] Setting GUIDED mode...
+10:17:51 [INFO    ] GUIDED mode confirmed.
+10:17:52 [INFO    ] Arming motors...
+10:17:53 [INFO    ] Motors ARMED.
+10:17:55 [INFO    ] Armed and ready ✅
+10:17:55 [INFO    ] ▶ TAKEOFF — Taking Off
+10:17:55 [INFO    ] Taking off to 1.7m...
+10:17:55 [INFO    ] Takeoff → 1.7m
+10:17:55 [DEBUG   ]   Alt: -0.03m / 1.7m
+10:17:55 [DEBUG   ]   Alt: -0.04m / 1.7m
+10:17:56 [DEBUG   ]   Alt: -0.01m / 1.7m
+10:17:56 [DEBUG   ]   Alt: 0.11m / 1.7m
+10:17:56 [DEBUG   ]   Alt: 0.28m / 1.7m
+10:17:56 [DEBUG   ]   Alt: 0.71m / 1.7m
+10:17:57 [DEBUG   ]   Alt: 1.01m / 1.7m
+10:17:57 [DEBUG   ]   Alt: 1.28m / 1.7m
+10:17:57 [DEBUG   ]   Alt: 1.50m / 1.7m
+10:17:58 [DEBUG   ]   Alt: 1.66m / 1.7m
+10:17:58 [INFO    ] Takeoff complete. Altitude: 1.66m
+10:17:58 [DEBUG   ]   Altitude: 1.66m / 1.7m
+10:17:58 [INFO    ] Takeoff complete: 1.66m ✅
+10:17:58 [INFO    ] Home recorded: [redacted], [redacted]
+10:17:58 [INFO    ] ▶ HOVER — Hovering — Stabilising
+10:17:58 [INFO    ] Stabilising for 2.0s...
+10:18:00 [INFO    ] =============================================
+10:18:00 [INFO    ]   PHASE 1 — RED DUMMY
+10:18:00 [INFO    ] =============================================
+10:18:00 [INFO    ] Vision target → RED
+10:18:00 [INFO    ] ▶ YAW_SEARCH — Yaw Searching for Target
+10:18:00 [INFO    ] Yaw search — looking for RED dummy...
+10:18:00 [INFO    ] RED dummy already in frame — skipping sweep.
+10:18:00 [INFO    ] ▶ TARGET_LOCK — Target Confirmed — Locking
+10:18:00 [INFO    ] Confirming lock — need 3 stable frames...
+10:18:00 [DEBUG   ]   Lock 1/3 — depth=Nonem
+10:18:00 [DEBUG   ]   Lock 2/3 — depth=Nonem
+10:18:00 [DEBUG   ]   Lock 3/3 — depth=Nonem
+10:18:00 [INFO    ] TARGET LOCKED ✅  depth=beyond depth range  area=1869px²
+10:18:00 [INFO    ] Centering target for operator view...
+10:18:02 [INFO    ] ▶ CONFIRM_TARGET — ⚠ Awaiting Operator Confirmation
+10:18:02 [INFO    ] TARGET CONFIRMATION REQUIRED — RED object  dist=beyond depth range  area=1918px²
+10:18:02 [INFO    ] Waiting for operator: APPROACH or IGNORE...
+10:18:05 [INFO    ] GUI: operator confirmed APPROACH.
+10:18:05 [INFO    ] Operator: APPROACH confirmed ✅
+10:18:05 [INFO    ] Operator chose: APPROACH
+10:18:05 [INFO    ] Tracking locked to confirmed target (pixel tracking)
+10:18:05 [INFO    ] ▶ ALIGN — Aligning to Target
+10:18:05 [INFO    ] Aligning to target via yaw...
+10:18:05 [DEBUG   ]   Aligned 1/5 — error=16px
+10:18:05 [DEBUG   ]   Aligned 2/5 — error=21px
+10:18:05 [DEBUG   ]   Aligned 3/5 — error=22px
+10:18:05 [DEBUG   ]   Aligned 4/5 — error=17px
+10:18:05 [DEBUG   ]   Aligned 5/5 — error=14px
+10:18:05 [INFO    ] Aligned ✅
+10:18:05 [INFO    ] ▶ APPROACH — Approaching Target
+10:18:06 [INFO    ] Approaching  blind=0.2m/s  max=0.7m/s  stop at 1.5m
+10:18:06 [DEBUG   ]   Blind approach (depth out of range)
+10:18:06 [DEBUG   ]   Blind approach (depth out of range)
+10:18:06 [DEBUG   ]   Blind approach (depth out of range)
+10:18:06 [DEBUG   ]   Blind approach (depth out of range)
+10:18:06 [DEBUG   ]   Blind approach (depth out of range)
+10:18:07 [DEBUG   ]   Blind approach (depth out of range)
+10:18:07 [DEBUG   ]   Blind approach (depth out of range)
+10:18:07 [DEBUG   ]   Blind approach (depth out of range)
+10:18:07 [DEBUG   ]   Blind approach (depth out of range)
+10:18:07 [DEBUG   ]   Blind approach (depth out of range)
+10:18:07 [DEBUG   ]   Blind approach (depth out of range)
+10:18:08 [DEBUG   ]   Blind approach (depth out of range)
+10:18:08 [DEBUG   ]   Blind approach (depth out of range)
+10:18:08 [DEBUG   ]   Blind approach (depth out of range)
+10:18:08 [DEBUG   ]   Blind approach (depth out of range)
+10:18:08 [DEBUG   ]   Blind approach (depth out of range)
+10:18:08 [DEBUG   ]   Blind approach (depth out of range)
+10:18:08 [DEBUG   ]   Blind approach (depth out of range)
+10:18:09 [DEBUG   ]   Blind approach (depth out of range)
+10:18:09 [DEBUG   ]   Blind approach (depth out of range)
+10:18:09 [DEBUG   ]   Blind approach (depth out of range)
+10:18:09 [DEBUG   ]   Blind approach (depth out of range)
+10:18:09 [DEBUG   ]   Blind approach (depth out of range)
+10:18:09 [DEBUG   ]   Blind approach (depth out of range)
+10:18:10 [DEBUG   ]   Blind approach (depth out of range)
+10:18:10 [DEBUG   ]   Blind approach (depth out of range)
+10:18:10 [DEBUG   ]   Blind approach (depth out of range)
+10:18:10 [DEBUG   ]   Blind approach (depth out of range)
+10:18:10 [DEBUG   ]   Blind approach (depth out of range)
+10:18:10 [DEBUG   ]   Blind approach (depth out of range)
+10:18:10 [DEBUG   ]   Blind approach (depth out of range)
+10:18:11 [DEBUG   ]   Blind approach (depth out of range)
+10:18:11 [DEBUG   ]   Blind approach (depth out of range)
+10:18:11 [DEBUG   ]   Blind approach (depth out of range)
+10:18:11 [DEBUG   ]   Blind approach (depth out of range)
+10:18:11 [DEBUG   ]   Blind approach (depth out of range)
+10:18:11 [DEBUG   ]   Blind approach (depth out of range)
+10:18:11 [DEBUG   ]   Blind approach (depth out of range)
+10:18:12 [DEBUG   ]   Blind approach (depth out of range)
+10:18:12 [DEBUG   ]   Blind approach (depth out of range)
+10:18:12 [DEBUG   ]   Blind approach (depth out of range)
+10:18:12 [DEBUG   ]   Blind approach (depth out of range)
+10:18:12 [DEBUG   ]   Blind approach (depth out of range)
+10:18:12 [DEBUG   ]   Blind approach (depth out of range)
+10:18:12 [DEBUG   ]   Blind approach (depth out of range)
+10:18:13 [DEBUG   ]   Blind approach (depth out of range)
+10:18:13 [DEBUG   ]   depth=7.55m  err=-14px  vx=0.20  vy=0.00
+10:18:13 [DEBUG   ]   depth=7.66m  err=-10px  vx=0.24  vy=0.00
+10:18:13 [DEBUG   ]   depth=7.73m  err=-8px  vx=0.28  vy=0.00
+10:18:13 [DEBUG   ]   depth=7.73m  err=-14px  vx=0.32  vy=0.00
+10:18:13 [DEBUG   ]   depth=7.74m  err=-23px  vx=0.36  vy=0.00
+10:18:13 [DEBUG   ]   depth=7.79m  err=-31px  vx=0.40  vy=-0.01
+10:18:14 [DEBUG   ]   depth=7.83m  err=-36px  vx=0.44  vy=-0.02
+10:18:14 [DEBUG   ]   depth=7.83m  err=-33px  vx=0.48  vy=-0.02
+10:18:14 [DEBUG   ]   depth=7.83m  err=-60px  vx=0.52  vy=-0.03
+10:18:14 [DEBUG   ]   depth=7.83m  err=-59px  vx=0.56  vy=-0.03
+10:18:14 [DEBUG   ]   depth=7.74m  err=-39px  vx=0.60  vy=-0.02
+10:18:14 [DEBUG   ]   depth=7.66m  err=-37px  vx=0.64  vy=-0.02
+10:18:15 [DEBUG   ]   depth=7.60m  err=-21px  vx=0.68  vy=0.00
+10:18:15 [DEBUG   ]   depth=7.60m  err=-31px  vx=0.70  vy=-0.01
+10:18:15 [DEBUG   ]   depth=7.60m  err=-22px  vx=0.70  vy=0.00
+10:18:15 [DEBUG   ]   depth=7.41m  err=7px  vx=0.70  vy=0.00
+10:18:15 [DEBUG   ]   depth=7.41m  err=-14px  vx=0.70  vy=0.00
+10:18:15 [DEBUG   ]   depth=7.46m  err=-14px  vx=0.70  vy=0.00
+10:18:16 [DEBUG   ]   depth=7.46m  err=-19px  vx=0.70  vy=0.00
+10:18:16 [DEBUG   ]   depth=7.13m  err=7px  vx=0.70  vy=0.00
+10:18:16 [DEBUG   ]   depth=7.13m  err=5px  vx=0.70  vy=0.00
+10:18:16 [DEBUG   ]   depth=7.13m  err=-26px  vx=0.70  vy=-0.01
+10:18:16 [DEBUG   ]   depth=6.84m  err=-2px  vx=0.70  vy=0.00
+10:18:16 [DEBUG   ]   depth=6.68m  err=-2px  vx=0.70  vy=0.00
+10:18:17 [DEBUG   ]   depth=6.56m  err=-17px  vx=0.70  vy=0.00
+10:18:17 [DEBUG   ]   depth=6.27m  err=3px  vx=0.70  vy=0.00
+10:18:17 [DEBUG   ]   depth=6.15m  err=-20px  vx=0.70  vy=0.00
+10:18:17 [DEBUG   ]   depth=6.16m  err=-25px  vx=0.70  vy=0.00
+10:18:17 [DEBUG   ]   depth=6.05m  err=-31px  vx=0.70  vy=-0.01
+10:18:17 [DEBUG   ]   depth=5.84m  err=-24px  vx=0.70  vy=0.00
+10:18:18 [DEBUG   ]   depth=5.63m  err=-20px  vx=0.70  vy=0.00
+10:18:18 [DEBUG   ]   depth=5.45m  err=-26px  vx=0.70  vy=-0.01
+10:18:18 [DEBUG   ]   depth=5.28m  err=-36px  vx=0.70  vy=-0.02
+10:18:18 [DEBUG   ]   depth=5.11m  err=-36px  vx=0.70  vy=-0.02
+10:18:18 [DEBUG   ]   depth=5.02m  err=-29px  vx=0.70  vy=-0.01
+10:18:18 [DEBUG   ]   depth=4.81m  err=-24px  vx=0.70  vy=0.00
+10:18:18 [DEBUG   ]   depth=4.66m  err=-14px  vx=0.70  vy=0.00
+10:18:19 [DEBUG   ]   depth=4.45m  err=-9px  vx=0.70  vy=0.00
+10:18:19 [DEBUG   ]   depth=4.34m  err=-21px  vx=0.70  vy=0.00
+10:18:19 [DEBUG   ]   depth=4.23m  err=-26px  vx=0.70  vy=-0.01
+10:18:19 [DEBUG   ]   depth=4.12m  err=-17px  vx=0.70  vy=0.00
+10:18:19 [DEBUG   ]   depth=4.00m  err=-10px  vx=0.70  vy=0.00
+10:18:20 [DEBUG   ]   depth=3.84m  err=-7px  vx=0.70  vy=0.00
+10:18:20 [DEBUG   ]   depth=3.68m  err=-27px  vx=0.66  vy=-0.01
+10:18:20 [DEBUG   ]   depth=3.52m  err=-41px  vx=0.62  vy=-0.02
+10:18:20 [DEBUG   ]   depth=3.39m  err=-39px  vx=0.58  vy=-0.02
+10:18:20 [DEBUG   ]   depth=3.27m  err=-32px  vx=0.54  vy=-0.01
+10:18:20 [DEBUG   ]   depth=3.16m  err=-25px  vx=0.51  vy=0.00
+10:18:20 [DEBUG   ]   depth=3.07m  err=-34px  vx=0.48  vy=-0.02
+10:18:21 [DEBUG   ]   depth=2.97m  err=-38px  vx=0.46  vy=-0.02
+10:18:21 [DEBUG   ]   depth=2.88m  err=-49px  vx=0.43  vy=-0.02
+10:18:21 [DEBUG   ]   depth=2.81m  err=-41px  vx=0.41  vy=-0.02
+10:18:21 [DEBUG   ]   depth=2.74m  err=-30px  vx=0.39  vy=-0.01
+10:18:21 [DEBUG   ]   depth=2.67m  err=-30px  vx=0.37  vy=-0.01
+10:18:21 [DEBUG   ]   depth=2.62m  err=-46px  vx=0.36  vy=-0.02
+10:18:21 [DEBUG   ]   depth=2.55m  err=-52px  vx=0.34  vy=-0.02
+10:18:22 [DEBUG   ]   depth=2.49m  err=-65px  vx=0.32  vy=-0.03
+10:18:22 [DEBUG   ]   depth=2.42m  err=-63px  vx=0.31  vy=-0.03
+10:18:22 [DEBUG   ]   depth=2.36m  err=-58px  vx=0.29  vy=-0.03
+10:18:22 [DEBUG   ]   depth=2.31m  err=-57px  vx=0.27  vy=-0.03
+10:18:22 [DEBUG   ]   depth=2.26m  err=-56px  vx=0.26  vy=-0.03
+10:18:22 [DEBUG   ]   depth=2.21m  err=-57px  vx=0.25  vy=-0.03
+10:18:23 [DEBUG   ]   depth=2.21m  err=-57px  vx=0.24  vy=-0.03
+10:18:23 [DEBUG   ]   depth=2.17m  err=-57px  vx=0.24  vy=-0.03
+10:18:23 [DEBUG   ]   depth=2.12m  err=-54px  vx=0.22  vy=-0.03
+10:18:23 [DEBUG   ]   depth=2.08m  err=-55px  vx=0.21  vy=-0.03
+10:18:23 [DEBUG   ]   depth=2.04m  err=-54px  vx=0.20  vy=-0.03
+10:18:23 [DEBUG   ]   depth=2.01m  err=-40px  vx=0.19  vy=-0.02
+10:18:23 [DEBUG   ]   depth=1.96m  err=-57px  vx=0.18  vy=-0.03
+10:18:24 [DEBUG   ]   depth=1.96m  err=-47px  vx=0.18  vy=-0.02
+10:18:24 [DEBUG   ]   depth=1.91m  err=-64px  vx=0.18  vy=-0.03
+10:18:24 [DEBUG   ]   depth=1.85m  err=-66px  vx=0.18  vy=-0.03
+10:18:24 [DEBUG   ]   depth=1.81m  err=-64px  vx=0.18  vy=-0.03
+10:18:24 [DEBUG   ]   depth=1.75m  err=-67px  vx=0.18  vy=-0.03
+10:18:24 [DEBUG   ]   depth=1.72m  err=-69px  vx=0.18  vy=-0.03
+10:18:24 [DEBUG   ]   depth=1.69m  err=-61px  vx=0.18  vy=-0.03
+10:18:25 [DEBUG   ]   depth=1.65m  err=-74px  vx=0.18  vy=-0.03
+10:18:25 [DEBUG   ]   depth=1.62m  err=-76px  vx=0.18  vy=-0.04
+10:18:25 [DEBUG   ]   depth=1.61m  err=-67px  vx=0.18  vy=-0.03
+10:18:25 [DEBUG   ]   depth=1.57m  err=-103px  vx=0.18  vy=-0.05
+10:18:25 [DEBUG   ]   depth=1.53m  err=-114px  vx=0.18  vy=-0.05
+10:18:26 [DEBUG   ]   depth=1.50m  err=-117px  vx=0.18  vy=-0.05
+10:18:26 [DEBUG   ]   depth=1.47m  err=-116px  vx=0.18  vy=-0.05
+10:18:26 [INFO    ] Drop distance reached: 1.47m — stopping ✅
+10:18:27 [INFO    ] ▶ DROP — Dropping Payload
+10:18:27 [INFO    ] DROP SEQUENCE starting...
+10:18:27 [INFO    ] Stabilising 2s before drop...
+10:18:29 [INFO    ] Opening hook...
+10:18:29 [INFO    ] PAYLOAD HOOK OPEN — AUX1 → 2000us
+10:18:29 [INFO    ] Servo CH9 → 1100us
+10:18:30 [INFO    ] Servo CH9 → 1100us
+10:18:30 [INFO    ] HOOK OPEN ✓ — payload released
+10:18:32 [INFO    ] Drop complete.
+10:18:32 [INFO    ] ▶ RETURN_HOME — Returning to Home Position
+10:18:32 [INFO    ] Returning home: [redacted], [redacted]
+10:18:32 [INFO    ] Return Phase 1 — simple_goto...
+10:18:32 [DEBUG   ]   Phase 1 dist: 7.52m
+10:18:32 [DEBUG   ]   Phase 1 dist: 7.50m
+10:18:32 [DEBUG   ]   Phase 1 dist: 7.44m
+10:18:33 [DEBUG   ]   Phase 1 dist: 7.33m
+10:18:33 [DEBUG   ]   Phase 1 dist: 7.20m
+10:18:33 [DEBUG   ]   Phase 1 dist: 6.93m
+10:18:34 [DEBUG   ]   Phase 1 dist: 6.79m
+10:18:34 [DEBUG   ]   Phase 1 dist: 6.64m
+10:18:34 [DEBUG   ]   Phase 1 dist: 6.46m
+10:18:35 [DEBUG   ]   Phase 1 dist: 6.02m
+10:18:35 [DEBUG   ]   Phase 1 dist: 5.78m
+10:18:35 [DEBUG   ]   Phase 1 dist: 5.53m
+10:18:35 [DEBUG   ]   Phase 1 dist: 5.01m
+10:18:36 [DEBUG   ]   Phase 1 dist: 4.78m
+10:18:36 [DEBUG   ]   Phase 1 dist: 4.57m
+10:18:36 [DEBUG   ]   Phase 1 dist: 4.41m
+10:18:37 [DEBUG   ]   Phase 1 dist: 4.07m
+10:18:37 [DEBUG   ]   Phase 1 dist: 3.91m
+10:18:37 [DEBUG   ]   Phase 1 dist: 3.73m
+10:18:38 [DEBUG   ]   Phase 1 dist: 3.36m
+10:18:38 [DEBUG   ]   Phase 1 dist: 3.16m
+10:18:38 [DEBUG   ]   Phase 1 dist: 2.95m
+10:18:38 [INFO    ] Within 3m — switching to precision.
+10:18:40 [INFO    ] Return Phase 2 — precision correction...
+10:18:40 [DEBUG   ]   Phase 2 dist: 2.35m
+10:18:40 [DEBUG   ]   Phase 2 dist: 2.35m
+10:18:40 [DEBUG   ]   Phase 2 dist: 2.43m
+10:18:40 [DEBUG   ]   Phase 2 dist: 2.43m
+10:18:40 [DEBUG   ]   Phase 2 dist: 2.51m
+10:18:41 [DEBUG   ]   Phase 2 dist: 2.51m
+10:18:41 [DEBUG   ]   Phase 2 dist: 2.46m
+10:18:41 [DEBUG   ]   Phase 2 dist: 2.46m
+10:18:41 [DEBUG   ]   Phase 2 dist: 2.38m
+10:18:41 [DEBUG   ]   Phase 2 dist: 2.38m
+10:18:41 [DEBUG   ]   Phase 2 dist: 2.29m
+10:18:42 [DEBUG   ]   Phase 2 dist: 2.20m
+10:18:42 [DEBUG   ]   Phase 2 dist: 2.20m
+10:18:42 [DEBUG   ]   Phase 2 dist: 2.12m
+10:18:42 [DEBUG   ]   Phase 2 dist: 2.04m
+10:18:42 [DEBUG   ]   Phase 2 dist: 2.04m
+10:18:42 [DEBUG   ]   Phase 2 dist: 1.93m
+10:18:42 [DEBUG   ]   Phase 2 dist: 1.84m
+10:18:43 [DEBUG   ]   Phase 2 dist: 1.84m
+10:18:43 [DEBUG   ]   Phase 2 dist: 1.73m
+10:18:43 [DEBUG   ]   Phase 2 dist: 1.62m
+10:18:43 [DEBUG   ]   Phase 2 dist: 1.62m
+10:18:43 [DEBUG   ]   Phase 2 dist: 1.51m
+10:18:43 [DEBUG   ]   Phase 2 dist: 1.39m
+10:18:44 [DEBUG   ]   Phase 2 dist: 1.39m
+10:18:44 [DEBUG   ]   Phase 2 dist: 1.27m
+10:18:44 [DEBUG   ]   Phase 2 dist: 1.16m
+10:18:44 [DEBUG   ]   Phase 2 dist: 1.16m
+10:18:44 [DEBUG   ]   Phase 2 dist: 1.05m
+10:18:44 [DEBUG   ]   Phase 2 dist: 0.95m
+10:18:45 [DEBUG   ]   Phase 2 dist: 0.95m
+10:18:45 [DEBUG   ]   Phase 2 dist: 0.86m
+10:18:45 [DEBUG   ]   Phase 2 dist: 0.86m
+10:18:45 [DEBUG   ]   Phase 2 dist: 0.79m
+10:18:45 [DEBUG   ]   Phase 2 dist: 0.74m
+10:18:45 [DEBUG   ]   Phase 2 dist: 0.74m
+10:18:46 [DEBUG   ]   Phase 2 dist: 0.68m
+10:18:46 [DEBUG   ]   Phase 2 dist: 0.62m
+10:18:46 [DEBUG   ]   Phase 2 dist: 0.62m
+10:18:46 [DEBUG   ]   Phase 2 dist: 0.56m
+10:18:46 [INFO    ] Home reached ✅  error=0.56m
+10:18:47 [INFO    ] Return home complete.
+10:18:47 [INFO    ] ▶ RELOAD — Reloading Payload at Home
+10:18:47 [INFO    ] RELOAD — stabilising, then opening hook...
+10:18:51 [INFO    ] PAYLOAD HOOK OPEN — AUX1 → 2000us
+10:18:51 [INFO    ] Servo CH9 → 1100us
+10:18:52 [INFO    ] Servo CH9 → 1100us
+10:18:52 [INFO    ] HOOK OPEN ✓ — load the parcel, then press CLOSE HOOK
+10:18:54 [INFO    ] GUI: operator pressed CLOSE HOOK.
+10:18:54 [INFO    ] Operator: CLOSE HOOK ✅
+10:18:54 [INFO    ] PAYLOAD HOOK CLOSED — AUX1 → 1000us
+10:18:54 [INFO    ] Servo CH9 → 1900us
+10:18:54 [INFO    ] Servo CH9 → 1900us
+10:18:54 [INFO    ] HOOK CLOSED ✓ — check the parcel, then press RELOAD DONE
+10:18:56 [INFO    ] GUI: operator pressed RELOAD DONE.
+10:18:56 [INFO    ] Operator: RELOAD DONE ✅
+10:18:58 [INFO    ] Reload complete.
+10:18:58 [INFO    ] =============================================
+10:18:58 [INFO    ]   PHASE 2 — BLUE DUMMY
+10:18:58 [INFO    ] =============================================
+10:18:58 [INFO    ] Vision target → BLUE
+10:18:58 [INFO    ] ▶ YAW_SEARCH — Yaw Searching for Target
+10:18:58 [INFO    ] Yaw search — looking for BLUE dummy...
+10:18:58 [DEBUG   ]   Yaw CW  step=1.8°  total=0°
+10:18:58 [DEBUG   ]   Yaw CW  step=1.8°  total=2°
+10:18:59 [DEBUG   ]   Yaw CW  step=1.8°  total=4°
+10:18:59 [DEBUG   ]   Yaw CW  step=1.8°  total=5°
+10:18:59 [DEBUG   ]   Yaw CW  step=1.8°  total=7°
+10:18:59 [DEBUG   ]   Yaw CW  step=1.8°  total=9°
+10:18:59 [DEBUG   ]   Yaw CW  step=1.8°  total=11°
+10:19:00 [DEBUG   ]   Yaw CW  step=1.8°  total=13°
+10:19:00 [DEBUG   ]   Yaw CW  step=1.8°  total=14°
+10:19:00 [DEBUG   ]   Yaw CW  step=1.8°  total=16°
+10:19:00 [DEBUG   ]   Yaw CW  step=1.8°  total=18°
+10:19:00 [DEBUG   ]   Yaw CW  step=1.8°  total=20°
+10:19:01 [DEBUG   ]   Yaw CW  step=1.8°  total=22°
+10:19:01 [DEBUG   ]   Yaw CW  step=1.8°  total=23°
+10:19:01 [DEBUG   ]   Yaw CW  step=1.8°  total=25°
+10:19:01 [DEBUG   ]   Yaw CW  step=1.8°  total=27°
+10:19:01 [DEBUG   ]   Yaw CW  step=1.8°  total=29°
+10:19:02 [DEBUG   ]   Yaw CW  step=1.8°  total=31°
+10:19:02 [DEBUG   ]   Yaw CW  step=1.8°  total=32°
+10:19:02 [DEBUG   ]   Yaw CW  step=1.8°  total=34°
+10:19:02 [DEBUG   ]   Yaw CW  step=1.8°  total=36°
+10:19:02 [DEBUG   ]   Yaw CW  step=1.8°  total=38°
+10:19:03 [DEBUG   ]   Yaw CW  step=1.8°  total=40°
+10:19:03 [DEBUG   ]   Yaw CW  step=1.8°  total=41°
+10:19:03 [DEBUG   ]   Yaw CW  step=1.8°  total=43°
+10:19:03 [DEBUG   ]   Yaw CW  step=1.8°  total=45°
+10:19:03 [DEBUG   ]   Yaw CW  step=1.8°  total=47°
+10:19:04 [DEBUG   ]   Yaw CW  step=1.8°  total=49°
+10:19:04 [DEBUG   ]   Yaw CW  step=1.8°  total=50°
+10:19:04 [DEBUG   ]   Yaw CW  step=1.8°  total=52°
+10:19:04 [DEBUG   ]   Yaw CW  step=1.8°  total=54°
+10:19:04 [DEBUG   ]   Yaw CW  step=1.8°  total=56°
+10:19:05 [DEBUG   ]   Yaw CW  step=1.8°  total=58°
+10:19:05 [DEBUG   ]   Yaw CW  step=1.8°  total=59°
+10:19:05 [DEBUG   ]   Yaw CW  step=1.8°  total=61°
+10:19:05 [DEBUG   ]   Yaw CW  step=1.8°  total=63°
+10:19:05 [DEBUG   ]   Yaw CW  step=1.8°  total=65°
+10:19:06 [DEBUG   ]   Yaw CW  step=1.8°  total=67°
+10:19:06 [DEBUG   ]   Yaw CW  step=1.8°  total=68°
+10:19:06 [DEBUG   ]   Yaw CW  step=1.8°  total=70°
+10:19:06 [DEBUG   ]   Yaw CW  step=1.8°  total=72°
+10:19:06 [DEBUG   ]   Yaw CW  step=1.8°  total=74°
+10:19:07 [DEBUG   ]   Yaw CW  step=1.8°  total=76°
+10:19:07 [DEBUG   ]   Yaw CW  step=1.8°  total=77°
+10:19:07 [DEBUG   ]   Yaw CW  step=1.8°  total=79°
+10:19:07 [DEBUG   ]   Yaw CW  step=1.8°  total=81°
+10:19:07 [DEBUG   ]   Yaw CW  step=1.8°  total=83°
+10:19:08 [DEBUG   ]   Yaw CW  step=1.8°  total=85°
+10:19:08 [DEBUG   ]   Yaw CW  step=1.8°  total=86°
+10:19:08 [DEBUG   ]   Yaw CW  step=1.8°  total=88°
+10:19:08 [INFO    ] BLUE dummy found after 90° ✅
+10:19:08 [INFO    ] ▶ TARGET_LOCK — Target Confirmed — Locking
+10:19:08 [INFO    ] Confirming lock — need 3 stable frames...
+10:19:08 [DEBUG   ]   Unstable frame 1
+10:19:08 [DEBUG   ]   Lock 1/3 — depth=Nonem
+10:19:09 [DEBUG   ]   Lock 2/3 — depth=Nonem
+10:19:09 [DEBUG   ]   Lock 3/3 — depth=Nonem
+10:19:09 [INFO    ] TARGET LOCKED ✅  depth=beyond depth range  area=1332px²
+10:19:09 [INFO    ] Centering target for operator view...
+10:19:17 [WARNING ] Centering timeout — showing popup with target off-centre.
+10:19:18 [INFO    ] ▶ CONFIRM_TARGET — ⚠ Awaiting Operator Confirmation
+10:19:18 [INFO    ] TARGET CONFIRMATION REQUIRED — BLUE object  dist=beyond depth range  area=1176px²
+10:19:18 [INFO    ] Waiting for operator: APPROACH or IGNORE...
+10:19:20 [INFO    ] GUI: operator confirmed APPROACH.
+10:19:20 [INFO    ] Operator: APPROACH confirmed ✅
+10:19:20 [INFO    ] Operator chose: APPROACH
+10:19:20 [INFO    ] Tracking locked to confirmed target (pixel tracking)
+10:19:20 [INFO    ] ▶ ALIGN — Aligning to Target
+10:19:20 [INFO    ] Aligning to target via yaw...
+10:19:21 [DEBUG   ]   Yaw CW 5.0°/s  err=54px
+10:19:21 [DEBUG   ]   Yaw CW 5.2°/s  err=58px
+10:19:21 [DEBUG   ]   Yaw CW 5.2°/s  err=58px
+10:19:21 [DEBUG   ]   Yaw CW 5.1°/s  err=56px
+10:19:21 [DEBUG   ]   Yaw CW 4.9°/s  err=50px
+10:19:21 [DEBUG   ]   Yaw CW 4.8°/s  err=48px
+10:19:21 [DEBUG   ]   Yaw CW 4.8°/s  err=48px
+10:19:22 [DEBUG   ]   Yaw CW 4.8°/s  err=47px
+10:19:22 [DEBUG   ]   Yaw CW 4.7°/s  err=44px
+10:19:22 [DEBUG   ]   Aligned 1/5 — error=39px
+10:19:22 [DEBUG   ]   Aligned 2/5 — error=35px
+10:19:22 [DEBUG   ]   Aligned 3/5 — error=32px
+10:19:22 [DEBUG   ]   Aligned 4/5 — error=32px
+10:19:22 [DEBUG   ]   Aligned 5/5 — error=31px
+10:19:22 [INFO    ] Aligned ✅
+10:19:22 [INFO    ] ▶ APPROACH — Approaching Target
+10:19:22 [INFO    ] Approaching  blind=0.2m/s  max=0.7m/s  stop at 1.5m
+10:19:22 [DEBUG   ]   Blind approach (depth out of range)
+10:19:23 [DEBUG   ]   Blind approach (depth out of range)
+10:19:23 [DEBUG   ]   Blind approach (depth out of range)
+10:19:23 [DEBUG   ]   Blind approach (depth out of range)
+10:19:23 [DEBUG   ]   Blind approach (depth out of range)
+10:19:23 [DEBUG   ]   Blind approach (depth out of range)
+10:19:23 [DEBUG   ]   Blind approach (depth out of range)
+10:19:24 [DEBUG   ]   Blind approach (depth out of range)
+10:19:24 [DEBUG   ]   Blind approach (depth out of range)
+10:19:24 [DEBUG   ]   Blind approach (depth out of range)
+10:19:24 [DEBUG   ]   Blind approach (depth out of range)
+10:19:24 [DEBUG   ]   Blind approach (depth out of range)
+10:19:24 [DEBUG   ]   Blind approach (depth out of range)
+10:19:25 [DEBUG   ]   Blind approach (depth out of range)
+10:19:25 [DEBUG   ]   Blind approach (depth out of range)
+10:19:25 [DEBUG   ]   Blind approach (depth out of range)
+10:19:25 [DEBUG   ]   Blind approach (depth out of range)
+10:19:25 [DEBUG   ]   Blind approach (depth out of range)
+10:19:25 [DEBUG   ]   Blind approach (depth out of range)
+10:19:25 [DEBUG   ]   Blind approach (depth out of range)
+10:19:26 [DEBUG   ]   Blind approach (depth out of range)
+10:19:26 [DEBUG   ]   Blind approach (depth out of range)
+10:19:26 [DEBUG   ]   Blind approach (depth out of range)
+10:19:26 [DEBUG   ]   Blind approach (depth out of range)
+10:19:26 [DEBUG   ]   Blind approach (depth out of range)
+10:19:26 [DEBUG   ]   Blind approach (depth out of range)
+10:19:26 [DEBUG   ]   Blind approach (depth out of range)
+10:19:27 [DEBUG   ]   Blind approach (depth out of range)
+10:19:27 [DEBUG   ]   Blind approach (depth out of range)
+10:19:27 [DEBUG   ]   Blind approach (depth out of range)
+10:19:27 [DEBUG   ]   Blind approach (depth out of range)
+10:19:27 [DEBUG   ]   Blind approach (depth out of range)
+10:19:27 [DEBUG   ]   Blind approach (depth out of range)
+10:19:28 [DEBUG   ]   Blind approach (depth out of range)
+10:19:28 [DEBUG   ]   Blind approach (depth out of range)
+10:19:28 [DEBUG   ]   Blind approach (depth out of range)
+10:19:28 [DEBUG   ]   Blind approach (depth out of range)
+10:19:28 [DEBUG   ]   Blind approach (depth out of range)
+10:19:28 [DEBUG   ]   Blind approach (depth out of range)
+10:19:28 [DEBUG   ]   Blind approach (depth out of range)
+10:19:29 [DEBUG   ]   Blind approach (depth out of range)
+10:19:29 [DEBUG   ]   Blind approach (depth out of range)
+10:19:29 [DEBUG   ]   Blind approach (depth out of range)
+10:19:29 [DEBUG   ]   Blind approach (depth out of range)
+10:19:29 [DEBUG   ]   Blind approach (depth out of range)
+10:19:29 [DEBUG   ]   Blind approach (depth out of range)
+10:19:29 [DEBUG   ]   Blind approach (depth out of range)
+10:19:30 [DEBUG   ]   Blind approach (depth out of range)
+10:19:30 [DEBUG   ]   Blind approach (depth out of range)
+10:19:30 [DEBUG   ]   Blind approach (depth out of range)
+10:19:30 [DEBUG   ]   Blind approach (depth out of range)
+10:19:30 [DEBUG   ]   Blind approach (depth out of range)
+10:19:30 [DEBUG   ]   Blind approach (depth out of range)
+10:19:30 [DEBUG   ]   depth=7.96m  err=26px  vx=0.20  vy=0.01
+10:19:31 [DEBUG   ]   depth=7.96m  err=21px  vx=0.24  vy=0.00
+10:19:31 [DEBUG   ]   depth=7.82m  err=18px  vx=0.28  vy=0.00
+10:19:31 [DEBUG   ]   depth=7.55m  err=13px  vx=0.32  vy=0.00
+10:19:31 [DEBUG   ]   Not visible (1/15)
+10:19:31 [DEBUG   ]   Not visible (2/15)
+10:19:31 [DEBUG   ]   Not visible (3/15)
+10:19:32 [DEBUG   ]   Not visible (4/15)
+10:19:32 [DEBUG   ]   Not visible (5/15)
+10:19:32 [DEBUG   ]   Not visible (6/15)
+10:19:32 [DEBUG   ]   Not visible (7/15)
+10:19:32 [DEBUG   ]   Not visible (8/15)
+10:19:33 [DEBUG   ]   Not visible (9/15)
+10:19:33 [DEBUG   ]   Not visible (10/15)
+10:19:33 [DEBUG   ]   Not visible (11/15)
+10:19:33 [DEBUG   ]   Not visible (12/15)
+10:19:33 [DEBUG   ]   Not visible (13/15)
+10:19:34 [DEBUG   ]   Not visible (14/15)
+10:19:34 [DEBUG   ]   Not visible (15/15)
+10:19:34 [WARNING ] Target lost — stopping and recovering...
+10:19:35 [INFO    ] Recovery: sweeping to re-find target...
+10:19:35 [INFO    ] Yaw sweep: 45° @ 18°/s
+10:19:35 [INFO    ] Target found at 0.0° into sweep.
+10:19:35 [INFO    ] Target re-found ✅
+10:19:35 [INFO    ] ▶ TARGET_LOCK — Target Confirmed — Locking
+10:19:35 [INFO    ] Confirming lock — need 3 stable frames...
+10:19:35 [DEBUG   ]   Lock 1/3 — depth=7.105m
+10:19:35 [DEBUG   ]   Lock 2/3 — depth=7.368m
+10:19:35 [DEBUG   ]   Lock 3/3 — depth=7.278m
+10:19:35 [INFO    ] TARGET LOCKED ✅  depth=7.15m  area=1506px²
+10:19:35 [DEBUG   ]   depth=7.44m  err=38px  vx=0.00  vy=0.02
+10:19:36 [DEBUG   ]   depth=7.38m  err=39px  vx=0.04  vy=0.02
+10:19:36 [DEBUG   ]   depth=7.38m  err=39px  vx=0.08  vy=0.02
+10:19:36 [DEBUG   ]   depth=7.37m  err=40px  vx=0.12  vy=0.02
+10:19:36 [DEBUG   ]   depth=7.37m  err=42px  vx=0.16  vy=0.02
+10:19:36 [DEBUG   ]   depth=7.39m  err=46px  vx=0.20  vy=0.02
+10:19:36 [DEBUG   ]   depth=7.45m  err=49px  vx=0.24  vy=0.02
+10:19:36 [DEBUG   ]   depth=7.37m  err=47px  vx=0.28  vy=0.02
+10:19:37 [DEBUG   ]   depth=7.28m  err=40px  vx=0.32  vy=0.02
+10:19:37 [DEBUG   ]   depth=7.26m  err=38px  vx=0.36  vy=0.02
+10:19:37 [DEBUG   ]   depth=7.25m  err=43px  vx=0.40  vy=0.02
+10:19:37 [DEBUG   ]   depth=7.29m  err=50px  vx=0.44  vy=0.02
+10:19:37 [DEBUG   ]   depth=7.23m  err=51px  vx=0.48  vy=0.02
+10:19:37 [DEBUG   ]   depth=7.13m  err=46px  vx=0.52  vy=0.02
+10:19:38 [DEBUG   ]   Not visible (1/15)
+10:19:38 [DEBUG   ]   Not visible (2/15)
+10:19:38 [DEBUG   ]   depth=6.63m  err=24px  vx=0.32  vy=0.00
+10:19:38 [DEBUG   ]   depth=6.31m  err=33px  vx=0.36  vy=0.02
+10:19:38 [DEBUG   ]   depth=6.43m  err=31px  vx=0.40  vy=0.01
+10:19:38 [DEBUG   ]   depth=6.43m  err=30px  vx=0.44  vy=0.01
+10:19:39 [DEBUG   ]   depth=6.39m  err=31px  vx=0.48  vy=0.01
+10:19:39 [DEBUG   ]   depth=6.34m  err=37px  vx=0.52  vy=0.02
+10:19:39 [DEBUG   ]   depth=6.25m  err=42px  vx=0.56  vy=0.02
+10:19:39 [DEBUG   ]   depth=6.15m  err=38px  vx=0.60  vy=0.02
+10:19:39 [DEBUG   ]   depth=5.73m  err=29px  vx=0.64  vy=0.01
+10:19:40 [DEBUG   ]   Not visible (1/15)
+10:19:40 [DEBUG   ]   Not visible (2/15)
+10:19:40 [DEBUG   ]   Not visible (3/15)
+10:19:40 [DEBUG   ]   depth=5.66m  err=52px  vx=0.32  vy=0.02
+10:19:40 [DEBUG   ]   depth=5.55m  err=47px  vx=0.36  vy=0.02
+10:19:40 [DEBUG   ]   depth=5.43m  err=43px  vx=0.40  vy=0.02
+10:19:41 [DEBUG   ]   depth=5.36m  err=47px  vx=0.44  vy=0.02
+10:19:41 [DEBUG   ]   depth=5.28m  err=68px  vx=0.48  vy=0.03
+10:19:41 [DEBUG   ]   depth=5.20m  err=76px  vx=0.52  vy=0.04
+10:19:41 [DEBUG   ]   depth=5.07m  err=69px  vx=0.56  vy=0.03
+10:19:41 [DEBUG   ]   depth=4.98m  err=60px  vx=0.60  vy=0.03
+10:19:41 [DEBUG   ]   depth=4.86m  err=58px  vx=0.64  vy=0.03
+10:19:42 [DEBUG   ]   depth=4.81m  err=50px  vx=0.68  vy=0.02
+10:19:42 [DEBUG   ]   depth=4.68m  err=49px  vx=0.70  vy=0.02
+10:19:42 [DEBUG   ]   depth=4.57m  err=43px  vx=0.70  vy=0.02
+10:19:42 [DEBUG   ]   depth=4.43m  err=31px  vx=0.70  vy=0.01
+10:19:42 [DEBUG   ]   depth=4.29m  err=24px  vx=0.70  vy=0.00
+10:19:42 [DEBUG   ]   depth=4.19m  err=23px  vx=0.70  vy=0.00
+10:19:43 [DEBUG   ]   depth=4.07m  err=27px  vx=0.70  vy=0.01
+10:19:43 [DEBUG   ]   depth=3.96m  err=31px  vx=0.70  vy=0.01
+10:19:43 [DEBUG   ]   depth=3.84m  err=36px  vx=0.69  vy=0.02
+10:19:43 [DEBUG   ]   depth=3.73m  err=35px  vx=0.66  vy=0.02
+10:19:43 [DEBUG   ]   depth=3.63m  err=31px  vx=0.63  vy=0.01
+10:19:43 [DEBUG   ]   depth=3.52m  err=26px  vx=0.60  vy=0.01
+10:19:44 [DEBUG   ]   depth=3.43m  err=18px  vx=0.57  vy=0.00
+10:19:44 [DEBUG   ]   depth=3.31m  err=13px  vx=0.55  vy=0.00
+10:19:44 [DEBUG   ]   depth=3.21m  err=23px  vx=0.52  vy=0.00
+10:19:44 [DEBUG   ]   depth=3.11m  err=25px  vx=0.49  vy=0.00
+10:19:44 [DEBUG   ]   depth=3.01m  err=24px  vx=0.47  vy=0.00
+10:19:44 [DEBUG   ]   depth=2.89m  err=20px  vx=0.44  vy=0.00
+10:19:45 [DEBUG   ]   depth=2.78m  err=17px  vx=0.41  vy=0.00
+10:19:45 [DEBUG   ]   depth=2.64m  err=17px  vx=0.38  vy=0.00
+10:19:45 [DEBUG   ]   depth=2.51m  err=20px  vx=0.35  vy=0.00
+10:19:45 [DEBUG   ]   depth=2.37m  err=24px  vx=0.31  vy=0.00
+10:19:45 [DEBUG   ]   depth=2.26m  err=21px  vx=0.28  vy=0.00
+10:19:45 [DEBUG   ]   depth=2.17m  err=17px  vx=0.25  vy=0.00
+10:19:45 [DEBUG   ]   depth=2.09m  err=12px  vx=0.23  vy=0.00
+10:19:46 [DEBUG   ]   depth=2.00m  err=17px  vx=0.20  vy=0.00
+10:19:46 [DEBUG   ]   depth=1.92m  err=23px  vx=0.18  vy=0.00
+10:19:46 [DEBUG   ]   depth=1.86m  err=28px  vx=0.18  vy=0.01
+10:19:46 [DEBUG   ]   depth=1.81m  err=23px  vx=0.18  vy=0.00
+10:19:46 [DEBUG   ]   depth=1.77m  err=2px  vx=0.18  vy=0.00
+10:19:46 [DEBUG   ]   depth=1.73m  err=-3px  vx=0.18  vy=0.00
+10:19:47 [DEBUG   ]   depth=1.70m  err=0px  vx=0.18  vy=0.00
+10:19:47 [DEBUG   ]   depth=1.67m  err=11px  vx=0.18  vy=0.00
+10:19:47 [DEBUG   ]   depth=1.63m  err=21px  vx=0.18  vy=0.00
+10:19:47 [DEBUG   ]   depth=1.60m  err=20px  vx=0.18  vy=0.00
+10:19:47 [DEBUG   ]   depth=1.57m  err=7px  vx=0.18  vy=0.00
+10:19:47 [DEBUG   ]   depth=1.54m  err=-6px  vx=0.18  vy=0.00
+10:19:47 [DEBUG   ]   depth=1.52m  err=-7px  vx=0.18  vy=0.00
+10:19:47 [DEBUG   ]   depth=1.50m  err=2px  vx=0.18  vy=0.00
+10:19:47 [INFO    ] Drop distance reached: 1.50m — stopping ✅
+10:19:48 [INFO    ] ▶ DROP — Dropping Payload
+10:19:48 [INFO    ] DROP SEQUENCE starting...
+10:19:49 [INFO    ] Stabilising 2s before drop...
+10:19:51 [INFO    ] Opening hook...
+10:19:51 [INFO    ] PAYLOAD HOOK OPEN — AUX1 → 2000us
+10:19:51 [INFO    ] Servo CH9 → 1100us
+10:19:51 [INFO    ] Servo CH9 → 1100us
+10:19:51 [INFO    ] HOOK OPEN ✓ — payload released
+10:19:53 [INFO    ] Drop complete.
+10:19:53 [INFO    ] ▶ RETURN_HOME — Returning to Home Position
+10:19:53 [INFO    ] Returning home: [redacted], [redacted]
+10:19:53 [INFO    ] Return Phase 1 — simple_goto...
+10:19:53 [DEBUG   ]   Phase 1 dist: 7.28m
+10:19:54 [DEBUG   ]   Phase 1 dist: 7.25m
+10:19:54 [DEBUG   ]   Phase 1 dist: 7.21m
+10:19:54 [DEBUG   ]   Phase 1 dist: 7.09m
+10:19:55 [DEBUG   ]   Phase 1 dist: 6.76m
+10:19:55 [DEBUG   ]   Phase 1 dist: 6.59m
+10:19:55 [DEBUG   ]   Phase 1 dist: 6.44m
+10:19:56 [DEBUG   ]   Phase 1 dist: 6.14m
+10:19:56 [DEBUG   ]   Phase 1 dist: 6.00m
+10:19:56 [DEBUG   ]   Phase 1 dist: 5.84m
+10:19:57 [DEBUG   ]   Phase 1 dist: 5.68m
+10:19:57 [DEBUG   ]   Phase 1 dist: 5.29m
+10:19:57 [DEBUG   ]   Phase 1 dist: 5.06m
+10:19:58 [DEBUG   ]   Phase 1 dist: 4.80m
+10:19:58 [DEBUG   ]   Phase 1 dist: 4.34m
+10:19:58 [DEBUG   ]   Phase 1 dist: 4.11m
+10:19:59 [DEBUG   ]   Phase 1 dist: 3.90m
+10:19:59 [DEBUG   ]   Phase 1 dist: 3.69m
+10:19:59 [DEBUG   ]   Phase 1 dist: 3.29m
+10:20:00 [DEBUG   ]   Phase 1 dist: 3.10m
+10:20:00 [DEBUG   ]   Phase 1 dist: 2.88m
+10:20:00 [INFO    ] Within 3m — switching to precision.
+10:20:01 [INFO    ] Return Phase 2 — precision correction...
+10:20:01 [DEBUG   ]   Phase 2 dist: 2.31m
+10:20:01 [DEBUG   ]   Phase 2 dist: 2.31m
+10:20:02 [DEBUG   ]   Phase 2 dist: 2.41m
+10:20:02 [DEBUG   ]   Phase 2 dist: 2.47m
+10:20:02 [DEBUG   ]   Phase 2 dist: 2.47m
+10:20:02 [DEBUG   ]   Phase 2 dist: 2.49m
+10:20:02 [DEBUG   ]   Phase 2 dist: 2.49m
+10:20:02 [DEBUG   ]   Phase 2 dist: 2.42m
+10:20:02 [DEBUG   ]   Phase 2 dist: 2.34m
+10:20:03 [DEBUG   ]   Phase 2 dist: 2.34m
+10:20:03 [DEBUG   ]   Phase 2 dist: 2.25m
+10:20:03 [DEBUG   ]   Phase 2 dist: 2.16m
+10:20:03 [DEBUG   ]   Phase 2 dist: 2.16m
+10:20:03 [DEBUG   ]   Phase 2 dist: 2.07m
+10:20:03 [DEBUG   ]   Phase 2 dist: 2.07m
+10:20:04 [DEBUG   ]   Phase 2 dist: 1.97m
+10:20:04 [DEBUG   ]   Phase 2 dist: 1.87m
+10:20:04 [DEBUG   ]   Phase 2 dist: 1.87m
+10:20:04 [DEBUG   ]   Phase 2 dist: 1.76m
+10:20:04 [DEBUG   ]   Phase 2 dist: 1.65m
+10:20:04 [DEBUG   ]   Phase 2 dist: 1.65m
+10:20:05 [DEBUG   ]   Phase 2 dist: 1.52m
+10:20:05 [DEBUG   ]   Phase 2 dist: 1.41m
+10:20:05 [DEBUG   ]   Phase 2 dist: 1.41m
+10:20:05 [DEBUG   ]   Phase 2 dist: 1.30m
+10:20:05 [DEBUG   ]   Phase 2 dist: 1.19m
+10:20:05 [DEBUG   ]   Phase 2 dist: 1.09m
+10:20:06 [DEBUG   ]   Phase 2 dist: 1.09m
+10:20:06 [DEBUG   ]   Phase 2 dist: 1.01m
+10:20:06 [DEBUG   ]   Phase 2 dist: 1.01m
+10:20:06 [DEBUG   ]   Phase 2 dist: 0.93m
+10:20:06 [DEBUG   ]   Phase 2 dist: 0.86m
+10:20:06 [DEBUG   ]   Phase 2 dist: 0.78m
+10:20:07 [DEBUG   ]   Phase 2 dist: 0.78m
+10:20:07 [DEBUG   ]   Phase 2 dist: 0.73m
+10:20:07 [DEBUG   ]   Phase 2 dist: 0.67m
+10:20:07 [DEBUG   ]   Phase 2 dist: 0.67m
+10:20:07 [DEBUG   ]   Phase 2 dist: 0.62m
+10:20:07 [DEBUG   ]   Phase 2 dist: 0.58m
+10:20:07 [INFO    ] Home reached ✅  error=0.58m
+10:20:09 [INFO    ] Return home complete.
+10:20:09 [INFO    ] ▶ LAND — Landing
+10:20:09 [INFO    ] Landing...
+10:20:10 [WARNING ] ABORT commanded from browser.
+10:20:10 [WARNING ] ABORT commanded — landing in place.
+10:20:10 [INFO    ] Switching to LAND mode...
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.68m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.69m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.67m
+10:20:10 [DEBUG   ]   Landing... 1.58m
+10:20:10 [DEBUG   ]   Landing... 1.58m
+10:20:10 [DEBUG   ]   Landing... 1.58m
+10:20:10 [DEBUG   ]   Landing... 1.58m
+10:20:10 [DEBUG   ]   Landing... 1.58m
+10:20:10 [DEBUG   ]   Landing... 1.58m
+10:20:10 [DEBUG   ]   Landing... 1.58m
+10:20:10 [DEBUG   ]   Landing... 1.58m
+10:20:10 [DEBUG   ]   Landing... 1.58m
+10:20:10 [DEBUG   ]   Landing... 1.58m
+10:20:10 [DEBUG   ]   Landing... 1.58m
+10:20:10 [DEBUG   ]   Landing... 1.58m
+10:20:10 [DEBUG   ]   Landing... 1.58m
+10:20:10 [DEBUG   ]   Landing... 1.58m
+10:20:10 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.58m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [INFO    ] Switching to LAND mode...
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [INFO    ] ▶ ABORTED — Mission Aborted
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.46m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.32m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.17m
+10:20:11 [DEBUG   ]   Landing... 1.02m
+10:20:11 [DEBUG   ]   Landing... 1.02m
+10:20:11 [DEBUG   ]   Landing... 1.02m
+10:20:11 [DEBUG   ]   Landing... 1.02m
+10:20:11 [DEBUG   ]   Landing... 1.02m
+10:20:11 [DEBUG   ]   Landing... 1.02m
+10:20:11 [DEBUG   ]   Landing... 1.02m
+10:20:11 [DEBUG   ]   Landing... 1.02m
+10:20:11 [DEBUG   ]   Landing... 1.02m
+10:20:11 [DEBUG   ]   Landing... 1.02m
+10:20:11 [DEBUG   ]   Landing... 1.02m
+10:20:11 [DEBUG   ]   Landing... 1.02m
+10:20:11 [DEBUG   ]   Landing... 1.02m
+10:20:11 [DEBUG   ]   Landing... 1.02m
+10:20:11 [DEBUG   ]   Landing... 1.02m
+10:20:11 [DEBUG   ]   Landing... 1.02m
+10:20:11 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 1.02m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.90m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.78m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.65m
+10:20:12 [DEBUG   ]   Landing... 0.53m
+10:20:12 [DEBUG   ]   Landing... 0.53m
+10:20:12 [DEBUG   ]   Landing... 0.53m
+10:20:12 [DEBUG   ]   Landing... 0.53m
+10:20:12 [DEBUG   ]   Landing... 0.53m
+10:20:12 [DEBUG   ]   Landing... 0.53m
+10:20:12 [DEBUG   ]   Landing... 0.53m
+10:20:12 [DEBUG   ]   Landing... 0.53m
+10:20:12 [DEBUG   ]   Landing... 0.53m
+10:20:12 [DEBUG   ]   Landing... 0.53m
+10:20:12 [DEBUG   ]   Landing... 0.53m
+10:20:12 [DEBUG   ]   Landing... 0.53m
+10:20:12 [DEBUG   ]   Landing... 0.53m
+10:20:12 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.53m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.42m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:13 [DEBUG   ]   Landing... 0.30m
+10:20:14 [INFO    ] Motors disarmed.
+10:20:14 [INFO    ] Landed and disarmed ✅
+10:20:14 [INFO    ] ▶ COMPLETE — Mission Complete ✓
+10:20:14 [INFO    ] =============================================
+10:20:14 [INFO    ]   ✅  MISSION COMPLETE
+10:20:14 [INFO    ] =============================================

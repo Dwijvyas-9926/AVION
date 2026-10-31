@@ -1,0 +1,280 @@
+17:08:49 [INFO    ] Log file: logs/flight_20261002_170849.log
+17:08:57 [INFO    ] ==================================================
+17:08:57 [INFO    ]   TerraAvis — Autonomous Mission System
+17:08:57 [INFO    ]   RoboFest National Competition
+17:08:57 [INFO    ] ==================================================
+17:08:57 [INFO    ] CPU governor set to powersave.
+17:08:57 [INFO    ] CPU Temperature: temp=43.3'C
+17:08:57 [INFO    ] Connecting to Pixhawk → /dev/ttyACM0 @ 57600
+17:08:59 [INFO    ] ArduCopter V4.7.1 (dbe79216)
+17:08:59 [INFO    ] ChibiOS: d103983f
+17:08:59 [INFO    ] fmuv3 001A0027 3533510B 37313531
+17:08:59 [INFO    ] IOMCU: 0 0 411FC231
+17:08:59 [INFO    ] RCOut: PWM:1-14
+17:08:59 [INFO    ] IMU0: fast sampling enabled 8.0kHz/1.0kHz
+17:08:59 [INFO    ] Frame: QUAD/X
+17:09:00 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:09:01 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:09:02 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:09:03 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:09:04 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:09:05 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:09:06 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:09:07 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:09:08 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:09:09 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:09:10 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:09:11 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:09:12 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:09:13 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:09:13 [INFO    ] Pixhawk connected.
+17:09:13 [INFO    ]   Firmware : APM:Copter-4.7.1
+17:09:13 [INFO    ]   GPS      : fix=1 sats=0
+17:09:13 [INFO    ]   Battery  : 0.0V
+17:09:13 [INFO    ]   Mode     : STABILIZE
+17:09:13 [INFO    ]   Heartbeat watchdog started.
+17:09:15 [INFO    ] RealSense D455 started.
+17:09:15 [INFO    ]   Resolution : 640x480 @ 15fps
+17:09:15 [INFO    ]   Zone edges : Left=213px  Right=426px
+17:09:15 [WARNING ] Rover: pigpio daemon not running — rover disabled.
+17:09:15 [WARNING ] Rover: GPIO not ready — cannot start.
+17:09:15 [INFO    ] --------------------------------------------------
+17:09:15 [INFO    ] System ready.
+17:09:15 [INFO    ]   Press [S] in the window to START mission.
+17:09:15 [INFO    ]   Press [A] to ABORT at any time.
+17:09:15 [INFO    ]   Press [Q] to quit.
+17:09:15 [INFO    ] --------------------------------------------------
+17:09:15 [INFO    ] ==================================================
+17:09:15 [INFO    ]   Browser GUI starting...
+17:09:15 [INFO    ]   Open in browser: http://<RPi-IP>:5000
+17:09:15 [INFO    ] ==================================================
+17:09:15 [INFO    ] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.137.158:5000
+17:09:15 [INFO    ] [33mPress CTRL+C to quit[0m
+17:09:37 [INFO    ] 127.0.0.1 - - [02/Oct/2026 17:09:37] "GET / HTTP/1.1" 200 -
+17:09:38 [INFO    ] 127.0.0.1 - - [02/Oct/2026 17:09:38] "GET /socket.io/?EIO=4&transport=polling&t=Q3yQQkF HTTP/1.1" 200 -
+17:09:38 [INFO    ] 127.0.0.1 - - [02/Oct/2026 17:09:38] "POST /socket.io/?EIO=4&transport=polling&t=Q3yQQlh&sid=h09ouSPle1UCqKB-AAAA HTTP/1.1" 200 -
+17:09:39 [INFO    ] 127.0.0.1 - - [02/Oct/2026 17:09:39] "GET /socket.io/?EIO=4&transport=polling&t=Q3yQQmW&sid=h09ouSPle1UCqKB-AAAA HTTP/1.1" 200 -
+17:09:39 [INFO    ] 127.0.0.1 - - [02/Oct/2026 17:09:39] "GET /video_feed HTTP/1.1" 200 -
+17:09:39 [INFO    ] 127.0.0.1 - - [02/Oct/2026 17:09:39] "GET /socket.io/?EIO=4&transport=polling&t=Q3yQQpl&sid=h09ouSPle1UCqKB-AAAA HTTP/1.1" 200 -
+17:10:14 [INFO    ] START commanded from browser.
+17:10:14 [INFO    ] ▶ STATE: PREFLIGHT — Running Pre-Flight Checks
+17:10:14 [INFO    ] Running pre-flight checks...
+17:10:14 [INFO    ] Mission thread started.
+17:10:14 [WARNING ] Preflight WARNING: GPS fix weak: 1
+17:10:14 [INFO    ] Testing servo before arm...
+17:10:14 [INFO    ] Servo pre-flight test — opening...
+17:10:14 [INFO    ] Servo CH9 → 1100us
+17:10:15 [INFO    ] Servo pre-flight test — closing...
+17:10:15 [INFO    ] Servo CH9 → 1900us
+17:10:16 [INFO    ] Servo pre-flight test complete ✅
+17:10:16 [WARNING ] Pre-flight issues found — proceeding with caution.
+17:10:16 [INFO    ] ▶ STATE: ARMING — Arming & GUIDED Mode
+17:10:16 [INFO    ] Setting GUIDED mode and arming...
+17:10:16 [INFO    ] Setting GUIDED mode...
+17:10:17 [INFO    ] GUIDED mode confirmed.
+17:10:18 [INFO    ] Arming motors...
+17:10:18 [CRITICAL] Arm: Need Position Estimate
+17:10:33 [ERROR   ] Arming timed out — check pre-arm conditions in GCS.
+17:10:35 [INFO    ] Armed ✅
+17:10:35 [INFO    ] ▶ STATE: TAKEOFF — Taking Off
+17:10:35 [INFO    ] Taking off to 2.0m...
+17:10:35 [INFO    ] Takeoff → 2.0m
+17:10:35 [DEBUG   ]   Alt: 0.68m / 2.0m
+17:10:35 [DEBUG   ]   Alt: 0.15m / 2.0m
+17:10:35 [DEBUG   ]   Alt: 0.45m / 2.0m
+17:10:36 [DEBUG   ]   Alt: -0.02m / 2.0m
+17:10:36 [DEBUG   ]   Alt: 0.01m / 2.0m
+17:10:36 [DEBUG   ]   Alt: 0.70m / 2.0m
+17:10:37 [DEBUG   ]   Alt: 0.07m / 2.0m
+17:10:37 [DEBUG   ]   Alt: 0.02m / 2.0m
+17:10:37 [DEBUG   ]   Alt: 0.60m / 2.0m
+17:10:38 [DEBUG   ]   Alt: 0.07m / 2.0m
+17:10:38 [DEBUG   ]   Alt: -0.07m / 2.0m
+17:10:38 [DEBUG   ]   Alt: 0.32m / 2.0m
+17:10:39 [DEBUG   ]   Alt: 0.15m / 2.0m
+17:10:39 [DEBUG   ]   Alt: -0.03m / 2.0m
+17:10:39 [DEBUG   ]   Alt: 0.36m / 2.0m
+17:10:39 [DEBUG   ]   Alt: 0.16m / 2.0m
+17:10:40 [DEBUG   ]   Alt: 0.32m / 2.0m
+17:10:40 [DEBUG   ]   Alt: 0.65m / 2.0m
+17:10:40 [DEBUG   ]   Alt: 0.69m / 2.0m
+17:10:41 [DEBUG   ]   Alt: 0.11m / 2.0m
+17:10:41 [DEBUG   ]   Alt: 0.23m / 2.0m
+17:10:41 [DEBUG   ]   Alt: 0.40m / 2.0m
+17:10:42 [DEBUG   ]   Alt: 0.06m / 2.0m
+17:10:42 [DEBUG   ]   Alt: -0.44m / 2.0m
+17:10:42 [DEBUG   ]   Alt: 0.70m / 2.0m
+17:10:42 [DEBUG   ]   Alt: 0.76m / 2.0m
+17:10:43 [DEBUG   ]   Alt: 0.84m / 2.0m
+17:10:43 [DEBUG   ]   Alt: 0.50m / 2.0m
+17:10:43 [DEBUG   ]   Alt: 0.73m / 2.0m
+17:10:44 [DEBUG   ]   Alt: -0.19m / 2.0m
+17:10:44 [DEBUG   ]   Alt: 0.68m / 2.0m
+17:10:44 [DEBUG   ]   Alt: 0.12m / 2.0m
+17:10:45 [DEBUG   ]   Alt: 0.12m / 2.0m
+17:10:45 [DEBUG   ]   Alt: 0.22m / 2.0m
+17:10:45 [DEBUG   ]   Alt: 0.58m / 2.0m
+17:10:46 [DEBUG   ]   Alt: 0.35m / 2.0m
+17:10:46 [DEBUG   ]   Alt: -0.28m / 2.0m
+17:10:46 [DEBUG   ]   Alt: 0.19m / 2.0m
+17:10:46 [DEBUG   ]   Alt: 0.05m / 2.0m
+17:10:47 [DEBUG   ]   Alt: 0.70m / 2.0m
+17:10:47 [DEBUG   ]   Alt: -0.07m / 2.0m
+17:10:47 [DEBUG   ]   Alt: 0.08m / 2.0m
+17:10:48 [DEBUG   ]   Alt: 0.20m / 2.0m
+17:10:48 [DEBUG   ]   Alt: -0.06m / 2.0m
+17:10:48 [DEBUG   ]   Alt: 0.04m / 2.0m
+17:10:49 [DEBUG   ]   Alt: 0.55m / 2.0m
+17:10:49 [DEBUG   ]   Alt: 0.25m / 2.0m
+17:10:49 [DEBUG   ]   Alt: 0.26m / 2.0m
+17:10:50 [DEBUG   ]   Alt: 0.44m / 2.0m
+17:10:50 [DEBUG   ]   Alt: 0.33m / 2.0m
+17:10:50 [DEBUG   ]   Alt: 0.62m / 2.0m
+17:10:50 [DEBUG   ]   Alt: 0.16m / 2.0m
+17:10:51 [DEBUG   ]   Alt: 0.34m / 2.0m
+17:10:51 [DEBUG   ]   Alt: 0.15m / 2.0m
+17:10:51 [DEBUG   ]   Alt: 0.41m / 2.0m
+17:10:52 [DEBUG   ]   Alt: 1.01m / 2.0m
+17:10:52 [DEBUG   ]   Alt: 0.03m / 2.0m
+17:10:52 [DEBUG   ]   Alt: 0.06m / 2.0m
+17:10:53 [DEBUG   ]   Alt: 0.45m / 2.0m
+17:10:53 [DEBUG   ]   Alt: -0.12m / 2.0m
+17:10:53 [DEBUG   ]   Alt: 0.48m / 2.0m
+17:10:54 [DEBUG   ]   Alt: 0.68m / 2.0m
+17:10:54 [DEBUG   ]   Alt: 0.44m / 2.0m
+17:10:54 [DEBUG   ]   Alt: -0.32m / 2.0m
+17:10:55 [DEBUG   ]   Alt: 0.14m / 2.0m
+17:10:55 [DEBUG   ]   Alt: -0.01m / 2.0m
+17:10:55 [DEBUG   ]   Alt: 0.52m / 2.0m
+17:10:55 [DEBUG   ]   Alt: 0.00m / 2.0m
+17:10:56 [DEBUG   ]   Alt: 0.22m / 2.0m
+17:10:56 [DEBUG   ]   Alt: 0.39m / 2.0m
+17:10:56 [DEBUG   ]   Alt: 0.14m / 2.0m
+17:10:57 [DEBUG   ]   Alt: 0.22m / 2.0m
+17:10:57 [DEBUG   ]   Alt: 0.42m / 2.0m
+17:10:57 [DEBUG   ]   Alt: 0.16m / 2.0m
+17:10:58 [DEBUG   ]   Alt: 0.81m / 2.0m
+17:10:58 [DEBUG   ]   Alt: 0.42m / 2.0m
+17:10:58 [DEBUG   ]   Alt: 0.07m / 2.0m
+17:10:59 [DEBUG   ]   Alt: 1.00m / 2.0m
+17:10:59 [DEBUG   ]   Alt: -0.10m / 2.0m
+17:10:59 [DEBUG   ]   Alt: 0.54m / 2.0m
+17:11:00 [DEBUG   ]   Alt: 0.02m / 2.0m
+17:11:00 [DEBUG   ]   Alt: 0.66m / 2.0m
+17:11:00 [DEBUG   ]   Alt: 0.29m / 2.0m
+17:11:00 [DEBUG   ]   Alt: -0.40m / 2.0m
+17:11:01 [DEBUG   ]   Alt: 0.27m / 2.0m
+17:11:01 [DEBUG   ]   Alt: 0.02m / 2.0m
+17:11:01 [DEBUG   ]   Alt: 0.47m / 2.0m
+17:11:02 [DEBUG   ]   Alt: 0.35m / 2.0m
+17:11:02 [DEBUG   ]   Alt: 0.73m / 2.0m
+17:11:02 [DEBUG   ]   Alt: 0.11m / 2.0m
+17:11:03 [DEBUG   ]   Alt: 0.28m / 2.0m
+17:11:03 [DEBUG   ]   Alt: 0.59m / 2.0m
+17:11:03 [DEBUG   ]   Alt: 0.09m / 2.0m
+17:11:04 [DEBUG   ]   Alt: 0.41m / 2.0m
+17:11:04 [DEBUG   ]   Alt: -0.20m / 2.0m
+17:11:04 [DEBUG   ]   Alt: 0.15m / 2.0m
+17:11:05 [DEBUG   ]   Alt: 0.17m / 2.0m
+17:11:05 [DEBUG   ]   Alt: -0.36m / 2.0m
+17:11:05 [DEBUG   ]   Alt: 0.09m / 2.0m
+17:11:06 [DEBUG   ]   Alt: -0.15m / 2.0m
+17:11:06 [DEBUG   ]   Alt: 0.32m / 2.0m
+17:11:06 [DEBUG   ]   Alt: 0.28m / 2.0m
+17:11:07 [DEBUG   ]   Alt: 0.78m / 2.0m
+17:11:07 [DEBUG   ]   Alt: 0.42m / 2.0m
+17:11:07 [DEBUG   ]   Alt: -0.15m / 2.0m
+17:11:08 [DEBUG   ]   Alt: 0.74m / 2.0m
+17:11:08 [DEBUG   ]   Alt: 0.29m / 2.0m
+17:11:08 [DEBUG   ]   Alt: 0.03m / 2.0m
+17:11:08 [DEBUG   ]   Alt: -0.35m / 2.0m
+17:11:09 [DEBUG   ]   Alt: 0.39m / 2.0m
+17:11:09 [DEBUG   ]   Alt: 0.30m / 2.0m
+17:11:09 [DEBUG   ]   Alt: 0.62m / 2.0m
+17:11:10 [DEBUG   ]   Alt: 0.11m / 2.0m
+17:11:10 [DEBUG   ]   Alt: -0.01m / 2.0m
+17:11:10 [DEBUG   ]   Alt: 0.45m / 2.0m
+17:11:11 [DEBUG   ]   Alt: 0.74m / 2.0m
+17:11:11 [DEBUG   ]   Alt: 0.01m / 2.0m
+17:11:11 [DEBUG   ]   Alt: -0.47m / 2.0m
+17:11:12 [DEBUG   ]   Alt: 0.45m / 2.0m
+17:11:12 [DEBUG   ]   Alt: 0.43m / 2.0m
+17:11:12 [DEBUG   ]   Alt: 0.23m / 2.0m
+17:11:12 [DEBUG   ]   Alt: -0.17m / 2.0m
+17:11:13 [DEBUG   ]   Alt: -0.16m / 2.0m
+17:11:13 [DEBUG   ]   Alt: 0.45m / 2.0m
+17:11:13 [DEBUG   ]   Alt: -0.24m / 2.0m
+17:11:14 [DEBUG   ]   Alt: -0.06m / 2.0m
+17:11:14 [DEBUG   ]   Alt: -0.09m / 2.0m
+17:11:14 [DEBUG   ]   Alt: 0.35m / 2.0m
+17:11:15 [DEBUG   ]   Alt: 0.26m / 2.0m
+17:11:15 [DEBUG   ]   Alt: 0.42m / 2.0m
+17:11:15 [DEBUG   ]   Alt: 0.02m / 2.0m
+17:11:16 [DEBUG   ]   Alt: 0.17m / 2.0m
+17:11:16 [DEBUG   ]   Alt: -0.30m / 2.0m
+17:11:16 [DEBUG   ]   Alt: -0.30m / 2.0m
+17:11:17 [DEBUG   ]   Alt: -0.01m / 2.0m
+17:11:17 [DEBUG   ]   Alt: 0.13m / 2.0m
+17:11:17 [DEBUG   ]   Alt: 0.43m / 2.0m
+17:11:18 [DEBUG   ]   Alt: 0.14m / 2.0m
+17:11:18 [DEBUG   ]   Alt: 0.50m / 2.0m
+17:11:18 [DEBUG   ]   Alt: 0.35m / 2.0m
+17:11:18 [DEBUG   ]   Alt: 0.33m / 2.0m
+17:11:19 [DEBUG   ]   Alt: 0.67m / 2.0m
+17:11:19 [DEBUG   ]   Alt: 0.22m / 2.0m
+17:11:19 [DEBUG   ]   Alt: 0.31m / 2.0m
+17:11:20 [DEBUG   ]   Alt: 0.20m / 2.0m
+17:11:20 [DEBUG   ]   Alt: -0.12m / 2.0m
+17:11:20 [DEBUG   ]   Alt: 0.26m / 2.0m
+17:11:21 [DEBUG   ]   Alt: -0.31m / 2.0m
+17:11:21 [DEBUG   ]   Alt: 1.09m / 2.0m
+17:11:21 [DEBUG   ]   Alt: 0.54m / 2.0m
+17:11:22 [DEBUG   ]   Alt: -0.19m / 2.0m
+17:11:22 [DEBUG   ]   Alt: -0.15m / 2.0m
+17:11:22 [DEBUG   ]   Alt: 0.40m / 2.0m
+17:11:22 [DEBUG   ]   Alt: 0.28m / 2.0m
+17:11:23 [DEBUG   ]   Alt: 0.03m / 2.0m
+17:11:23 [DEBUG   ]   Alt: 0.28m / 2.0m
+17:11:23 [DEBUG   ]   Alt: 0.35m / 2.0m
+17:11:24 [DEBUG   ]   Alt: -0.05m / 2.0m
+17:11:24 [DEBUG   ]   Alt: 0.28m / 2.0m
+17:11:24 [DEBUG   ]   Alt: 0.68m / 2.0m
+17:11:25 [DEBUG   ]   Alt: 0.24m / 2.0m
+17:11:25 [DEBUG   ]   Alt: 0.43m / 2.0m
+17:11:25 [DEBUG   ]   Alt: 0.28m / 2.0m
+17:11:26 [DEBUG   ]   Alt: -0.25m / 2.0m
+17:11:26 [DEBUG   ]   Alt: 0.57m / 2.0m
+17:11:26 [DEBUG   ]   Alt: 0.45m / 2.0m
+17:11:27 [DEBUG   ]   Alt: 0.03m / 2.0m
+17:11:27 [DEBUG   ]   Alt: 0.34m / 2.0m
+17:11:27 [DEBUG   ]   Alt: 0.83m / 2.0m
+17:11:28 [DEBUG   ]   Alt: 0.07m / 2.0m
+17:11:28 [DEBUG   ]   Alt: 0.14m / 2.0m
+17:11:28 [DEBUG   ]   Alt: -0.07m / 2.0m
+17:11:28 [DEBUG   ]   Alt: 0.63m / 2.0m
+17:11:29 [DEBUG   ]   Alt: 0.59m / 2.0m
+17:11:29 [DEBUG   ]   Alt: 0.23m / 2.0m
+17:11:29 [DEBUG   ]   Alt: 0.62m / 2.0m
+17:11:30 [DEBUG   ]   Alt: -0.13m / 2.0m
+17:11:30 [DEBUG   ]   Alt: 0.12m / 2.0m
+17:11:30 [DEBUG   ]   Alt: -0.10m / 2.0m
+17:11:31 [DEBUG   ]   Alt: 0.43m / 2.0m
+17:11:31 [DEBUG   ]   Alt: 0.32m / 2.0m
+17:11:31 [DEBUG   ]   Alt: -0.15m / 2.0m
+17:11:32 [DEBUG   ]   Alt: 0.58m / 2.0m
+17:11:32 [INFO    ] Shutdown sequence...
+17:11:32 [DEBUG   ]   Alt: 0.29m / 2.0m
+17:11:32 [DEBUG   ]   Alt: -0.33m / 2.0m
+17:11:33 [DEBUG   ]   Alt: -0.15m / 2.0m
+17:11:33 [DEBUG   ]   Alt: 0.50m / 2.0m
+17:11:33 [DEBUG   ]   Alt: 0.47m / 2.0m
+17:11:34 [DEBUG   ]   Alt: -0.32m / 2.0m
+17:11:34 [DEBUG   ]   Alt: -0.10m / 2.0m
+17:11:34 [DEBUG   ]   Alt: 0.34m / 2.0m
+17:11:34 [INFO    ] RealSense pipeline stopped.
+17:11:34 [INFO    ] Pixhawk disconnected.
+17:11:34 [INFO    ] Rover stopped.
+17:11:34 [INFO    ] TerraAvis shutdown complete.

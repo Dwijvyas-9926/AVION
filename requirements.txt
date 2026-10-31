@@ -1,0 +1,17 @@
+# AVION flight software — Raspberry Pi 4 (Raspberry Pi OS, Python 3.11)
+#
+# Autopilot link
+dronekit>=2.9.2          # see README: needs the Python 3.10+ collections fix
+pymavlink>=2.4.37
+
+# Vision
+numpy
+opencv-python            # or the distro package python3-opencv on the Pi
+pyrealsense2             # Intel RealSense D455; on ARM this is usually built from librealsense source
+
+# Ground control station
+flask
+flask-socketio
+
+# Rover drive (optional — rover mode is disabled cleanly if missing)
+pigpio                   # also requires the pigpiod daemon: sudo systemctl enable --now pigpiod

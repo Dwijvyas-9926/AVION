@@ -1,0 +1,169 @@
+16:36:41 [INFO    ] Log file: logs/flight_20261003_163641.log
+16:36:48 [INFO    ] ==================================================
+16:36:48 [INFO    ]   TerraAvis — Autonomous Mission System
+16:36:48 [INFO    ]   RoboFest National Competition
+16:36:48 [INFO    ] ==================================================
+16:36:48 [INFO    ] CPU governor set to powersave.
+16:36:48 [INFO    ] CPU Temperature: temp=49.1'C
+16:36:48 [INFO    ] Connecting to Pixhawk → /dev/ttyACM0 @ 57600
+16:36:48 [DEBUG   ] mav recv error: invalid MAVLink prefix '0'
+16:36:48 [INFO    ] ArduCopter V4.7.1 (dbe79216)
+16:36:48 [INFO    ] ChibiOS: d103983f
+16:36:48 [INFO    ] fmuv3 001A0027 3533510B 37313531
+16:36:48 [INFO    ] IOMCU: 0 0 411FC231
+16:36:48 [INFO    ] RCOut: PWM:1-14
+16:36:48 [INFO    ] IMU0: fast sampling enabled 8.0kHz/1.0kHz
+16:36:48 [INFO    ] Frame: QUAD/X
+16:36:49 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:36:50 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:36:51 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:36:52 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:36:53 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:36:54 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:36:55 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:36:56 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:36:57 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:36:58 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:36:59 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:37:00 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:37:01 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:37:02 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:37:03 [DEBUG   ] Still waiting for data from vehicle: 
+16:37:03 [INFO    ] Pixhawk connected.
+16:37:03 [INFO    ]   Firmware : APM:Copter-4.7.1
+16:37:03 [INFO    ]   GPS      : fix=1 sats=0
+16:37:03 [INFO    ]   Battery  : 0.0V
+16:37:03 [INFO    ]   Mode     : STABILIZE
+16:37:03 [INFO    ]   Heartbeat watchdog started.
+16:37:04 [INFO    ] RealSense D455 started.
+16:37:04 [INFO    ]   Resolution : 640x480 @ 15fps
+16:37:04 [INFO    ]   Zone edges : Left=213px  Right=426px
+16:37:04 [WARNING ] Rover: pigpio daemon not running — rover disabled.
+16:37:04 [WARNING ] Rover: GPIO not ready — cannot start.
+16:37:04 [INFO    ] --------------------------------------------------
+16:37:04 [INFO    ] System ready.
+16:37:04 [INFO    ]   Press [S] in the window to START mission.
+16:37:04 [INFO    ]   Press [A] to ABORT at any time.
+16:37:04 [INFO    ]   Press [Q] to quit.
+16:37:04 [INFO    ] --------------------------------------------------
+16:37:04 [INFO    ] ==================================================
+16:37:04 [INFO    ]   Browser GUI starting...
+16:37:04 [INFO    ]   Open in browser: http://<RPi-IP>:5000
+16:37:04 [INFO    ] ==================================================
+16:37:04 [INFO    ] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.69.110.233:5000
+16:37:04 [INFO    ] [33mPress CTRL+C to quit[0m
+16:37:07 [INFO    ] 10.69.110.126 - - [03/Oct/2026 16:37:07] "GET /socket.io/?EIO=4&transport=polling&t=Q41Sa8M HTTP/1.1" 200 -
+16:37:07 [INFO    ] 10.69.110.126 - - [03/Oct/2026 16:37:07] "POST /socket.io/?EIO=4&transport=polling&t=Q41Sa9N&sid=Hbe6iiD9geDFPjPsAAAA HTTP/1.1" 200 -
+16:37:07 [INFO    ] 127.0.0.1 - - [03/Oct/2026 16:37:07] "GET / HTTP/1.1" 200 -
+16:37:07 [INFO    ] 10.69.110.126 - - [03/Oct/2026 16:37:07] "GET /socket.io/?EIO=4&transport=polling&t=Q41Sa9T&sid=Hbe6iiD9geDFPjPsAAAA HTTP/1.1" 200 -
+16:37:07 [INFO    ] 127.0.0.1 - - [03/Oct/2026 16:37:07] "GET /socket.io/?EIO=4&transport=polling&t=Q41SaDp HTTP/1.1" 200 -
+16:37:07 [INFO    ] 127.0.0.1 - - [03/Oct/2026 16:37:07] "GET /video_feed HTTP/1.1" 200 -
+16:37:07 [INFO    ] 10.69.110.126 - - [03/Oct/2026 16:37:07] "GET /socket.io/?EIO=4&transport=polling&t=Q41SaGS&sid=Hbe6iiD9geDFPjPsAAAA HTTP/1.1" 200 -
+16:37:07 [INFO    ] 127.0.0.1 - - [03/Oct/2026 16:37:07] "GET /socket.io/?EIO=4&transport=polling&t=Q41SaFf HTTP/1.1" 200 -
+16:37:07 [INFO    ] 127.0.0.1 - - [03/Oct/2026 16:37:07] "POST /socket.io/?EIO=4&transport=polling&t=Q41SaGf&sid=z58g4yLwe6i1VHZwAAAC HTTP/1.1" 200 -
+16:37:07 [INFO    ] 127.0.0.1 - - [03/Oct/2026 16:37:07] "GET /socket.io/?EIO=4&transport=polling&t=Q41SaGh&sid=z58g4yLwe6i1VHZwAAAC HTTP/1.1" 200 -
+16:37:08 [INFO    ] 127.0.0.1 - - [03/Oct/2026 16:37:08] "POST /socket.io/?EIO=4&transport=polling&t=Q41SaK5&sid=YOzIiEuy2vk5p_ZPAAAD HTTP/1.1" 200 -
+16:37:08 [INFO    ] 127.0.0.1 - - [03/Oct/2026 16:37:08] "GET /socket.io/?EIO=4&transport=polling&t=Q41SaK2&sid=z58g4yLwe6i1VHZwAAAC HTTP/1.1" 200 -
+16:37:08 [INFO    ] 127.0.0.1 - - [03/Oct/2026 16:37:08] "GET /socket.io/?EIO=4&transport=polling&t=Q41SaKE&sid=YOzIiEuy2vk5p_ZPAAAD HTTP/1.1" 200 -
+16:38:06 [INFO    ] ROVER MODE commanded from browser.
+16:38:06 [WARNING ] Rover: GPIO not ready.
+16:38:07 [INFO    ] ROVER MODE commanded from browser.
+16:38:07 [WARNING ] Rover: GPIO not ready.
+16:38:08 [INFO    ] ROVER MODE commanded from browser.
+16:38:08 [WARNING ] Rover: GPIO not ready.
+16:38:09 [INFO    ] ROVER MODE commanded from browser.
+16:38:09 [WARNING ] Rover: GPIO not ready.
+16:38:10 [INFO    ] ROVER MODE commanded from browser.
+16:38:10 [WARNING ] Rover: GPIO not ready.
+16:38:10 [INFO    ] DRONE MODE commanded from browser.
+16:38:10 [INFO    ] Rover: MODE = DRONE (GUI command)
+16:38:12 [INFO    ] ROVER MODE commanded from browser.
+16:38:12 [WARNING ] Rover: GPIO not ready.
+16:38:18 [INFO    ] START commanded from browser.
+16:38:18 [INFO    ] ▶ STATE: PREFLIGHT — Running Pre-Flight Checks
+16:38:18 [INFO    ] Mission thread started.
+16:38:18 [INFO    ] Running pre-flight checks...
+16:38:18 [WARNING ] Preflight WARNING: GPS fix weak: 1
+16:38:18 [INFO    ] Testing servo before arm...
+16:38:18 [INFO    ] Servo pre-flight test — opening...
+16:38:18 [INFO    ] Servo CH9 → 1100us
+16:38:19 [INFO    ] Servo pre-flight test — closing...
+16:38:19 [INFO    ] Servo CH9 → 1900us
+16:38:20 [INFO    ] Servo pre-flight test complete ✅
+16:38:20 [WARNING ] Pre-flight issues found — proceeding with caution.
+16:38:20 [INFO    ] ▶ STATE: ARMING — Arming & GUIDED Mode
+16:38:20 [INFO    ] Setting GUIDED mode and arming...
+16:38:20 [INFO    ] Setting GUIDED mode...
+16:38:20 [INFO    ] GUIDED mode confirmed.
+16:38:22 [INFO    ] Arming motors...
+16:38:22 [CRITICAL] Arm: Need Position Estimate
+16:38:37 [ERROR   ] Arming timed out — check pre-arm conditions in GCS.
+16:38:39 [INFO    ] Armed ✅
+16:38:39 [INFO    ] ▶ STATE: TAKEOFF — Taking Off
+16:38:39 [INFO    ] Taking off to 2.0m...
+16:38:39 [INFO    ] Takeoff → 2.0m
+16:38:39 [DEBUG   ]   Alt: -0.02m / 2.0m
+16:38:39 [DEBUG   ]   Alt: -0.09m / 2.0m
+16:38:39 [DEBUG   ]   Alt: -0.66m / 2.0m
+16:38:40 [DEBUG   ]   Alt: 0.05m / 2.0m
+16:38:40 [DEBUG   ]   Alt: -0.44m / 2.0m
+16:38:40 [DEBUG   ]   Alt: -0.15m / 2.0m
+16:38:41 [DEBUG   ]   Alt: -0.06m / 2.0m
+16:38:41 [DEBUG   ]   Alt: -0.14m / 2.0m
+16:38:41 [DEBUG   ]   Alt: -0.27m / 2.0m
+16:38:42 [DEBUG   ]   Alt: 0.03m / 2.0m
+16:38:42 [DEBUG   ]   Alt: -0.27m / 2.0m
+16:38:42 [DEBUG   ]   Alt: -0.56m / 2.0m
+16:38:42 [DEBUG   ]   Alt: 0.26m / 2.0m
+16:38:43 [DEBUG   ]   Alt: -0.61m / 2.0m
+16:38:43 [DEBUG   ]   Alt: 0.25m / 2.0m
+16:38:43 [DEBUG   ]   Alt: -0.48m / 2.0m
+16:38:44 [DEBUG   ]   Alt: -0.35m / 2.0m
+16:38:44 [DEBUG   ]   Alt: 0.40m / 2.0m
+16:38:44 [DEBUG   ]   Alt: -0.43m / 2.0m
+16:38:45 [DEBUG   ]   Alt: 0.20m / 2.0m
+16:38:45 [DEBUG   ]   Alt: 0.16m / 2.0m
+16:38:45 [DEBUG   ]   Alt: -0.33m / 2.0m
+16:38:45 [DEBUG   ]   Alt: -0.15m / 2.0m
+16:38:46 [DEBUG   ]   Alt: 0.01m / 2.0m
+16:38:46 [DEBUG   ]   Alt: 0.08m / 2.0m
+16:38:46 [DEBUG   ]   Alt: 0.21m / 2.0m
+16:38:47 [DEBUG   ]   Alt: -0.42m / 2.0m
+16:38:47 [DEBUG   ]   Alt: -0.14m / 2.0m
+16:38:47 [DEBUG   ]   Alt: -0.48m / 2.0m
+16:38:48 [DEBUG   ]   Alt: -0.32m / 2.0m
+16:38:48 [DEBUG   ]   Alt: -0.41m / 2.0m
+16:38:48 [DEBUG   ]   Alt: -0.21m / 2.0m
+16:38:49 [DEBUG   ]   Alt: 0.07m / 2.0m
+16:38:49 [DEBUG   ]   Alt: -0.59m / 2.0m
+16:38:49 [DEBUG   ]   Alt: 0.04m / 2.0m
+16:38:49 [DEBUG   ]   Alt: 0.06m / 2.0m
+16:38:50 [DEBUG   ]   Alt: -0.47m / 2.0m
+16:38:50 [DEBUG   ]   Alt: 0.05m / 2.0m
+16:38:50 [DEBUG   ]   Alt: -0.36m / 2.0m
+16:38:51 [DEBUG   ]   Alt: -0.26m / 2.0m
+16:38:51 [DEBUG   ]   Alt: -0.33m / 2.0m
+16:38:51 [DEBUG   ]   Alt: -0.32m / 2.0m
+16:38:52 [DEBUG   ]   Alt: -0.53m / 2.0m
+16:38:52 [DEBUG   ]   Alt: -0.13m / 2.0m
+16:38:52 [DEBUG   ]   Alt: -0.43m / 2.0m
+16:38:52 [DEBUG   ]   Alt: -0.16m / 2.0m
+16:38:53 [DEBUG   ]   Alt: -0.57m / 2.0m
+16:38:53 [INFO    ] Shutdown sequence...
+16:38:53 [DEBUG   ]   Alt: -0.57m / 2.0m
+16:38:53 [DEBUG   ]   Alt: -0.38m / 2.0m
+16:38:54 [DEBUG   ]   Alt: 0.12m / 2.0m
+16:38:54 [DEBUG   ]   Alt: -0.42m / 2.0m
+16:38:54 [DEBUG   ]   Alt: -0.13m / 2.0m
+16:38:55 [DEBUG   ]   Alt: -0.20m / 2.0m
+16:38:55 [DEBUG   ]   Alt: -0.10m / 2.0m
+16:38:55 [DEBUG   ]   Alt: -0.39m / 2.0m
+16:38:55 [DEBUG   ]   Alt: -0.58m / 2.0m
+16:38:56 [DEBUG   ]   Alt: -0.12m / 2.0m
+16:38:56 [INFO    ] RealSense pipeline stopped.
+16:38:56 [INFO    ] Pixhawk disconnected.
+16:38:56 [INFO    ] Rover stopped.
+16:38:56 [INFO    ] TerraAvis shutdown complete.

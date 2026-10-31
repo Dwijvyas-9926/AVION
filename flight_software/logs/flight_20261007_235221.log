@@ -1,0 +1,119 @@
+23:52:21 [INFO    ] Log file: logs/flight_20261007_235221.log
+23:52:29 [INFO    ] ==================================================
+23:52:29 [INFO    ]   TerraAvis — Autonomous Mission System
+23:52:29 [INFO    ]   RoboFest National Competition
+23:52:29 [INFO    ] ==================================================
+23:52:29 [INFO    ] CPU governor set to powersave.
+23:52:29 [INFO    ] CPU Temperature: temp=51.1'C
+23:52:29 [INFO    ] Connecting to Pixhawk → /dev/ttyACM0 @ 57600
+23:52:30 [INFO    ] ArduCopter V4.7.1 (dbe79216)
+23:52:30 [INFO    ] ChibiOS: d103983f
+23:52:30 [INFO    ] fmuv3 001A0027 3533510B 37313531
+23:52:30 [INFO    ] IOMCU: 0 0 411FC231
+23:52:30 [INFO    ] RCOut: PWM:1-14
+23:52:30 [INFO    ] IMU0: fast sampling enabled 8.0kHz/1.0kHz
+23:52:30 [INFO    ] Frame: QUAD/X
+23:52:31 [DEBUG   ] Still waiting for data from vehicle: parameters
+23:52:32 [DEBUG   ] Still waiting for data from vehicle: parameters
+23:52:33 [DEBUG   ] Still waiting for data from vehicle: parameters
+23:52:34 [DEBUG   ] Still waiting for data from vehicle: parameters
+23:52:35 [DEBUG   ] Still waiting for data from vehicle: parameters
+23:52:36 [DEBUG   ] Still waiting for data from vehicle: parameters
+23:52:37 [DEBUG   ] Still waiting for data from vehicle: parameters
+23:52:38 [DEBUG   ] Still waiting for data from vehicle: parameters
+23:52:39 [DEBUG   ] Still waiting for data from vehicle: parameters
+23:52:40 [DEBUG   ] Still waiting for data from vehicle: parameters
+23:52:41 [DEBUG   ] Still waiting for data from vehicle: parameters
+23:52:42 [DEBUG   ] Still waiting for data from vehicle: parameters
+23:52:43 [DEBUG   ] Still waiting for data from vehicle: parameters
+23:52:44 [DEBUG   ] Still waiting for data from vehicle: parameters
+23:52:45 [INFO    ] Pixhawk connected.
+23:52:45 [INFO    ]   Firmware : APM:Copter-4.7.1
+23:52:45 [INFO    ]   GPS      : fix=3 sats=7
+23:52:45 [INFO    ]   Battery  : 0.0V
+23:52:45 [INFO    ]   Mode     : STABILIZE
+23:52:45 [INFO    ]   Heartbeat watchdog started.
+23:52:46 [INFO    ] RealSense D455 started.
+23:52:46 [INFO    ]   Resolution : 640x480 @ 15fps
+23:52:46 [INFO    ]   Zone edges : Left=213px  Right=426px
+23:52:46 [WARNING ] Rover: pigpio daemon not running — rover disabled.
+23:52:46 [WARNING ] Rover: GPIO not ready — cannot start.
+23:52:46 [INFO    ] --------------------------------------------------
+23:52:46 [INFO    ] System ready.
+23:52:46 [INFO    ]   Press [S] in the window to START mission.
+23:52:46 [INFO    ]   Press [A] to ABORT at any time.
+23:52:46 [INFO    ]   Press [Q] to quit.
+23:52:46 [INFO    ] --------------------------------------------------
+23:52:46 [INFO    ] ==================================================
+23:52:46 [INFO    ]   Browser GUI starting...
+23:52:46 [INFO    ]   Open in browser: http://<RPi-IP>:5000
+23:52:46 [INFO    ] ==================================================
+23:52:46 [INFO    ] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.69.110.233:5000
+23:52:46 [INFO    ] [33mPress CTRL+C to quit[0m
+23:52:50 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:50] "GET / HTTP/1.1" 200 -
+23:52:50 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:50] "GET /assets/socket.io.min.js HTTP/1.1" 200 -
+23:52:50 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:50] "GET /assets/OrbitControls.js HTTP/1.1" 200 -
+23:52:50 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:50] "GET /assets/GLTFLoader.js HTTP/1.1" 200 -
+23:52:50 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:50] "GET /assets/RoomEnvironment.js HTTP/1.1" 200 -
+23:52:50 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:50] "GET /assets/three.min.js HTTP/1.1" 200 -
+23:52:50 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:50] "GET /video_feed HTTP/1.1" 200 -
+23:52:51 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:51] "GET /assets/fonts/instrument-sans-latin-600-normal.woff2 HTTP/1.1" 200 -
+23:52:51 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:51] "GET /assets/fonts/instrument-sans-latin-400-normal.woff2 HTTP/1.1" 200 -
+23:52:51 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:51] "GET /assets/fonts/jetbrains-mono-latin-500-normal.woff2 HTTP/1.1" 200 -
+23:52:51 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:51] "GET /assets/fonts/jetbrains-mono-latin-400-normal.woff2 HTTP/1.1" 200 -
+23:52:51 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:51] "GET /gcs_config.json HTTP/1.1" 200 -
+23:52:51 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:51] "GET /socket.io/?EIO=4&transport=polling&t=Q4Ncg99 HTTP/1.1" 200 -
+23:52:52 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:52] "GET /assets/avion_twin.glb HTTP/1.1" 200 -
+23:52:54 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:54] "GET /socket.io/?EIO=4&transport=polling&t=Q4NcgXU&sid=Xfz5koNtpKBTiSUzAAAA HTTP/1.1" 200 -
+23:52:54 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:54] "POST /socket.io/?EIO=4&transport=polling&t=Q4NcgXT&sid=Xfz5koNtpKBTiSUzAAAA HTTP/1.1" 200 -
+23:52:55 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:55] "GET /socket.io/?EIO=4&transport=polling&t=Q4Nch55&sid=Xfz5koNtpKBTiSUzAAAA HTTP/1.1" 200 -
+23:52:56 [INFO    ] 127.0.0.1 - - [07/Oct/2026 23:52:56] "GET /assets/fonts/instrument-sans-latin-500-normal.woff2 HTTP/1.1" 200 -
+23:53:33 [DEBUG   ] Red detection rejected — area 70435px² too large (dome/background)
+23:53:34 [DEBUG   ] Red detection rejected — area 83485px² too large (dome/background)
+23:53:34 [DEBUG   ] Red detection rejected — area 86310px² too large (dome/background)
+23:53:34 [DEBUG   ] Red detection rejected — area 95287px² too large (dome/background)
+23:53:34 [DEBUG   ] Red detection rejected — area 103056px² too large (dome/background)
+23:53:34 [DEBUG   ] Red detection rejected — area 105018px² too large (dome/background)
+23:53:34 [DEBUG   ] Red detection rejected — area 103822px² too large (dome/background)
+23:53:35 [DEBUG   ] Red detection rejected — area 103814px² too large (dome/background)
+23:53:35 [DEBUG   ] Red detection rejected — area 102618px² too large (dome/background)
+23:53:35 [DEBUG   ] Red detection rejected — area 83092px² too large (dome/background)
+23:53:35 [DEBUG   ] Red detection rejected — area 64942px² too large (dome/background)
+23:53:46 [INFO    ] ROVER MODE commanded from browser.
+23:53:46 [WARNING ] Rover: GPIO not ready.
+23:53:47 [INFO    ] ROVER MODE commanded from browser.
+23:53:47 [WARNING ] Rover: GPIO not ready.
+23:53:51 [WARNING ] ABORT commanded from browser.
+23:53:51 [WARNING ] ABORT commanded — landing in place.
+23:53:52 [INFO    ] Switching to LAND mode...
+23:53:52 [INFO    ] ▶ ABORTED — Mission Aborted
+23:54:08 [INFO    ] START commanded from browser.
+23:54:08 [INFO    ] ▶ PREFLIGHT — Running Pre-Flight Checks
+23:54:08 [INFO    ] Mission thread started.
+23:54:08 [INFO    ] Running pre-flight checks...
+23:54:08 [WARNING ]   ⚠ EKF not healthy
+23:54:08 [INFO    ] Servo test before arming...
+23:54:08 [INFO    ] Servo pre-flight test — opening...
+23:54:08 [INFO    ] Servo CH9 → 1100us
+23:54:09 [ERROR   ] Vision frame error: Frame didn't arrive within 500
+23:54:10 [ERROR   ] Vision frame error: Frame didn't arrive within 500
+23:54:10 [INFO    ] Servo pre-flight test — closing...
+23:54:10 [INFO    ] Servo CH9 → 1900us
+23:54:11 [INFO    ] Servo pre-flight test complete ✅
+23:54:11 [WARNING ] Pre-flight: 1 issue(s) — proceeding with caution.
+23:54:11 [INFO    ] ▶ ARMING — Arming & GUIDED Mode
+23:54:11 [INFO    ] Setting GUIDED mode...
+23:54:21 [WARNING ] ABORT commanded from browser.
+23:54:21 [WARNING ] ABORT commanded — landing in place.
+23:54:21 [ERROR   ] Timed out waiting for GUIDED mode.
+23:54:21 [INFO    ] Arming motors...
+23:54:22 [INFO    ] Switching to LAND mode...
+23:54:22 [INFO    ] ▶ ABORTED — Mission Aborted
+23:54:33 [INFO    ] Shutdown sequence...
+23:54:36 [INFO    ] RealSense pipeline stopped.
+23:54:36 [INFO    ] Pixhawk disconnected.
+23:54:36 [INFO    ] Rover stopped.
+23:54:36 [INFO    ] TerraAvis shutdown complete.

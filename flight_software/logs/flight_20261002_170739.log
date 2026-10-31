@@ -1,0 +1,40 @@
+17:07:39 [INFO    ] Log file: logs/flight_20261002_170739.log
+17:07:47 [INFO    ] ==================================================
+17:07:47 [INFO    ]   TerraAvis — Autonomous Mission System
+17:07:47 [INFO    ]   RoboFest National Competition
+17:07:47 [INFO    ] ==================================================
+17:07:47 [INFO    ] CPU governor set to powersave.
+17:07:47 [INFO    ] CPU Temperature: temp=45.2'C
+17:07:47 [INFO    ] Connecting to Pixhawk → /dev/ttyACM0 @ 57600
+17:07:48 [INFO    ] ArduCopter V4.7.1 (dbe79216)
+17:07:48 [INFO    ] ChibiOS: d103983f
+17:07:48 [INFO    ] fmuv3 001A0027 3533510B 37313531
+17:07:48 [INFO    ] IOMCU: 0 0 411FC231
+17:07:48 [INFO    ] RCOut: PWM:1-14
+17:07:48 [INFO    ] IMU0: fast sampling enabled 8.0kHz/1.0kHz
+17:07:48 [INFO    ] Frame: QUAD/X
+17:07:49 [DEBUG   ] Still waiting for data from vehicle: attitude,gps_0,parameters
+17:07:50 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:07:51 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:07:52 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:07:53 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:07:54 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:07:55 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:07:56 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:07:57 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:07:58 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:07:59 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:08:00 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:08:01 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:08:02 [DEBUG   ] Still waiting for data from vehicle: parameters
+17:08:03 [INFO    ] Pixhawk connected.
+17:08:03 [INFO    ]   Firmware : APM:Copter-4.7.1
+17:08:03 [INFO    ]   GPS      : fix=1 sats=0
+17:08:03 [INFO    ]   Battery  : 0.0V
+17:08:03 [INFO    ]   Mode     : STABILIZE
+17:08:03 [INFO    ]   Heartbeat watchdog started.
+17:08:19 [ERROR   ] RealSense start failed: No device connected
+17:08:19 [ERROR   ] RealSense D455 failed to start. Cannot run mission.
+17:08:19 [INFO    ] Shutdown sequence...
+17:08:19 [INFO    ] Pixhawk disconnected.
+17:08:19 [INFO    ] TerraAvis shutdown complete.

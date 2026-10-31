@@ -1,0 +1,42 @@
+12:08:38 [INFO    ] Log file: logs/flight_20261002_120838.log
+12:08:42 [INFO    ] ==================================================
+12:08:42 [INFO    ]   TerraAvis — Autonomous Mission System
+12:08:42 [INFO    ]   RoboFest National Competition
+12:08:42 [INFO    ] ==================================================
+12:08:42 [INFO    ] CPU governor set to powersave.
+12:08:42 [INFO    ] CPU Temperature: temp=51.1'C
+12:08:42 [INFO    ] Connecting to Pixhawk → /dev/ttyACM0 @ 57600
+12:08:42 [ERROR   ] Pixhawk connection failed: [Errno 2] could not open port /dev/ttyACM0: [Errno 2] No such file or directory: '/dev/ttyACM0'
+12:08:42 [ERROR   ] Pixhawk not connected.
+12:08:42 [WARNING ] Starting in CAMERA-ONLY mode. Mission START will be blocked.
+12:08:43 [INFO    ] RealSense D455 started.
+12:08:43 [INFO    ]   Resolution : 640x480 @ 15fps
+12:08:43 [INFO    ]   Zone edges : Left=213px  Right=426px
+12:08:43 [WARNING ] Rover: pigpio daemon not running — rover disabled.
+12:08:43 [WARNING ] Rover: GPIO not ready — cannot start.
+12:08:43 [INFO    ] --------------------------------------------------
+12:08:43 [INFO    ] System ready.
+12:08:43 [INFO    ]   Press [S] in the window to START mission.
+12:08:43 [INFO    ]   Press [A] to ABORT at any time.
+12:08:43 [INFO    ]   Press [Q] to quit.
+12:08:43 [INFO    ] --------------------------------------------------
+12:08:43 [INFO    ] ==================================================
+12:08:43 [INFO    ]   Browser GUI starting...
+12:08:43 [INFO    ]   Open in browser: http://<RPi-IP>:5000
+12:08:43 [INFO    ] ==================================================
+12:08:43 [INFO    ] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.137.158:5000
+12:08:43 [INFO    ] [33mPress CTRL+C to quit[0m
+12:08:46 [INFO    ] 127.0.0.1 - - [02/Oct/2026 12:08:46] "GET / HTTP/1.1" 200 -
+12:08:46 [INFO    ] 127.0.0.1 - - [02/Oct/2026 12:08:46] "GET /video_feed HTTP/1.1" 200 -
+12:08:47 [INFO    ] 127.0.0.1 - - [02/Oct/2026 12:08:47] "GET /socket.io/?EIO=4&transport=polling&t=Q3xLZyC HTTP/1.1" 200 -
+12:08:47 [INFO    ] 127.0.0.1 - - [02/Oct/2026 12:08:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+12:08:47 [INFO    ] 127.0.0.1 - - [02/Oct/2026 12:08:47] "POST /socket.io/?EIO=4&transport=polling&t=Q3xLZ_f&sid=uJiJuvdLXRYilZ5aAAAA HTTP/1.1" 200 -
+12:08:47 [INFO    ] 127.0.0.1 - - [02/Oct/2026 12:08:47] "GET /socket.io/?EIO=4&transport=polling&t=Q3xLZ_h&sid=uJiJuvdLXRYilZ5aAAAA HTTP/1.1" 200 -
+12:08:47 [INFO    ] 127.0.0.1 - - [02/Oct/2026 12:08:47] "GET /socket.io/?EIO=4&transport=polling&t=Q3xLa34&sid=uJiJuvdLXRYilZ5aAAAA HTTP/1.1" 200 -
+12:09:59 [INFO    ] Shutdown sequence...
+12:10:03 [INFO    ] RealSense pipeline stopped.
+12:10:03 [INFO    ] Rover stopped.
+12:10:03 [INFO    ] TerraAvis shutdown complete.

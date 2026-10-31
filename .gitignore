@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Runtime output (sample flight logs are kept under flight_software/logs/)
+images/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,199 @@
+08:57:51 [INFO    ] Log file: logs/flight_20261008_085751.log
+08:57:57 [INFO    ] ==================================================
+08:57:57 [INFO    ]   TerraAvis — Autonomous Mission System
+08:57:57 [INFO    ]   RoboFest National Competition
+08:57:57 [INFO    ] ==================================================
+08:57:57 [INFO    ] CPU governor set to powersave.
+08:57:57 [INFO    ] CPU Temperature: temp=39.4'C
+08:57:57 [INFO    ] Connecting to Pixhawk → /dev/ttyACM0 @ 57600
+08:57:58 [INFO    ] ArduCopter V4.7.1 (dbe79216)
+08:57:58 [INFO    ] ChibiOS: d103983f
+08:57:58 [INFO    ] fmuv3 001A0027 3533510B 37313531
+08:57:58 [INFO    ] IOMCU: 0 0 411FC231
+08:57:58 [INFO    ] RCOut: PWM:1-14
+08:57:58 [INFO    ] IMU0: fast sampling enabled 8.0kHz/1.0kHz
+08:57:59 [INFO    ] Frame: QUAD/X
+08:58:00 [DEBUG   ] Still waiting for data from vehicle: gps_0,attitude,parameters
+08:58:01 [DEBUG   ] Still waiting for data from vehicle: parameters
+08:58:02 [DEBUG   ] Still waiting for data from vehicle: parameters
+08:58:03 [DEBUG   ] Still waiting for data from vehicle: parameters
+08:58:04 [DEBUG   ] Still waiting for data from vehicle: parameters
+08:58:05 [DEBUG   ] Still waiting for data from vehicle: parameters
+08:58:06 [DEBUG   ] Still waiting for data from vehicle: parameters
+08:58:07 [DEBUG   ] Still waiting for data from vehicle: parameters
+08:58:08 [DEBUG   ] Still waiting for data from vehicle: parameters
+08:58:09 [DEBUG   ] Still waiting for data from vehicle: parameters
+08:58:10 [DEBUG   ] Still waiting for data from vehicle: parameters
+08:58:11 [DEBUG   ] Still waiting for data from vehicle: parameters
+08:58:12 [DEBUG   ] Still waiting for data from vehicle: parameters
+08:58:13 [DEBUG   ] Still waiting for data from vehicle: parameters
+08:58:13 [INFO    ] Pixhawk connected.
+08:58:13 [INFO    ]   Firmware : APM:Copter-4.7.1
+08:58:13 [INFO    ]   GPS      : fix=3 sats=24
+08:58:13 [INFO    ]   Battery  : 0.0V
+08:58:13 [INFO    ]   Mode     : LOITER
+08:58:13 [INFO    ]   Heartbeat watchdog started.
+08:58:14 [INFO    ] RealSense D455 started.
+08:58:14 [INFO    ]   Resolution : 640x480 @ 15fps
+08:58:14 [INFO    ]   Zone edges : Left=213px  Right=426px
+08:58:14 [WARNING ] Rover: pigpio daemon not running — rover disabled.
+08:58:14 [WARNING ] Rover: GPIO not ready — cannot start.
+08:58:14 [INFO    ] --------------------------------------------------
+08:58:14 [INFO    ] System ready.
+08:58:14 [INFO    ]   Press [S] in the window to START mission.
+08:58:14 [INFO    ]   Press [A] to ABORT at any time.
+08:58:14 [INFO    ]   Press [Q] to quit.
+08:58:14 [INFO    ] --------------------------------------------------
+08:58:14 [INFO    ] ==================================================
+08:58:14 [INFO    ]   Browser GUI starting...
+08:58:14 [INFO    ]   Open in browser: http://<RPi-IP>:5000
+08:58:14 [INFO    ] ==================================================
+08:58:14 [INFO    ] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.69.110.233:5000
+08:58:14 [INFO    ] [33mPress CTRL+C to quit[0m
+08:58:17 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:17] "GET / HTTP/1.1" 200 -
+08:58:18 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:18] "GET /assets/GLTFLoader.js HTTP/1.1" 200 -
+08:58:18 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:18] "GET /assets/socket.io.min.js HTTP/1.1" 200 -
+08:58:18 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:18] "GET /assets/OrbitControls.js HTTP/1.1" 200 -
+08:58:18 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:18] "GET /assets/three.min.js HTTP/1.1" 200 -
+08:58:18 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:18] "GET /assets/RoomEnvironment.js HTTP/1.1" 200 -
+08:58:18 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:18] "GET /assets/fonts/instrument-sans-latin-400-normal.woff2 HTTP/1.1" 200 -
+08:58:18 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:18] "GET /assets/fonts/instrument-sans-latin-600-normal.woff2 HTTP/1.1" 200 -
+08:58:18 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:18] "GET /gcs_config.json HTTP/1.1" 200 -
+08:58:18 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:18] "GET /assets/fonts/jetbrains-mono-latin-400-normal.woff2 HTTP/1.1" 200 -
+08:58:18 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:18] "GET /assets/fonts/jetbrains-mono-latin-500-normal.woff2 HTTP/1.1" 200 -
+08:58:18 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:18] "GET /video_feed HTTP/1.1" 200 -
+08:58:18 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:18] "GET /socket.io/?EIO=4&transport=polling&t=Q4PZVvU HTTP/1.1" 200 -
+08:58:19 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:19] "GET /assets/avion_twin.glb HTTP/1.1" 200 -
+08:58:20 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:20] "POST /socket.io/?EIO=4&transport=polling&t=Q4PZW9u&sid=is2v000OWdQuZjowAAAA HTTP/1.1" 200 -
+08:58:20 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:20] "GET /socket.io/?EIO=4&transport=polling&t=Q4PZW9v&sid=is2v000OWdQuZjowAAAA HTTP/1.1" 200 -
+08:58:20 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:20] "GET /socket.io/?EIO=4&transport=polling&t=Q4PZWKs&sid=is2v000OWdQuZjowAAAA HTTP/1.1" 200 -
+08:58:54 [INFO    ] 127.0.0.1 - - [08/Oct/2026 08:58:54] "GET /assets/fonts/instrument-sans-latin-500-normal.woff2 HTTP/1.1" 200 -
+08:59:36 [INFO    ] START commanded from browser.
+08:59:36 [INFO    ] ▶ PREFLIGHT — Running Pre-Flight Checks
+08:59:36 [INFO    ] Running pre-flight checks...
+08:59:36 [INFO    ] Mission thread started.
+08:59:36 [INFO    ] Servo test before arming...
+08:59:36 [INFO    ] Servo pre-flight test — opening...
+08:59:36 [INFO    ] Servo CH9 → 1100us
+08:59:38 [INFO    ] Servo pre-flight test — closing...
+08:59:38 [INFO    ] Servo CH9 → 1900us
+08:59:39 [INFO    ] Servo pre-flight test complete ✅
+08:59:39 [INFO    ] Pre-flight checks passed ✅
+08:59:39 [INFO    ] ▶ ARMING — Arming & GUIDED Mode
+08:59:39 [INFO    ] Setting GUIDED mode...
+08:59:39 [INFO    ] GUIDED mode confirmed.
+08:59:40 [INFO    ] Arming motors...
+08:59:40 [INFO    ] Motors ARMED.
+08:59:42 [INFO    ] Armed and ready ✅
+08:59:42 [INFO    ] ▶ TAKEOFF — Taking Off
+08:59:42 [INFO    ] Taking off to 2.0m...
+08:59:42 [INFO    ] Takeoff → 2.0m
+08:59:42 [DEBUG   ]   Alt: 0.06m / 2.0m
+08:59:43 [DEBUG   ]   Alt: 0.07m / 2.0m
+08:59:43 [DEBUG   ]   Alt: 0.10m / 2.0m
+08:59:43 [DEBUG   ]   Alt: 0.20m / 2.0m
+08:59:44 [DEBUG   ]   Alt: 0.35m / 2.0m
+08:59:44 [DEBUG   ]   Alt: 0.53m / 2.0m
+08:59:44 [DEBUG   ]   Alt: 1.08m / 2.0m
+08:59:45 [DEBUG   ]   Alt: 1.40m / 2.0m
+08:59:45 [DEBUG   ]   Alt: 1.64m / 2.0m
+08:59:45 [DEBUG   ]   Alt: 1.79m / 2.0m
+08:59:45 [DEBUG   ]   Alt: 1.98m / 2.0m
+08:59:45 [INFO    ] Takeoff complete. Altitude: 1.98m
+08:59:45 [DEBUG   ]   Altitude: 1.98m / 2.0m
+08:59:45 [INFO    ] Takeoff complete: 1.98m ✅
+08:59:45 [INFO    ] Home recorded: [redacted], [redacted]
+08:59:45 [INFO    ] ▶ HOVER — Hovering — Stabilising
+08:59:45 [INFO    ] Stabilising for 2.0s...
+08:59:48 [INFO    ] =============================================
+08:59:48 [INFO    ]   PHASE 1 — RED DUMMY
+08:59:48 [INFO    ] =============================================
+08:59:48 [INFO    ] Vision target → RED
+08:59:48 [INFO    ] ▶ YAW_SEARCH — Yaw Searching for Target
+08:59:48 [INFO    ] Yaw search — looking for RED dummy...
+08:59:48 [INFO    ] RED dummy already in frame — skipping sweep.
+08:59:48 [INFO    ] ▶ TARGET_LOCK — Target Confirmed — Locking
+08:59:48 [INFO    ] Confirming lock — need 3 stable frames...
+08:59:48 [DEBUG   ]   Lock 1/3 — depth=Nonem
+08:59:48 [DEBUG   ]   Lock 2/3 — depth=Nonem
+08:59:48 [DEBUG   ]   Lock 3/3 — depth=Nonem
+08:59:48 [INFO    ] TARGET LOCKED ✅  depth=beyond depth range  area=3522px²
+08:59:48 [INFO    ] Centering target for operator view...
+08:59:52 [WARNING ] ABORT commanded from browser.
+08:59:52 [WARNING ] ABORT commanded — landing in place.
+08:59:52 [WARNING ] Abort flag — stopping mission.
+08:59:52 [INFO    ] ▶ ABORTED — Mission Aborted
+08:59:52 [WARNING ] Abort flag — stopping mission.
+08:59:52 [INFO    ] ▶ ABORTED — Mission Aborted
+08:59:52 [WARNING ] Abort flag — stopping mission.
+08:59:52 [INFO    ] ▶ ABORTED — Mission Aborted
+08:59:54 [INFO    ] Switching to LAND mode...
+08:59:54 [INFO    ] ▶ ABORTED — Mission Aborted
+08:59:54 [WARNING ] ABORT commanded from browser.
+08:59:54 [WARNING ] ABORT commanded — landing in place.
+08:59:55 [INFO    ] Switching to LAND mode...
+08:59:55 [INFO    ] ▶ ABORTED — Mission Aborted
+09:00:12 [INFO    ] START commanded from browser.
+09:00:12 [INFO    ] ▶ PREFLIGHT — Running Pre-Flight Checks
+09:00:12 [INFO    ] Mission thread started.
+09:00:12 [INFO    ] Running pre-flight checks...
+09:00:12 [INFO    ] Servo test before arming...
+09:00:12 [INFO    ] Servo pre-flight test — opening...
+09:00:12 [INFO    ] Servo CH9 → 1100us
+09:00:14 [INFO    ] Servo pre-flight test — closing...
+09:00:14 [INFO    ] Servo CH9 → 1900us
+09:00:15 [INFO    ] Servo pre-flight test complete ✅
+09:00:15 [INFO    ] Pre-flight checks passed ✅
+09:00:15 [INFO    ] ▶ ARMING — Arming & GUIDED Mode
+09:00:15 [INFO    ] Setting GUIDED mode...
+09:00:15 [INFO    ] GUIDED mode confirmed.
+09:00:16 [INFO    ] Arming motors...
+09:00:17 [INFO    ] Motors ARMED.
+09:00:19 [INFO    ] Armed and ready ✅
+09:00:19 [INFO    ] ▶ TAKEOFF — Taking Off
+09:00:19 [INFO    ] Taking off to 2.0m...
+09:00:19 [INFO    ] Takeoff → 2.0m
+09:00:19 [DEBUG   ]   Alt: 0.00m / 2.0m
+09:00:19 [DEBUG   ]   Alt: 0.00m / 2.0m
+09:00:19 [DEBUG   ]   Alt: 0.01m / 2.0m
+09:00:19 [DEBUG   ]   Alt: 0.07m / 2.0m
+09:00:20 [DEBUG   ]   Alt: 0.37m / 2.0m
+09:00:20 [DEBUG   ]   Alt: 0.58m / 2.0m
+09:00:20 [DEBUG   ]   Alt: 0.89m / 2.0m
+09:00:21 [DEBUG   ]   Alt: 1.25m / 2.0m
+09:00:21 [DEBUG   ]   Alt: 1.80m / 2.0m
+09:00:21 [DEBUG   ]   Alt: 1.94m / 2.0m
+09:00:21 [INFO    ] Takeoff complete. Altitude: 1.94m
+09:00:21 [DEBUG   ]   Altitude: 1.94m / 2.0m
+09:00:21 [INFO    ] Takeoff complete: 1.94m ✅
+09:00:21 [INFO    ] Home recorded: [redacted], [redacted]
+09:00:21 [INFO    ] ▶ HOVER — Hovering — Stabilising
+09:00:21 [INFO    ] Stabilising for 2.0s...
+09:00:23 [INFO    ] =============================================
+09:00:23 [INFO    ]   PHASE 1 — RED DUMMY
+09:00:23 [INFO    ] =============================================
+09:00:23 [INFO    ] Vision target → RED
+09:00:23 [INFO    ] ▶ YAW_SEARCH — Yaw Searching for Target
+09:00:23 [INFO    ] Yaw search — looking for RED dummy...
+09:00:23 [INFO    ] RED dummy already in frame — skipping sweep.
+09:00:23 [INFO    ] ▶ TARGET_LOCK — Target Confirmed — Locking
+09:00:23 [INFO    ] Confirming lock — need 3 stable frames...
+09:00:24 [DEBUG   ]   Lock 1/3 — depth=Nonem
+09:00:24 [DEBUG   ]   Lock 2/3 — depth=Nonem
+09:00:24 [DEBUG   ]   Lock 3/3 — depth=5.45m
+09:00:24 [INFO    ] TARGET LOCKED ✅  depth=beyond depth range  area=1864px²
+09:00:24 [INFO    ] Centering target for operator view...
+09:00:24 [WARNING ] ABORT commanded from browser.
+09:00:24 [WARNING ] ABORT commanded — landing in place.
+09:00:24 [WARNING ] Abort flag — stopping mission.
+09:00:24 [INFO    ] ▶ ABORTED — Mission Aborted
+09:00:24 [WARNING ] Abort flag — stopping mission.
+09:00:24 [INFO    ] ▶ ABORTED — Mission Aborted
+09:00:24 [WARNING ] Abort flag — stopping mission.
+09:00:24 [INFO    ] ▶ ABORTED — Mission Aborted
+09:00:25 [INFO    ] Switching to LAND mode...
+09:00:25 [INFO    ] ▶ ABORTED — Mission Aborted
+                                                                                                                                                                                                                       

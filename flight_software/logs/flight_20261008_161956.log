@@ -1,0 +1,560 @@
+16:19:56 [INFO    ] Log file: logs/flight_20261008_161956.log
+16:20:03 [INFO    ] ==================================================
+16:20:03 [INFO    ]   TerraAvis — Autonomous Mission System
+16:20:03 [INFO    ]   RoboFest National Competition
+16:20:03 [INFO    ] ==================================================
+16:20:03 [INFO    ] CPU governor set to powersave.
+16:20:03 [INFO    ] CPU Temperature: temp=43.8'C
+16:20:03 [INFO    ] Connecting to Pixhawk → /dev/ttyACM0 @ 57600
+16:20:04 [INFO    ] ArduCopter V4.7.1 (dbe79216)
+16:20:04 [INFO    ] ChibiOS: d103983f
+16:20:04 [INFO    ] fmuv3 001A0027 3533510B 37313531
+16:20:04 [INFO    ] IOMCU: 0 0 411FC231
+16:20:04 [INFO    ] RCOut: PWM:1-14
+16:20:04 [INFO    ] IMU0: fast sampling enabled 8.0kHz/1.0kHz
+16:20:04 [INFO    ] Frame: QUAD/X
+16:20:05 [DEBUG   ] Still waiting for data from vehicle: attitude,gps_0,parameters
+16:20:06 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:20:07 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:20:08 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:20:09 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:20:10 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:20:11 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:20:12 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:20:13 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:20:14 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:20:15 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:20:16 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:20:17 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:20:18 [DEBUG   ] Still waiting for data from vehicle: parameters
+16:20:19 [INFO    ] Pixhawk connected.
+16:20:19 [INFO    ]   Firmware : APM:Copter-4.7.1
+16:20:19 [INFO    ]   GPS      : fix=4 sats=27
+16:20:19 [INFO    ]   Battery  : 0.0V
+16:20:19 [INFO    ]   Mode     : LOITER
+16:20:19 [INFO    ]   Heartbeat watchdog started.
+16:20:20 [INFO    ] RealSense D455 started.
+16:20:20 [INFO    ]   Resolution : 640x480 @ 15fps
+16:20:20 [INFO    ]   Zone edges : Left=213px  Right=426px
+16:20:20 [WARNING ] Rover: pigpio daemon not running — rover disabled.
+16:20:20 [WARNING ] Rover: GPIO not ready — cannot start.
+16:20:20 [INFO    ] --------------------------------------------------
+16:20:20 [INFO    ] System ready.
+16:20:20 [INFO    ]   Press [S] in the window to START mission.
+16:20:20 [INFO    ]   Press [A] to ABORT at any time.
+16:20:20 [INFO    ]   Press [Q] to quit.
+16:20:20 [INFO    ] --------------------------------------------------
+16:20:20 [INFO    ] ==================================================
+16:20:20 [INFO    ]   Browser GUI starting...
+16:20:20 [INFO    ]   Open in browser: http://<RPi-IP>:5000
+16:20:20 [INFO    ] ==================================================
+16:20:20 [INFO    ] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.69.110.233:5000
+16:20:20 [INFO    ] [33mPress CTRL+C to quit[0m
+16:20:22 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:22] "GET / HTTP/1.1" 200 -
+16:20:22 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:22] "[36mGET /assets/three.min.js HTTP/1.1[0m" 304 -
+16:20:22 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:22] "[36mGET /assets/GLTFLoader.js HTTP/1.1[0m" 304 -
+16:20:22 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:22] "[36mGET /assets/socket.io.min.js HTTP/1.1[0m" 304 -
+16:20:23 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:23] "[36mGET /assets/fonts/instrument-sans-latin-400-normal.woff2 HTTP/1.1[0m" 304 -
+16:20:23 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:23] "[36mGET /assets/fonts/jetbrains-mono-latin-500-normal.woff2 HTTP/1.1[0m" 304 -
+16:20:23 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:23] "[36mGET /assets/fonts/jetbrains-mono-latin-400-normal.woff2 HTTP/1.1[0m" 304 -
+16:20:23 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:23] "GET /video_feed HTTP/1.1" 200 -
+16:20:23 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:23] "[36mGET /assets/fonts/instrument-sans-latin-600-normal.woff2 HTTP/1.1[0m" 304 -
+16:20:23 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:23] "[36mGET /assets/OrbitControls.js HTTP/1.1[0m" 304 -
+16:20:23 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:23] "[36mGET /assets/RoomEnvironment.js HTTP/1.1[0m" 304 -
+16:20:23 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:23] "GET /socket.io/?EIO=4&transport=polling&t=Q4R8hhO HTTP/1.1" 200 -
+16:20:23 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:23] "GET /gcs_config.json HTTP/1.1" 200 -
+16:20:23 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:23] "[36mGET /assets/avion_twin.glb HTTP/1.1[0m" 304 -
+16:20:23 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:23] "POST /socket.io/?EIO=4&transport=polling&t=Q4R8hmL&sid=RpQuRC-wpKtaMQetAAAA HTTP/1.1" 200 -
+16:20:23 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:23] "GET /socket.io/?EIO=4&transport=polling&t=Q4R8hmM&sid=RpQuRC-wpKtaMQetAAAA HTTP/1.1" 200 -
+16:20:24 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:24] "GET /socket.io/?EIO=4&transport=polling&t=Q4R8hp8&sid=RpQuRC-wpKtaMQetAAAA HTTP/1.1" 200 -
+16:20:24 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:24] "[36mGET /assets/fonts/instrument-sans-latin-500-normal.woff2 HTTP/1.1[0m" 304 -
+16:20:47 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:47] "GET /socket.io/?EIO=4&transport=polling&t=Q4R8nRd HTTP/1.1" 200 -
+16:20:47 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:47] "POST /socket.io/?EIO=4&transport=polling&t=Q4R8nTp&sid=53UuW6neRyAKCZd8AAAC HTTP/1.1" 200 -
+16:20:47 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:47] "GET /socket.io/?EIO=4&transport=polling&t=Q4R8nTs&sid=53UuW6neRyAKCZd8AAAC HTTP/1.1" 200 -
+16:20:47 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:47] "GET /socket.io/?EIO=4&transport=polling&t=Q4R8nWJ&sid=53UuW6neRyAKCZd8AAAC HTTP/1.1" 200 -
+16:20:47 [WARNING ] ABORT commanded from browser.
+16:20:47 [INFO    ] 127.0.0.1 - - [08/Oct/2026 16:20:47] "POST /socket.io/?EIO=4&transport=polling&t=Q4R8nWR&sid=53UuW6neRyAKCZd8AAAC HTTP/1.1" 200 -
+16:20:47 [WARNING ] ABORT commanded — landing in place.
+16:20:48 [INFO    ] Switching to LAND mode...
+16:20:48 [INFO    ] ▶ ABORTED — Mission Aborted
+16:21:51 [INFO    ] START commanded from browser.
+16:21:51 [INFO    ] ▶ PREFLIGHT — Running Pre-Flight Checks
+16:21:51 [INFO    ] Mission thread started.
+16:21:51 [INFO    ] Running pre-flight checks...
+16:21:51 [INFO    ] Servo test before arming...
+16:21:51 [INFO    ] Servo pre-flight test — opening...
+16:21:51 [INFO    ] Servo CH9 → 1100us
+16:21:53 [INFO    ] Servo pre-flight test — closing...
+16:21:53 [INFO    ] Servo CH9 → 1900us
+16:21:54 [INFO    ] Servo pre-flight test complete ✅
+16:21:54 [INFO    ] Pre-flight checks passed ✅
+16:21:54 [INFO    ] ▶ ARMING — Arming & GUIDED Mode
+16:21:54 [INFO    ] Setting GUIDED mode...
+16:21:54 [INFO    ] GUIDED mode confirmed.
+16:21:55 [INFO    ] Arming motors...
+16:21:55 [INFO    ] Motors ARMED.
+16:21:57 [INFO    ] Armed and ready ✅
+16:21:57 [INFO    ] ▶ TAKEOFF — Taking Off
+16:21:57 [INFO    ] Taking off to 1.7m...
+16:21:57 [INFO    ] Takeoff → 1.7m
+16:21:57 [DEBUG   ]   Alt: -0.01m / 1.7m
+16:21:58 [DEBUG   ]   Alt: 0.00m / 1.7m
+16:21:58 [DEBUG   ]   Alt: 0.01m / 1.7m
+16:21:58 [DEBUG   ]   Alt: 0.20m / 1.7m
+16:21:59 [DEBUG   ]   Alt: 0.37m / 1.7m
+16:21:59 [DEBUG   ]   Alt: 0.60m / 1.7m
+16:21:59 [DEBUG   ]   Alt: 0.87m / 1.7m
+16:22:00 [DEBUG   ]   Alt: 1.16m / 1.7m
+16:22:00 [DEBUG   ]   Alt: 1.52m / 1.7m
+16:22:00 [DEBUG   ]   Alt: 1.64m / 1.7m
+16:22:00 [INFO    ] Takeoff complete. Altitude: 1.64m
+16:22:00 [DEBUG   ]   Altitude: 1.64m / 1.7m
+16:22:00 [INFO    ] Takeoff complete: 1.64m ✅
+16:22:00 [INFO    ] Home recorded: [redacted], [redacted]
+16:22:00 [INFO    ] ▶ HOVER — Hovering — Stabilising
+16:22:00 [INFO    ] Stabilising for 2.0s...
+16:22:02 [INFO    ] =============================================
+16:22:02 [INFO    ]   PHASE 1 — RED DUMMY
+16:22:02 [INFO    ] =============================================
+16:22:02 [INFO    ] Vision target → RED
+16:22:02 [INFO    ] ▶ YAW_SEARCH — Yaw Searching for Target
+16:22:02 [INFO    ] Yaw search — looking for RED dummy...
+16:22:02 [INFO    ] RED dummy already in frame — skipping sweep.
+16:22:02 [INFO    ] ▶ TARGET_LOCK — Target Confirmed — Locking
+16:22:02 [INFO    ] Confirming lock — need 3 stable frames...
+16:22:02 [DEBUG   ]   Lock 1/3 — depth=Nonem
+16:22:03 [DEBUG   ]   Lock 2/3 — depth=Nonem
+16:22:03 [DEBUG   ]   Lock 3/3 — depth=Nonem
+16:22:03 [INFO    ] TARGET LOCKED ✅  depth=beyond depth range  area=1310px²
+16:22:03 [INFO    ] Centering target for operator view...
+16:22:04 [INFO    ] ▶ CONFIRM_TARGET — ⚠ Awaiting Operator Confirmation
+16:22:04 [INFO    ] TARGET CONFIRMATION REQUIRED — RED object  dist=beyond depth range  area=1358px²
+16:22:04 [INFO    ] Waiting for operator: APPROACH or IGNORE...
+16:22:06 [INFO    ] GUI: operator confirmed APPROACH.
+16:22:06 [INFO    ] Operator: APPROACH confirmed ✅
+16:22:06 [INFO    ] Operator chose: APPROACH
+16:22:06 [INFO    ] Tracking locked to confirmed target (pixel tracking)
+16:22:06 [INFO    ] ▶ ALIGN — Aligning to Target
+16:22:06 [INFO    ] Aligning to target via yaw...
+16:22:06 [DEBUG   ]   Aligned 1/5 — error=-19px
+16:22:06 [DEBUG   ]   Aligned 2/5 — error=-19px
+16:22:06 [DEBUG   ]   Aligned 3/5 — error=-17px
+16:22:06 [DEBUG   ]   Aligned 4/5 — error=-15px
+16:22:07 [DEBUG   ]   Aligned 5/5 — error=-16px
+16:22:07 [INFO    ] Aligned ✅
+16:22:07 [INFO    ] ▶ APPROACH — Approaching Target
+16:22:07 [INFO    ] Approaching  blind=0.2m/s  max=0.7m/s  stop at 1.5m
+16:22:07 [DEBUG   ]   Blind approach (depth out of range)
+16:22:07 [DEBUG   ]   Blind approach (depth out of range)
+16:22:07 [DEBUG   ]   Blind approach (depth out of range)
+16:22:07 [DEBUG   ]   Blind approach (depth out of range)
+16:22:07 [DEBUG   ]   Blind approach (depth out of range)
+16:22:07 [DEBUG   ]   Blind approach (depth out of range)
+16:22:08 [DEBUG   ]   Blind approach (depth out of range)
+16:22:08 [DEBUG   ]   Blind approach (depth out of range)
+16:22:08 [DEBUG   ]   Blind approach (depth out of range)
+16:22:08 [DEBUG   ]   Blind approach (depth out of range)
+16:22:08 [DEBUG   ]   Blind approach (depth out of range)
+16:22:08 [DEBUG   ]   Blind approach (depth out of range)
+16:22:08 [DEBUG   ]   Blind approach (depth out of range)
+16:22:09 [DEBUG   ]   Blind approach (depth out of range)
+16:22:09 [DEBUG   ]   Blind approach (depth out of range)
+16:22:09 [DEBUG   ]   Blind approach (depth out of range)
+16:22:09 [DEBUG   ]   Blind approach (depth out of range)
+16:22:09 [DEBUG   ]   Blind approach (depth out of range)
+16:22:09 [DEBUG   ]   Blind approach (depth out of range)
+16:22:09 [DEBUG   ]   Blind approach (depth out of range)
+16:22:09 [DEBUG   ]   Blind approach (depth out of range)
+16:22:10 [DEBUG   ]   Blind approach (depth out of range)
+16:22:10 [DEBUG   ]   Blind approach (depth out of range)
+16:22:10 [DEBUG   ]   Blind approach (depth out of range)
+16:22:10 [DEBUG   ]   Blind approach (depth out of range)
+16:22:10 [DEBUG   ]   Blind approach (depth out of range)
+16:22:10 [DEBUG   ]   Blind approach (depth out of range)
+16:22:10 [DEBUG   ]   Blind approach (depth out of range)
+16:22:10 [DEBUG   ]   Blind approach (depth out of range)
+16:22:11 [DEBUG   ]   Blind approach (depth out of range)
+16:22:11 [DEBUG   ]   Blind approach (depth out of range)
+16:22:11 [DEBUG   ]   Blind approach (depth out of range)
+16:22:11 [DEBUG   ]   Blind approach (depth out of range)
+16:22:11 [DEBUG   ]   Blind approach (depth out of range)
+16:22:11 [DEBUG   ]   Blind approach (depth out of range)
+16:22:11 [DEBUG   ]   Blind approach (depth out of range)
+16:22:11 [DEBUG   ]   Blind approach (depth out of range)
+16:22:12 [DEBUG   ]   Blind approach (depth out of range)
+16:22:12 [DEBUG   ]   Blind approach (depth out of range)
+16:22:12 [DEBUG   ]   Blind approach (depth out of range)
+16:22:12 [DEBUG   ]   Blind approach (depth out of range)
+16:22:12 [DEBUG   ]   Blind approach (depth out of range)
+16:22:12 [DEBUG   ]   Blind approach (depth out of range)
+16:22:12 [DEBUG   ]   Blind approach (depth out of range)
+16:22:12 [DEBUG   ]   Blind approach (depth out of range)
+16:22:13 [DEBUG   ]   Blind approach (depth out of range)
+16:22:13 [DEBUG   ]   Blind approach (depth out of range)
+16:22:13 [DEBUG   ]   Blind approach (depth out of range)
+16:22:13 [DEBUG   ]   Blind approach (depth out of range)
+16:22:13 [DEBUG   ]   Blind approach (depth out of range)
+16:22:13 [DEBUG   ]   Blind approach (depth out of range)
+16:22:13 [DEBUG   ]   Blind approach (depth out of range)
+16:22:13 [DEBUG   ]   Blind approach (depth out of range)
+16:22:14 [DEBUG   ]   Blind approach (depth out of range)
+16:22:14 [DEBUG   ]   Blind approach (depth out of range)
+16:22:14 [DEBUG   ]   Blind approach (depth out of range)
+16:22:14 [DEBUG   ]   Blind approach (depth out of range)
+16:22:14 [DEBUG   ]   Blind approach (depth out of range)
+16:22:14 [DEBUG   ]   Blind approach (depth out of range)
+16:22:14 [DEBUG   ]   Blind approach (depth out of range)
+16:22:14 [DEBUG   ]   Blind approach (depth out of range)
+16:22:15 [DEBUG   ]   Blind approach (depth out of range)
+16:22:15 [DEBUG   ]   Blind approach (depth out of range)
+16:22:15 [DEBUG   ]   Blind approach (depth out of range)
+16:22:15 [DEBUG   ]   Blind approach (depth out of range)
+16:22:15 [DEBUG   ]   Blind approach (depth out of range)
+16:22:15 [DEBUG   ]   Blind approach (depth out of range)
+16:22:15 [DEBUG   ]   Blind approach (depth out of range)
+16:22:15 [DEBUG   ]   Blind approach (depth out of range)
+16:22:16 [DEBUG   ]   Blind approach (depth out of range)
+16:22:16 [DEBUG   ]   Blind approach (depth out of range)
+16:22:16 [DEBUG   ]   Blind approach (depth out of range)
+16:22:16 [DEBUG   ]   Blind approach (depth out of range)
+16:22:16 [DEBUG   ]   Blind approach (depth out of range)
+16:22:16 [DEBUG   ]   Blind approach (depth out of range)
+16:22:16 [DEBUG   ]   Blind approach (depth out of range)
+16:22:16 [DEBUG   ]   Blind approach (depth out of range)
+16:22:17 [DEBUG   ]   Blind approach (depth out of range)
+16:22:17 [DEBUG   ]   Blind approach (depth out of range)
+16:22:17 [DEBUG   ]   Blind approach (depth out of range)
+16:22:17 [DEBUG   ]   depth=7.96m  err=-95px  vx=0.20  vy=-0.04
+16:22:17 [DEBUG   ]   depth=7.96m  err=-97px  vx=0.24  vy=-0.05
+16:22:17 [DEBUG   ]   depth=7.96m  err=-98px  vx=0.28  vy=-0.05
+16:22:17 [DEBUG   ]   depth=7.96m  err=-97px  vx=0.32  vy=-0.05
+16:22:17 [DEBUG   ]   depth=7.96m  err=-97px  vx=0.36  vy=-0.05
+16:22:18 [DEBUG   ]   depth=7.96m  err=-97px  vx=0.40  vy=-0.05
+16:22:18 [DEBUG   ]   depth=7.96m  err=-97px  vx=0.44  vy=-0.05
+16:22:18 [DEBUG   ]   depth=7.57m  err=-97px  vx=0.48  vy=-0.05
+16:22:18 [DEBUG   ]   depth=7.57m  err=-98px  vx=0.52  vy=-0.05
+16:22:18 [DEBUG   ]   depth=7.67m  err=-100px  vx=0.56  vy=-0.05
+16:22:18 [DEBUG   ]   depth=7.64m  err=-102px  vx=0.60  vy=-0.05
+16:22:18 [DEBUG   ]   depth=7.66m  err=-104px  vx=0.64  vy=-0.05
+16:22:18 [DEBUG   ]   depth=7.64m  err=-104px  vx=0.68  vy=-0.05
+16:22:19 [DEBUG   ]   depth=7.61m  err=-100px  vx=0.70  vy=-0.05
+16:22:19 [DEBUG   ]   depth=7.59m  err=-89px  vx=0.70  vy=-0.04
+16:22:19 [DEBUG   ]   depth=7.59m  err=-73px  vx=0.70  vy=-0.03
+16:22:19 [DEBUG   ]   depth=7.48m  err=-69px  vx=0.70  vy=-0.03
+16:22:19 [DEBUG   ]   depth=7.28m  err=-64px  vx=0.70  vy=-0.03
+16:22:19 [DEBUG   ]   depth=6.94m  err=-56px  vx=0.70  vy=-0.03
+16:22:19 [DEBUG   ]   depth=6.97m  err=-53px  vx=0.70  vy=-0.02
+16:22:19 [DEBUG   ]   depth=6.97m  err=-51px  vx=0.70  vy=-0.02
+16:22:20 [DEBUG   ]   depth=6.92m  err=-49px  vx=0.70  vy=-0.02
+16:22:20 [DEBUG   ]   depth=6.86m  err=-48px  vx=0.70  vy=-0.02
+16:22:20 [DEBUG   ]   depth=6.86m  err=-46px  vx=0.70  vy=-0.02
+16:22:20 [DEBUG   ]   depth=6.75m  err=-44px  vx=0.70  vy=-0.02
+16:22:20 [DEBUG   ]   depth=6.68m  err=-44px  vx=0.70  vy=-0.02
+16:22:20 [DEBUG   ]   depth=6.62m  err=-43px  vx=0.70  vy=-0.02
+16:22:20 [DEBUG   ]   depth=6.38m  err=-43px  vx=0.70  vy=-0.02
+16:22:20 [DEBUG   ]   depth=6.21m  err=-43px  vx=0.70  vy=-0.02
+16:22:21 [DEBUG   ]   depth=6.08m  err=-42px  vx=0.70  vy=-0.02
+16:22:21 [DEBUG   ]   depth=6.01m  err=-41px  vx=0.70  vy=-0.02
+16:22:21 [DEBUG   ]   depth=5.95m  err=-38px  vx=0.70  vy=-0.02
+16:22:21 [DEBUG   ]   depth=5.87m  err=-30px  vx=0.70  vy=-0.01
+16:22:21 [DEBUG   ]   depth=6.17m  err=-28px  vx=0.70  vy=-0.01
+16:22:21 [DEBUG   ]   depth=5.77m  err=-25px  vx=0.70  vy=0.00
+16:22:21 [DEBUG   ]   depth=5.60m  err=-21px  vx=0.70  vy=0.00
+16:22:21 [DEBUG   ]   depth=5.40m  err=-20px  vx=0.70  vy=0.00
+16:22:22 [DEBUG   ]   depth=5.40m  err=-22px  vx=0.70  vy=0.00
+16:22:22 [DEBUG   ]   depth=5.25m  err=-21px  vx=0.70  vy=0.00
+16:22:22 [DEBUG   ]   depth=5.17m  err=-21px  vx=0.70  vy=0.00
+16:22:22 [DEBUG   ]   depth=5.03m  err=-49px  vx=0.70  vy=-0.02
+16:22:22 [DEBUG   ]   depth=4.92m  err=-50px  vx=0.70  vy=-0.02
+16:22:22 [DEBUG   ]   depth=4.83m  err=-50px  vx=0.70  vy=-0.02
+16:22:22 [DEBUG   ]   depth=4.66m  err=-23px  vx=0.70  vy=0.00
+16:22:22 [DEBUG   ]   depth=4.66m  err=-21px  vx=0.70  vy=0.00
+16:22:23 [DEBUG   ]   depth=4.51m  err=-21px  vx=0.70  vy=0.00
+16:22:23 [DEBUG   ]   depth=4.41m  err=-46px  vx=0.70  vy=-0.02
+16:22:23 [DEBUG   ]   depth=4.28m  err=-48px  vx=0.70  vy=-0.02
+16:22:23 [DEBUG   ]   depth=4.17m  err=-49px  vx=0.70  vy=-0.02
+16:22:23 [DEBUG   ]   depth=4.07m  err=-48px  vx=0.70  vy=-0.02
+16:22:23 [DEBUG   ]   depth=4.00m  err=-47px  vx=0.70  vy=-0.02
+16:22:23 [DEBUG   ]   depth=3.88m  err=-42px  vx=0.70  vy=-0.02
+16:22:23 [DEBUG   ]   depth=3.78m  err=-42px  vx=0.67  vy=-0.02
+16:22:24 [DEBUG   ]   depth=3.65m  err=-39px  vx=0.64  vy=-0.02
+16:22:24 [DEBUG   ]   depth=3.51m  err=-37px  vx=0.61  vy=-0.02
+16:22:24 [DEBUG   ]   depth=3.37m  err=-36px  vx=0.57  vy=-0.02
+16:22:24 [DEBUG   ]   depth=3.25m  err=-33px  vx=0.54  vy=-0.02
+16:22:24 [DEBUG   ]   depth=3.10m  err=-32px  vx=0.51  vy=-0.01
+16:22:24 [DEBUG   ]   depth=3.00m  err=-30px  vx=0.47  vy=-0.01
+16:22:24 [DEBUG   ]   depth=2.91m  err=-27px  vx=0.44  vy=-0.01
+16:22:24 [DEBUG   ]   depth=2.81m  err=-23px  vx=0.42  vy=0.00
+16:22:25 [DEBUG   ]   depth=2.74m  err=-22px  vx=0.39  vy=0.00
+16:22:25 [DEBUG   ]   depth=2.70m  err=-20px  vx=0.37  vy=0.00
+16:22:25 [DEBUG   ]   depth=2.61m  err=-17px  vx=0.36  vy=0.00
+16:22:25 [DEBUG   ]   depth=2.53m  err=-18px  vx=0.34  vy=0.00
+16:22:25 [DEBUG   ]   depth=2.46m  err=-17px  vx=0.32  vy=0.00
+16:22:25 [DEBUG   ]   depth=2.39m  err=-18px  vx=0.30  vy=0.00
+16:22:25 [DEBUG   ]   depth=2.33m  err=-19px  vx=0.28  vy=0.00
+16:22:25 [DEBUG   ]   depth=2.28m  err=-19px  vx=0.27  vy=0.00
+16:22:26 [DEBUG   ]   depth=2.23m  err=-21px  vx=0.25  vy=0.00
+16:22:26 [DEBUG   ]   depth=2.18m  err=-21px  vx=0.24  vy=0.00
+16:22:26 [DEBUG   ]   depth=2.18m  err=-20px  vx=0.23  vy=0.00
+16:22:26 [DEBUG   ]   depth=2.12m  err=-18px  vx=0.23  vy=0.00
+16:22:26 [DEBUG   ]   depth=2.08m  err=-19px  vx=0.21  vy=0.00
+16:22:26 [DEBUG   ]   depth=2.04m  err=-17px  vx=0.20  vy=0.00
+16:22:26 [DEBUG   ]   depth=1.98m  err=-19px  vx=0.19  vy=0.00
+16:22:26 [DEBUG   ]   depth=1.98m  err=-18px  vx=0.18  vy=0.00
+16:22:27 [DEBUG   ]   depth=1.94m  err=-23px  vx=0.18  vy=0.00
+16:22:27 [DEBUG   ]   depth=1.88m  err=-25px  vx=0.18  vy=0.00
+16:22:27 [DEBUG   ]   depth=1.84m  err=-29px  vx=0.18  vy=-0.01
+16:22:27 [DEBUG   ]   depth=1.79m  err=-32px  vx=0.18  vy=-0.01
+16:22:27 [DEBUG   ]   depth=1.76m  err=-31px  vx=0.18  vy=-0.01
+16:22:27 [DEBUG   ]   depth=1.73m  err=-32px  vx=0.18  vy=-0.01
+16:22:27 [DEBUG   ]   depth=1.69m  err=-31px  vx=0.18  vy=-0.01
+16:22:27 [DEBUG   ]   depth=1.66m  err=-30px  vx=0.18  vy=-0.01
+16:22:28 [DEBUG   ]   depth=1.63m  err=-26px  vx=0.18  vy=-0.01
+16:22:28 [DEBUG   ]   depth=1.60m  err=-25px  vx=0.18  vy=0.00
+16:22:28 [DEBUG   ]   depth=1.60m  err=-24px  vx=0.18  vy=0.00
+16:22:28 [DEBUG   ]   depth=1.56m  err=-27px  vx=0.18  vy=-0.01
+16:22:28 [DEBUG   ]   depth=1.53m  err=-27px  vx=0.18  vy=-0.01
+16:22:28 [DEBUG   ]   depth=1.50m  err=-27px  vx=0.18  vy=-0.01
+16:22:28 [DEBUG   ]   depth=1.47m  err=-25px  vx=0.18  vy=0.00
+16:22:28 [INFO    ] Drop distance reached: 1.47m — stopping ✅
+16:22:29 [INFO    ] ▶ DROP — Dropping Payload
+16:22:29 [INFO    ] DROP SEQUENCE starting...
+16:22:30 [INFO    ] Stabilising 2s before drop...
+16:22:32 [INFO    ] Opening hook...
+16:22:32 [INFO    ] PAYLOAD HOOK OPEN — AUX1 → 2000us
+16:22:32 [INFO    ] Servo CH9 → 1100us
+16:22:32 [INFO    ] Servo CH9 → 1100us
+16:22:32 [INFO    ] HOOK OPEN ✓ — payload released
+16:22:34 [INFO    ] Drop complete.
+16:22:34 [INFO    ] ▶ RETURN_HOME — Returning to Home Position
+16:22:34 [INFO    ] Returning home: [redacted], [redacted]
+16:22:34 [INFO    ] Return Phase 1 — simple_goto...
+16:22:34 [DEBUG   ]   Phase 1 dist: 7.82m
+16:22:35 [DEBUG   ]   Phase 1 dist: 7.82m
+16:22:35 [DEBUG   ]   Phase 1 dist: 7.81m
+16:22:35 [DEBUG   ]   Phase 1 dist: 7.60m
+16:22:35 [DEBUG   ]   Phase 1 dist: 7.42m
+16:22:36 [DEBUG   ]   Phase 1 dist: 7.23m
+16:22:36 [DEBUG   ]   Phase 1 dist: 6.86m
+16:22:36 [DEBUG   ]   Phase 1 dist: 6.68m
+16:22:37 [DEBUG   ]   Phase 1 dist: 6.50m
+16:22:37 [DEBUG   ]   Phase 1 dist: 6.31m
+16:22:37 [DEBUG   ]   Phase 1 dist: 5.84m
+16:22:38 [DEBUG   ]   Phase 1 dist: 5.56m
+16:22:38 [DEBUG   ]   Phase 1 dist: 5.30m
+16:22:38 [DEBUG   ]   Phase 1 dist: 5.05m
+16:22:39 [DEBUG   ]   Phase 1 dist: 4.63m
+16:22:39 [DEBUG   ]   Phase 1 dist: 4.44m
+16:22:39 [DEBUG   ]   Phase 1 dist: 4.28m
+16:22:40 [DEBUG   ]   Phase 1 dist: 4.10m
+16:22:40 [DEBUG   ]   Phase 1 dist: 3.80m
+16:22:40 [DEBUG   ]   Phase 1 dist: 3.65m
+16:22:41 [DEBUG   ]   Phase 1 dist: 3.49m
+16:22:41 [DEBUG   ]   Phase 1 dist: 3.13m
+16:22:41 [DEBUG   ]   Phase 1 dist: 2.93m
+16:22:41 [INFO    ] Within 3m — switching to precision.
+16:22:43 [INFO    ] Return Phase 2 — precision correction...
+16:22:43 [DEBUG   ]   Phase 2 dist: 2.35m
+16:22:43 [DEBUG   ]   Phase 2 dist: 2.42m
+16:22:43 [DEBUG   ]   Phase 2 dist: 2.51m
+16:22:43 [DEBUG   ]   Phase 2 dist: 2.51m
+16:22:43 [DEBUG   ]   Phase 2 dist: 2.56m
+16:22:43 [DEBUG   ]   Phase 2 dist: 2.52m
+16:22:44 [DEBUG   ]   Phase 2 dist: 2.52m
+16:22:44 [DEBUG   ]   Phase 2 dist: 2.43m
+16:22:44 [DEBUG   ]   Phase 2 dist: 2.33m
+16:22:44 [DEBUG   ]   Phase 2 dist: 2.33m
+16:22:44 [DEBUG   ]   Phase 2 dist: 2.22m
+16:22:44 [DEBUG   ]   Phase 2 dist: 2.13m
+16:22:45 [DEBUG   ]   Phase 2 dist: 2.13m
+16:22:45 [DEBUG   ]   Phase 2 dist: 2.04m
+16:22:45 [DEBUG   ]   Phase 2 dist: 1.97m
+16:22:45 [DEBUG   ]   Phase 2 dist: 1.97m
+16:22:45 [DEBUG   ]   Phase 2 dist: 1.89m
+16:22:45 [DEBUG   ]   Phase 2 dist: 1.81m
+16:22:46 [DEBUG   ]   Phase 2 dist: 1.81m
+16:22:46 [DEBUG   ]   Phase 2 dist: 1.73m
+16:22:46 [DEBUG   ]   Phase 2 dist: 1.63m
+16:22:46 [DEBUG   ]   Phase 2 dist: 1.63m
+16:22:46 [DEBUG   ]   Phase 2 dist: 1.53m
+16:22:46 [DEBUG   ]   Phase 2 dist: 1.41m
+16:22:47 [DEBUG   ]   Phase 2 dist: 1.41m
+16:22:47 [DEBUG   ]   Phase 2 dist: 1.30m
+16:22:47 [DEBUG   ]   Phase 2 dist: 1.30m
+16:22:47 [DEBUG   ]   Phase 2 dist: 1.17m
+16:22:47 [DEBUG   ]   Phase 2 dist: 1.06m
+16:22:47 [DEBUG   ]   Phase 2 dist: 0.95m
+16:22:48 [DEBUG   ]   Phase 2 dist: 0.95m
+16:22:48 [DEBUG   ]   Phase 2 dist: 0.87m
+16:22:48 [DEBUG   ]   Phase 2 dist: 0.79m
+16:22:48 [DEBUG   ]   Phase 2 dist: 0.79m
+16:22:48 [DEBUG   ]   Phase 2 dist: 0.70m
+16:22:48 [DEBUG   ]   Phase 2 dist: 0.70m
+16:22:49 [DEBUG   ]   Phase 2 dist: 0.63m
+16:22:49 [DEBUG   ]   Phase 2 dist: 0.56m
+16:22:49 [INFO    ] Home reached ✅  error=0.56m
+16:22:50 [INFO    ] Return home complete.
+16:22:50 [INFO    ] ▶ RELOAD — Reloading Payload at Home
+16:22:50 [INFO    ] RELOAD — stabilising, then opening hook...
+16:22:54 [INFO    ] PAYLOAD HOOK OPEN — AUX1 → 2000us
+16:22:54 [INFO    ] Servo CH9 → 1100us
+16:22:54 [INFO    ] Servo CH9 → 1100us
+16:22:54 [INFO    ] HOOK OPEN ✓ — load the parcel, then press CLOSE HOOK
+16:22:57 [INFO    ] GUI: operator pressed CLOSE HOOK.
+16:22:57 [INFO    ] Operator: CLOSE HOOK ✅
+16:22:57 [INFO    ] PAYLOAD HOOK CLOSED — AUX1 → 1000us
+16:22:57 [INFO    ] Servo CH9 → 1900us
+16:22:57 [INFO    ] Servo CH9 → 1900us
+16:22:57 [INFO    ] HOOK CLOSED ✓ — check the parcel, then press RELOAD DONE
+16:23:01 [INFO    ] GUI: operator pressed RELOAD DONE.
+16:23:01 [INFO    ] Operator: RELOAD DONE ✅
+16:23:03 [INFO    ] Reload complete.
+16:23:03 [INFO    ] =============================================
+16:23:03 [INFO    ]   PHASE 2 — BLUE DUMMY
+16:23:03 [INFO    ] =============================================
+16:23:03 [INFO    ] Vision target → BLUE
+16:23:03 [INFO    ] ▶ YAW_SEARCH — Yaw Searching for Target
+16:23:03 [INFO    ] Yaw search — looking for BLUE dummy...
+16:23:03 [INFO    ] BLUE dummy already in frame — skipping sweep.
+16:23:03 [INFO    ] ▶ TARGET_LOCK — Target Confirmed — Locking
+16:23:03 [INFO    ] Confirming lock — need 3 stable frames...
+16:23:03 [DEBUG   ]   Lock 1/3 — depth=2.911m
+16:23:03 [DEBUG   ]   Lock 2/3 — depth=3.068m
+16:23:03 [DEBUG   ]   Lock 3/3 — depth=3.235m
+16:23:03 [INFO    ] TARGET LOCKED ✅  depth=3.23m  area=6262px²
+16:23:03 [INFO    ] Centering target for operator view...
+16:23:10 [INFO    ] ▶ CONFIRM_TARGET — ⚠ Awaiting Operator Confirmation
+16:23:10 [INFO    ] TARGET CONFIRMATION REQUIRED — BLUE object  dist=3.7m  area=5024px²
+16:23:10 [INFO    ] Waiting for operator: APPROACH or IGNORE...
+16:23:15 [INFO    ] GUI: operator confirmed APPROACH.
+16:23:15 [INFO    ] Operator: APPROACH confirmed ✅
+16:23:15 [INFO    ] Operator chose: APPROACH
+16:23:15 [INFO    ] Tracking locked to confirmed target (ground position known)
+16:23:15 [INFO    ] ▶ ALIGN — Aligning to Target
+16:23:15 [INFO    ] Aligning to target via yaw...
+16:23:15 [DEBUG   ]   Yaw CW 4.8°/s  err=48px
+16:23:15 [DEBUG   ]   Yaw CW 4.7°/s  err=46px
+16:23:15 [DEBUG   ]   Yaw CW 4.6°/s  err=43px
+16:23:15 [DEBUG   ]   Aligned 1/5 — error=39px
+16:23:16 [DEBUG   ]   Aligned 2/5 — error=33px
+16:23:16 [DEBUG   ]   Aligned 3/5 — error=31px
+16:23:16 [DEBUG   ]   Aligned 4/5 — error=29px
+16:23:16 [DEBUG   ]   Aligned 5/5 — error=30px
+16:23:16 [INFO    ] Aligned ✅
+16:23:16 [INFO    ] ▶ APPROACH — Approaching Target
+16:23:16 [INFO    ] Approaching  blind=0.2m/s  max=0.7m/s  stop at 1.5m
+16:23:16 [DEBUG   ]   depth=3.58m  err=33px  vx=0.00  vy=0.02
+16:23:16 [DEBUG   ]   depth=3.59m  err=37px  vx=0.04  vy=0.02
+16:23:16 [DEBUG   ]   depth=3.58m  err=39px  vx=0.08  vy=0.02
+16:23:16 [DEBUG   ]   depth=3.58m  err=38px  vx=0.12  vy=0.02
+16:23:17 [DEBUG   ]   depth=3.58m  err=37px  vx=0.16  vy=0.02
+16:23:17 [DEBUG   ]   depth=3.62m  err=37px  vx=0.20  vy=0.02
+16:23:17 [DEBUG   ]   depth=3.63m  err=33px  vx=0.24  vy=0.02
+16:23:17 [DEBUG   ]   depth=3.63m  err=30px  vx=0.28  vy=0.01
+16:23:17 [DEBUG   ]   depth=3.62m  err=26px  vx=0.32  vy=0.01
+16:23:17 [DEBUG   ]   depth=3.63m  err=23px  vx=0.36  vy=0.00
+16:23:17 [DEBUG   ]   depth=3.60m  err=20px  vx=0.40  vy=0.00
+16:23:17 [DEBUG   ]   depth=3.54m  err=20px  vx=0.44  vy=0.00
+16:23:18 [DEBUG   ]   depth=3.52m  err=21px  vx=0.48  vy=0.00
+16:23:18 [DEBUG   ]   depth=3.48m  err=21px  vx=0.52  vy=0.00
+16:23:18 [DEBUG   ]   depth=3.43m  err=20px  vx=0.56  vy=0.00
+16:23:18 [DEBUG   ]   depth=3.39m  err=19px  vx=0.55  vy=0.00
+16:23:18 [DEBUG   ]   depth=3.36m  err=18px  vx=0.54  vy=0.00
+16:23:18 [DEBUG   ]   depth=3.32m  err=21px  vx=0.53  vy=0.00
+16:23:18 [DEBUG   ]   depth=3.27m  err=24px  vx=0.52  vy=0.00
+16:23:18 [DEBUG   ]   depth=3.22m  err=29px  vx=0.51  vy=0.01
+16:23:19 [DEBUG   ]   depth=3.13m  err=32px  vx=0.50  vy=0.01
+16:23:19 [DEBUG   ]   depth=3.06m  err=32px  vx=0.47  vy=0.01
+16:23:19 [DEBUG   ]   depth=2.99m  err=32px  vx=0.46  vy=0.01
+16:23:19 [DEBUG   ]   depth=2.91m  err=32px  vx=0.44  vy=0.01
+16:23:19 [DEBUG   ]   depth=2.83m  err=33px  vx=0.42  vy=0.02
+16:23:19 [DEBUG   ]   depth=2.76m  err=34px  vx=0.39  vy=0.02
+16:23:19 [DEBUG   ]   depth=2.68m  err=34px  vx=0.38  vy=0.02
+16:23:19 [DEBUG   ]   depth=2.61m  err=32px  vx=0.36  vy=0.01
+16:23:20 [DEBUG   ]   depth=2.55m  err=30px  vx=0.34  vy=0.01
+16:23:20 [DEBUG   ]   depth=2.48m  err=26px  vx=0.32  vy=0.01
+16:23:20 [DEBUG   ]   depth=2.41m  err=23px  vx=0.30  vy=0.00
+16:23:20 [DEBUG   ]   depth=2.33m  err=22px  vx=0.29  vy=0.00
+16:23:20 [DEBUG   ]   depth=2.26m  err=21px  vx=0.26  vy=0.00
+16:23:20 [DEBUG   ]   depth=2.20m  err=20px  vx=0.25  vy=0.00
+16:23:20 [DEBUG   ]   depth=2.14m  err=18px  vx=0.23  vy=0.00
+16:23:20 [DEBUG   ]   depth=2.07m  err=8px  vx=0.22  vy=0.00
+16:23:21 [DEBUG   ]   depth=2.00m  err=0px  vx=0.20  vy=0.00
+16:23:21 [DEBUG   ]   depth=1.94m  err=-5px  vx=0.18  vy=0.00
+16:23:21 [DEBUG   ]   depth=1.87m  err=-6px  vx=0.18  vy=0.00
+16:23:21 [DEBUG   ]   depth=1.82m  err=-6px  vx=0.18  vy=0.00
+16:23:21 [DEBUG   ]   depth=1.77m  err=-6px  vx=0.18  vy=0.00
+16:23:21 [DEBUG   ]   depth=1.73m  err=-9px  vx=0.18  vy=0.00
+16:23:21 [DEBUG   ]   depth=1.68m  err=-13px  vx=0.18  vy=0.00
+16:23:21 [DEBUG   ]   depth=1.64m  err=-15px  vx=0.18  vy=0.00
+16:23:22 [DEBUG   ]   depth=1.60m  err=-19px  vx=0.18  vy=0.00
+16:23:22 [DEBUG   ]   depth=1.56m  err=-22px  vx=0.18  vy=0.00
+16:23:22 [DEBUG   ]   depth=1.53m  err=-27px  vx=0.18  vy=-0.01
+16:23:22 [DEBUG   ]   depth=1.51m  err=-34px  vx=0.18  vy=-0.02
+16:23:22 [DEBUG   ]   depth=1.49m  err=-38px  vx=0.18  vy=-0.02
+16:23:22 [INFO    ] Drop distance reached: 1.49m — stopping ✅
+16:23:23 [INFO    ] ▶ DROP — Dropping Payload
+16:23:23 [INFO    ] DROP SEQUENCE starting...
+16:23:24 [INFO    ] Stabilising 2s before drop...
+16:23:26 [INFO    ] Opening hook...
+16:23:26 [INFO    ] PAYLOAD HOOK OPEN — AUX1 → 2000us
+16:23:26 [INFO    ] Servo CH9 → 1100us
+16:23:26 [INFO    ] Servo CH9 → 1100us
+16:23:26 [INFO    ] HOOK OPEN ✓ — payload released
+16:23:28 [INFO    ] Drop complete.
+16:23:28 [INFO    ] ▶ RETURN_HOME — Returning to Home Position
+16:23:28 [INFO    ] Returning home: [redacted], [redacted]
+16:23:28 [INFO    ] Return Phase 1 — simple_goto...
+16:23:28 [DEBUG   ]   Phase 1 dist: 1.71m
+16:23:28 [INFO    ] Within 3m — switching to precision.
+16:23:29 [INFO    ] Return Phase 2 — precision correction...
+16:23:29 [DEBUG   ]   Phase 2 dist: 1.63m
+16:23:29 [DEBUG   ]   Phase 2 dist: 1.66m
+16:23:30 [DEBUG   ]   Phase 2 dist: 1.66m
+16:23:30 [DEBUG   ]   Phase 2 dist: 1.68m
+16:23:30 [DEBUG   ]   Phase 2 dist: 1.66m
+16:23:30 [DEBUG   ]   Phase 2 dist: 1.66m
+16:23:30 [DEBUG   ]   Phase 2 dist: 1.61m
+16:23:30 [DEBUG   ]   Phase 2 dist: 1.52m
+16:23:31 [DEBUG   ]   Phase 2 dist: 1.52m
+16:23:31 [DEBUG   ]   Phase 2 dist: 1.41m
+16:23:31 [DEBUG   ]   Phase 2 dist: 1.31m
+16:23:31 [DEBUG   ]   Phase 2 dist: 1.31m
+16:23:31 [DEBUG   ]   Phase 2 dist: 1.21m
+16:23:31 [DEBUG   ]   Phase 2 dist: 1.21m
+16:23:32 [DEBUG   ]   Phase 2 dist: 1.12m
+16:23:32 [DEBUG   ]   Phase 2 dist: 1.04m
+16:23:32 [DEBUG   ]   Phase 2 dist: 1.04m
+16:23:32 [DEBUG   ]   Phase 2 dist: 0.96m
+16:23:32 [DEBUG   ]   Phase 2 dist: 0.90m
+16:23:32 [DEBUG   ]   Phase 2 dist: 0.90m
+16:23:32 [DEBUG   ]   Phase 2 dist: 0.85m
+16:23:33 [DEBUG   ]   Phase 2 dist: 0.79m
+16:23:33 [DEBUG   ]   Phase 2 dist: 0.79m
+16:23:33 [DEBUG   ]   Phase 2 dist: 0.72m
+16:23:33 [DEBUG   ]   Phase 2 dist: 0.66m
+16:23:33 [DEBUG   ]   Phase 2 dist: 0.66m
+16:23:33 [DEBUG   ]   Phase 2 dist: 0.59m
+16:23:33 [INFO    ] Home reached ✅  error=0.59m
+16:23:35 [INFO    ] Return home complete.
+16:23:35 [INFO    ] ▶ LAND — Landing
+16:23:35 [INFO    ] Landing...
+16:23:36 [INFO    ] Switching to LAND mode...
+16:23:36 [DEBUG   ]   Landing... 1.66m
+16:23:37 [DEBUG   ]   Landing... 1.66m
+16:23:37 [DEBUG   ]   Landing... 1.52m
+16:23:37 [DEBUG   ]   Landing... 1.27m
+16:23:38 [DEBUG   ]   Landing... 1.02m
+16:23:38 [DEBUG   ]   Landing... 0.90m
+16:23:39 [DEBUG   ]   Landing... 0.68m
+16:23:39 [DEBUG   ]   Landing... 0.43m
+16:23:40 [DEBUG   ]   Landing... 0.30m
+16:23:43 [INFO    ] Motors disarmed.
+16:23:43 [INFO    ] Landed and disarmed ✅
+16:23:43 [INFO    ] ▶ COMPLETE — Mission Complete ✓
+16:23:43 [INFO    ] =============================================
+16:23:43 [INFO    ]   ✅  MISSION COMPLETE
+16:23:43 [INFO    ] =============================================

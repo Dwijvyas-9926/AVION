@@ -1,0 +1,95 @@
+00:02:39 [INFO    ] Log file: logs/flight_20261008_000239.log
+00:02:46 [INFO    ] ==================================================
+00:02:46 [INFO    ]   TerraAvis — Autonomous Mission System
+00:02:46 [INFO    ]   RoboFest National Competition
+00:02:46 [INFO    ] ==================================================
+00:02:46 [INFO    ] CPU governor set to powersave.
+00:02:46 [INFO    ] CPU Temperature: temp=48.2'C
+00:02:47 [INFO    ] Connecting to Pixhawk → /dev/ttyACM0 @ 57600
+00:02:48 [INFO    ] ArduCopter V4.7.1 (dbe79216)
+00:02:48 [INFO    ] ChibiOS: d103983f
+00:02:48 [INFO    ] fmuv3 001A0027 3533510B 37313531
+00:02:48 [INFO    ] IOMCU: 0 0 411FC231
+00:02:48 [INFO    ] RCOut: PWM:1-14
+00:02:48 [INFO    ] IMU0: fast sampling enabled 8.0kHz/1.0kHz
+00:02:48 [INFO    ] Frame: QUAD/X
+00:02:49 [DEBUG   ] Still waiting for data from vehicle: parameters,gps_0,attitude
+00:02:50 [DEBUG   ] Still waiting for data from vehicle: parameters
+00:02:51 [DEBUG   ] Still waiting for data from vehicle: parameters
+00:02:52 [DEBUG   ] Still waiting for data from vehicle: parameters
+00:02:53 [DEBUG   ] Still waiting for data from vehicle: parameters
+00:02:54 [DEBUG   ] Still waiting for data from vehicle: parameters
+00:02:55 [DEBUG   ] Still waiting for data from vehicle: parameters
+00:02:56 [DEBUG   ] Still waiting for data from vehicle: parameters
+00:02:57 [DEBUG   ] Still waiting for data from vehicle: parameters
+00:02:58 [DEBUG   ] Still waiting for data from vehicle: parameters
+00:02:59 [DEBUG   ] Still waiting for data from vehicle: parameters
+00:03:00 [DEBUG   ] Still waiting for data from vehicle: parameters
+00:03:01 [DEBUG   ] Still waiting for data from vehicle: parameters
+00:03:02 [DEBUG   ] Still waiting for data from vehicle: parameters
+00:03:03 [INFO    ] Pixhawk connected.
+00:03:03 [INFO    ]   Firmware : APM:Copter-4.7.1
+00:03:03 [INFO    ]   GPS      : fix=3 sats=8
+00:03:03 [INFO    ]   Battery  : 0.0V
+00:03:03 [INFO    ]   Mode     : STABILIZE
+00:03:03 [INFO    ]   Heartbeat watchdog started.
+00:03:04 [INFO    ] RealSense D455 started.
+00:03:04 [INFO    ]   Resolution : 640x480 @ 15fps
+00:03:04 [INFO    ]   Zone edges : Left=213px  Right=426px
+00:03:04 [WARNING ] Rover: pigpio daemon not running — rover disabled.
+00:03:04 [WARNING ] Rover: GPIO not ready — cannot start.
+00:03:04 [INFO    ] --------------------------------------------------
+00:03:04 [INFO    ] System ready.
+00:03:04 [INFO    ]   Press [S] in the window to START mission.
+00:03:04 [INFO    ]   Press [A] to ABORT at any time.
+00:03:04 [INFO    ]   Press [Q] to quit.
+00:03:04 [INFO    ] --------------------------------------------------
+00:03:04 [INFO    ] ==================================================
+00:03:04 [INFO    ]   Browser GUI starting...
+00:03:04 [INFO    ]   Open in browser: http://<RPi-IP>:5000
+00:03:04 [INFO    ] ==================================================
+00:03:04 [INFO    ] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.69.110.233:5000
+00:03:04 [INFO    ] [33mPress CTRL+C to quit[0m
+00:03:39 [INFO    ] 127.0.0.1 - - [08/Oct/2026 00:03:39] "GET / HTTP/1.1" 200 -
+00:03:40 [INFO    ] 127.0.0.1 - - [08/Oct/2026 00:03:40] "GET /assets/socket.io.min.js HTTP/1.1" 200 -
+00:03:40 [INFO    ] 127.0.0.1 - - [08/Oct/2026 00:03:40] "GET /assets/three.min.js HTTP/1.1" 200 -
+00:03:40 [INFO    ] 127.0.0.1 - - [08/Oct/2026 00:03:40] "GET /assets/RoomEnvironment.js HTTP/1.1" 200 -
+00:03:40 [INFO    ] 127.0.0.1 - - [08/Oct/2026 00:03:40] "GET /assets/OrbitControls.js HTTP/1.1" 200 -
+00:03:40 [INFO    ] 127.0.0.1 - - [08/Oct/2026 00:03:40] "GET /assets/GLTFLoader.js HTTP/1.1" 200 -
+00:03:40 [INFO    ] 127.0.0.1 - - [08/Oct/2026 00:03:40] "GET /video_feed HTTP/1.1" 200 -
+00:03:40 [INFO    ] 127.0.0.1 - - [08/Oct/2026 00:03:40] "GET /assets/fonts/instrument-sans-latin-400-normal.woff2 HTTP/1.1" 200 -
+00:03:40 [INFO    ] 127.0.0.1 - - [08/Oct/2026 00:03:40] "GET /assets/fonts/jetbrains-mono-latin-400-normal.woff2 HTTP/1.1" 200 -
+00:03:40 [INFO    ] 127.0.0.1 - - [08/Oct/2026 00:03:40] "GET /assets/fonts/jetbrains-mono-latin-500-normal.woff2 HTTP/1.1" 200 -
+00:03:40 [INFO    ] 127.0.0.1 - - [08/Oct/2026 00:03:40] "GET /assets/fonts/instrument-sans-latin-600-normal.woff2 HTTP/1.1" 200 -
+00:03:40 [INFO    ] 127.0.0.1 - - [08/Oct/2026 00:03:40] "GET /gcs_config.json HTTP/1.1" 200 -
+00:03:40 [INFO    ] 127.0.0.1 - - [08/Oct/2026 00:03:40] "GET /socket.io/?EIO=4&transport=polling&t=Q4Nf8fJ HTTP/1.1" 200 -
+00:03:41 [INFO    ] 127.0.0.1 - - [08/Oct/2026 00:03:41] "GET /assets/avion_twin.glb HTTP/1.1" 200 -
+00:03:42 [INFO    ] 127.0.0.1 - - [08/Oct/2026 00:03:42] "POST /socket.io/?EIO=4&transport=polling&t=Q4Nf8x4&sid=QS0g7hPvyX8g_xE9AAAA HTTP/1.1" 200 -
+00:03:42 [INFO    ] 127.0.0.1 - - [08/Oct/2026 00:03:42] "GET /socket.io/?EIO=4&transport=polling&t=Q4Nf8x6&sid=QS0g7hPvyX8g_xE9AAAA HTTP/1.1" 200 -
+00:03:42 [INFO    ] 127.0.0.1 - - [08/Oct/2026 00:03:42] "GET /socket.io/?EIO=4&transport=polling&t=Q4Nf9Dg&sid=QS0g7hPvyX8g_xE9AAAA HTTP/1.1" 200 -
+00:03:46 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:46] "GET / HTTP/1.1" 200 -
+00:03:47 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:47] "GET /assets/socket.io.min.js HTTP/1.1" 200 -
+00:03:47 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:47] "GET /assets/three.min.js HTTP/1.1" 200 -
+00:03:47 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:47] "GET /assets/GLTFLoader.js HTTP/1.1" 200 -
+00:03:47 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:47] "GET /assets/OrbitControls.js HTTP/1.1" 200 -
+00:03:47 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:47] "GET /assets/RoomEnvironment.js HTTP/1.1" 200 -
+00:03:47 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:47] "GET /assets/fonts/instrument-sans-latin-400-normal.woff2 HTTP/1.1" 200 -
+00:03:47 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:47] "GET /video_feed HTTP/1.1" 200 -
+00:03:47 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:47] "GET /assets/fonts/jetbrains-mono-latin-500-normal.woff2 HTTP/1.1" 200 -
+00:03:47 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:47] "GET /assets/fonts/jetbrains-mono-latin-400-normal.woff2 HTTP/1.1" 200 -
+00:03:47 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:47] "GET /assets/fonts/instrument-sans-latin-600-normal.woff2 HTTP/1.1" 200 -
+00:03:47 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:47] "GET /gcs_config.json HTTP/1.1" 200 -
+00:03:47 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:47] "GET /socket.io/?EIO=4&transport=polling&t=Q4NfAPz HTTP/1.1" 200 -
+00:03:48 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:48] "GET /assets/avion_twin.glb HTTP/1.1" 200 -
+00:03:49 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:49] "POST /socket.io/?EIO=4&transport=polling&t=Q4NfAis&sid=nRsSZFD22_JN8Nd_AAAC HTTP/1.1" 200 -
+00:03:49 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:49] "GET /socket.io/?EIO=4&transport=polling&t=Q4NfAiv&sid=nRsSZFD22_JN8Nd_AAAC HTTP/1.1" 200 -
+00:03:49 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:49] "GET /socket.io/?EIO=4&transport=polling&t=Q4NfAng&sid=nRsSZFD22_JN8Nd_AAAC HTTP/1.1" 200 -
+00:03:56 [INFO    ] 10.69.110.126 - - [08/Oct/2026 00:03:56] "GET /assets/fonts/instrument-sans-latin-500-normal.woff2 HTTP/1.1" 200 -
+00:05:16 [INFO    ] Shutdown sequence...
+00:05:18 [INFO    ] RealSense pipeline stopped.
+00:05:18 [INFO    ] Pixhawk disconnected.
+00:05:18 [INFO    ] Rover stopped.
+00:05:18 [INFO    ] TerraAvis shutdown complete.
