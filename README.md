@@ -7,9 +7,9 @@ AVION is a quadcopter built by Team Avion at BVM (Birla Vishvakarma Mahavidyalay
 Project mentor: Dr. Dipak M. Patel
 
 <p align="center">
-  <img src="media/photos/avion_side_view.jpg" width="49%" alt="AVION on the test field, side view">
-  <img src="media/photos/avion_three_quarter_view.jpg" width="24%" alt="AVION, three-quarter view">
-  <img src="media/photos/avion_top_view.jpg" width="24%" alt="AVION, top view">
+  <img src="docs/images/avion_side_view.jpg" width="49%" alt="AVION on the test field, side view">
+  <img src="docs/images/avion_three_quarter_view.jpg" width="24%" alt="AVION, three-quarter view">
+  <img src="docs/images/avion_top_view.jpg" width="24%" alt="AVION, top view">
 </p>
 
 ---
@@ -27,7 +27,7 @@ Project mentor: Dr. Dipak M. Patel
 - [Bench tests and prototypes](#bench-tests-and-prototypes)
 - [CAD](#cad)
 - [Flight logs](#flight-logs)
-- [Files hosted outside this repository](#files-hosted-outside-this-repository)
+- [Large files](#large-files)
 - [Known issues and notes](#known-issues-and-notes)
 
 ---
@@ -75,10 +75,14 @@ AVION/
 ├── tools/
 │   ├── bench/                Hardware bring-up tests: motors, camera, depth, hover
 │   └── prototypes/           Early single-file pymavlink scripts that led to flight_software/
-├── cad/                      Airframe and mount parts: STEP, STL and 3MF (see cad/README.md)
-├── docs/                     Screenshots and supporting documents
-├── media/photos/             Photos of the finished drone
-├── simulator/                Notes on the standalone digital simulator
+├── cad/                      Printable and editable parts, grouped by subsystem
+│   ├── frame/                Centre tray, plates, tube joints, collars, clamps, landing feet
+│   ├── payload/              Servo release hook and cap
+│   └── avionics/             Pi/Pixhawk stack, sensor and camera mounts
+├── docs/
+│   ├── images/               Photos, ground-station screenshot, CAD overview
+│   └── SOURCE_MANIFEST.md    Every Drive file mapped to its repository path (checksum-verified)
+├── simulator/                Standalone digital simulator (see simulator/README.md)
 └── requirements.txt
 ```
 
@@ -97,7 +101,7 @@ AVION/
 
 ## Flight software
 
-All flight code lives in [`flight_software/`](flight_software/). It is written for Python 3.11 on Raspberry Pi OS. Each module has one job:
+All flight code lives in [`flight_software/`](flight_software/). It is written for Python 3.11 (3.11.2 on the flight Pi) on Raspberry Pi OS. Each module has one job:
 
 - **`main.py`**: sets the CPU governor to powersave and logs the Pi's temperature. It then connects to the Pixhawk and starts the D455, builds the mission, rover and GUI objects and blocks in the GUI server. If the Pixhawk is missing it starts in camera-only mode and won't allow a mission to start. On exit it lands the drone if it is still armed.
 - **`flight_controller.py`**: wraps DroneKit and pymavlink.
@@ -153,7 +157,7 @@ IDLE → PREFLIGHT → ARMING → TAKEOFF (1.7 m) → HOVER (2 s)
 
 ## Ground control station and digital twin
 
-<p align="center"><img src="docs/gcs_reload_popup.png" width="85%" alt="AVION ground control station during the reload step"></p>
+<p align="center"><img src="docs/images/gcs_reload_prompt.png" width="85%" alt="AVION ground control station during the reload step"></p>
 
 Open `http://<pi-ip>:5000` from any device on the same network. The page (`gui_assets/gcs.html`) shows:
 
@@ -172,12 +176,14 @@ three.js, Socket.IO and the fonts are all served from `gui_assets/`, so the GCS 
 
 **1. Set up the Raspberry Pi** (Raspberry Pi OS, Python 3.11)
 
+The flight Pi uses a virtual environment created with `--system-site-packages`, so OpenCV and `pyrealsense2` installed system-wide (for example from a librealsense source build) are visible inside it.
+
 ```bash
 git clone https://github.com/Dwijvyas-9926/AVION.git
 ```
 
 ```bash
-cd AVION && python3 -m venv venv && source venv/bin/activate
+cd AVION && python3 -m venv --system-site-packages venv && source venv/bin/activate
 ```
 
 ```bash
@@ -237,23 +243,25 @@ See [`tools/README.md`](tools/README.md) for details.
 
 ## CAD
 
-[`cad/`](cad/) holds the printable and machinable parts: payload hook and cap, Pi/Pixhawk mount, camera cradle, landing-gear clamps, plates and mounts. They are in STL (for printing), STEP (for editing) and 3MF. [`cad/README.md`](cad/README.md) lists every part. The full assembly STEP is too large for this repository and is linked [below](#files-hosted-outside-this-repository).
+[`cad/`](cad/) holds 20 parts grouped into `frame/`, `payload/` and `avionics/`, in STL (for printing), STEP (for editing) and 3MF (slicer project). [`cad/README.md`](cad/README.md) lists every part with its size, purpose and original file name. The full assembly STEP is listed under [Large files](#large-files).
+
+<p align="center"><img src="docs/images/cad_parts_overview.png" width="85%" alt="Overview of all printable AVION parts"></p>
 
 ## Flight logs
 
 [`flight_software/logs/`](flight_software/logs/) contains 30 logs from the test sessions on 2–9 October 2026. Each one records the startup banner, Pixhawk firmware and pre-arm messages, every state transition, detection and depth readings, and operator actions. They are useful for tuning and for seeing how the mission logic changed over the week of testing.
 
-## Files hosted outside this repository
+## Large files
 
-These files are part of the project but are too large for the transfer used to build this repository, or for GitHub itself. They are in the team's Google Drive folder:
+Every file in the team's Drive folder is accounted for in [`docs/SOURCE_MANIFEST.md`](docs/SOURCE_MANIFEST.md). The files below are part of the project but are not in the repository yet, because they were too large to transfer automatically:
 
-| File | Size | Description |
+| File | Size | Where it belongs |
 |---|---|---|
-| `AVION ASSEMBLY.step` | 43 MB | Full airframe assembly. The digital twin model was exported from it |
-| `Avion Digital Simulator.html` | 6.4 MB | Standalone browser simulator of the mission (see [`simulator/`](simulator/)) |
-| `AVION Presentation.pptx` | 9.3 MB | Project presentation: problem, solution, engineering, hybrid operation, future scope |
-| `avion description video.mp4` | 70 MB | Project description video |
-| `IMG_7617.MOV` | 196 MB | Flight test footage |
+| `Avion Digital Simulator.html` | 6.4 MB | `simulator/avion_digital_simulator.html` |
+| `AVION Presentation.pptx` | 9.3 MB | `docs/avion_presentation.pptx` |
+| `AVION ASSEMBLY.step` | 43 MB | `cad/avion_assembly.step` |
+| `avion description video.mp4` | 70 MB | GitHub Release asset |
+| `IMG_7617.MOV` (flight test footage) | 196 MB | GitHub Release asset (exceeds GitHub's 100 MB file limit) |
 
 ## Known issues and notes
 

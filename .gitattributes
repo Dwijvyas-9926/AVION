@@ -1,0 +1,24 @@
+# Normalise text line endings
+* text=auto
+
+# Binary assets
+*.stl   binary
+*.step  binary
+*.3mf   binary
+*.glb   binary
+*.woff2 binary
+*.jpg   binary
+*.png   binary
+*.pptx  binary
+*.mp4   binary
+*.mov   binary
+
+# Third-party minified libraries: exclude from GitHub language statistics
+flight_software/gui_assets/three.min.js        linguist-vendored
+flight_software/gui_assets/socket.io.min.js    linguist-vendored
+flight_software/gui_assets/GLTFLoader.js       linguist-vendored
+flight_software/gui_assets/OrbitControls.js    linguist-vendored
+flight_software/gui_assets/RoomEnvironment.js  linguist-vendored
+
+# Flight logs are data, not code
+flight_software/logs/*.log  linguist-generated
