@@ -261,7 +261,7 @@ Every file in the team's Drive folder is accounted for in [`docs/SOURCE_MANIFEST
 | Digital simulator | 6.4 MB | [`simulator/avion_digital_simulator.html`](simulator/) |
 | Project presentation | 9.3 MB | [`docs/avion_presentation.pptx`](docs/avion_presentation.pptx) |
 | Full airframe assembly | 43 MB | [`cad/avion_assembly.step`](cad/avion_assembly.step) |
-| Project description video | 70 MB | [GitHub Release v1.0](https://github.com/Dwijvyas-9926/AVION/releases) |
+| Project description video | 70 MB | [Download from Release v1.0](https://github.com/Dwijvyas-9926/AVION/releases/download/v1.0/avion.description.video.mp4) |
 | Flight test footage (`IMG_7617.MOV`) | 196 MB | Google Drive only; it exceeds GitHub's 100 MB limit for repository files |
 
 ## Known issues and notes

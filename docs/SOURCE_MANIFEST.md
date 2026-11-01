@@ -97,6 +97,6 @@ The `venv/` folder (a Python virtual environment with third-party packages) and 
 | AVION CAD Files | `final updated T mount.stl` | 454.6 KB | `cad/frame/tube_t_joint.stl` | Identical (MD5 verified) |
 | (top level) | `Avion Digital Simulator.html` | 6.37 MB | `simulator/avion_digital_simulator.html` | Identical (size verified via release upload) |
 | (top level) | `AVION Presentation.pptx` | 9.32 MB | `docs/avion_presentation.pptx` | Identical (size verified via release upload) |
-| (top level) | `avion description video.mp4` | 69.76 MB | GitHub Release v1.0 | Release asset (too large to keep in git history) |
+| (top level) | `avion description video.mp4` | 69.76 MB | [Release v1.0](https://github.com/Dwijvyas-9926/AVION/releases/tag/v1.0) | Release asset (too large to keep in git history) |
 | (top level) | `AVION ASSEMBLY CAD.step` | 43.33 MB | `cad/avion_assembly.step` | Duplicate of `AVION ASSEMBLY.step`; stored once |
 | AVION Main codes / venv | `pyvenv.cfg` | 0.2 KB | — | Excluded: Python virtual environment (rebuilt from `requirements.txt`) |
