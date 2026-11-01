@@ -4,7 +4,8 @@
 
 AVION is a quadcopter built by Team Avion at BVM (Birla Vishvakarma Mahavidyalaya). It has an in-house carbon-fibre and 3D-printed airframe, a Pixhawk autopilot, a Raspberry Pi 4 companion computer and an Intel RealSense D455 depth camera. The drone flies the mission on its own: it searches for a marked drop zone, closes in using depth vision and releases the parcel. A human operator confirms every target and every reload from a browser-based ground station that includes a live 3D digital twin.
 
-Project mentor: Dr. Dipak M. Patel
+**Team:** [Dwij Vyas](https://github.com/Dwijvyas-9926) · [Harshil Shah](https://github.com/harshil-shah31)  
+**Project mentor:** Dr. Dipak M. Patel
 
 <p align="center">
   <img src="docs/images/avion_side_view.jpg" height="280" alt="AVION on the test field, side view">
