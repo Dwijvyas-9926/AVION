@@ -6,7 +6,8 @@ venv/
 env/
 
 # Runtime output (sample flight logs are kept under flight_software/logs/)
-images/
+/images/
+/tools/prototypes/images/
 
 # OS / editor
 .DS_Store
