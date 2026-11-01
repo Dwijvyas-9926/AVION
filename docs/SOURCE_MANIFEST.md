@@ -2,6 +2,8 @@
 
 This file maps every file in the team's Google Drive folder (`AVION`) to its place in this repository. Each copied file was checked against its Drive original by size and MD5 checksum.
 
+GPS coordinates of the test sites were replaced with `[redacted]` in the flight logs before publishing. No other content was changed.
+
 The `venv/` folder (a Python virtual environment with third-party packages) and `_pycache_/` (compiled `.pyc` files) were left out on purpose, because both are rebuilt automatically. The venv's `pyvenv.cfg` shows the Pi runs **Python 3.11.2** with system site-packages enabled.
 
 | Drive folder | Drive file | Size | Repository path | Status |
@@ -31,30 +33,30 @@ The `venv/` folder (a Python virtual environment with third-party packages) and 
 | AVION Main codes / gui_assets / fonts | `instrument-sans-latin-500-normal.woff2` | 17.2 KB | `flight_software/gui_assets/fonts/instrument-sans-latin-500-normal.woff2` | Identical (MD5 verified) |
 | AVION Main codes / gui_assets / fonts | `jetbrains-mono-latin-500-normal.woff2` | 21.8 KB | `flight_software/gui_assets/fonts/jetbrains-mono-latin-500-normal.woff2` | Identical (MD5 verified) |
 | AVION Main codes / gui_assets / fonts | `instrument-sans-latin-600-normal.woff2` | 17.4 KB | `flight_software/gui_assets/fonts/instrument-sans-latin-600-normal.woff2` | Identical (MD5 verified) |
-| AVION Main codes / logs | `flight_20261009_101047.log` | 75.2 KB | `flight_software/logs/flight_20261009_101047.log` | Identical (MD5 verified) |
+| AVION Main codes / logs | `flight_20261009_101047.log` | 75.2 KB | `flight_software/logs/flight_20261009_101047.log` | Identical except GPS coordinates replaced with `[redacted]` |
 | AVION Main codes / logs | `flight_20261009_094010.log` | 7.2 KB | `flight_software/logs/flight_20261009_094010.log` | Identical (MD5 verified) |
-| AVION Main codes / logs | `flight_20261008_161956.log` | 32.3 KB | `flight_software/logs/flight_20261008_161956.log` | Identical (MD5 verified) |
-| AVION Main codes / logs | `flight_20261008_140049.log` | 19.7 KB | `flight_software/logs/flight_20261008_140049.log` | Identical (MD5 verified) |
-| AVION Main codes / logs | `flight_20261008_135655.log` | 26.7 KB | `flight_software/logs/flight_20261008_135655.log` | Identical (MD5 verified) |
-| AVION Main codes / logs | `flight_20261008_135149.log` | 29.1 KB | `flight_software/logs/flight_20261008_135149.log` | Identical (MD5 verified) |
-| AVION Main codes / logs | `flight_20261008_090143.log` | 26.9 KB | `flight_software/logs/flight_20261008_090143.log` | Identical (MD5 verified) |
-| AVION Main codes / logs | `flight_20261008_085751.log` | 11.7 KB | `flight_software/logs/flight_20261008_085751.log` | Identical (MD5 verified) |
+| AVION Main codes / logs | `flight_20261008_161956.log` | 32.3 KB | `flight_software/logs/flight_20261008_161956.log` | Identical except GPS coordinates replaced with `[redacted]` |
+| AVION Main codes / logs | `flight_20261008_140049.log` | 19.7 KB | `flight_software/logs/flight_20261008_140049.log` | Identical except GPS coordinates replaced with `[redacted]` |
+| AVION Main codes / logs | `flight_20261008_135655.log` | 26.7 KB | `flight_software/logs/flight_20261008_135655.log` | Identical except GPS coordinates replaced with `[redacted]` |
+| AVION Main codes / logs | `flight_20261008_135149.log` | 29.1 KB | `flight_software/logs/flight_20261008_135149.log` | Identical except GPS coordinates replaced with `[redacted]` |
+| AVION Main codes / logs | `flight_20261008_090143.log` | 26.9 KB | `flight_software/logs/flight_20261008_090143.log` | Identical except GPS coordinates replaced with `[redacted]` |
+| AVION Main codes / logs | `flight_20261008_085751.log` | 11.7 KB | `flight_software/logs/flight_20261008_085751.log` | Identical except GPS coordinates replaced with `[redacted]` |
 | AVION Main codes / logs | `flight_20261008_081047.log` | 4.1 KB | `flight_software/logs/flight_20261008_081047.log` | Identical (MD5 verified) |
-| AVION Main codes / logs | `flight_20261008_073305.log` | 34.6 KB | `flight_software/logs/flight_20261008_073305.log` | Identical (MD5 verified) |
+| AVION Main codes / logs | `flight_20261008_073305.log` | 34.6 KB | `flight_software/logs/flight_20261008_073305.log` | Identical except GPS coordinates replaced with `[redacted]` |
 | AVION Main codes / logs | `flight_20261008_000239.log` | 7.6 KB | `flight_software/logs/flight_20261008_000239.log` | Identical (MD5 verified) |
 | AVION Main codes / logs | `flight_20261007_235221.log` | 8.1 KB | `flight_software/logs/flight_20261007_235221.log` | Identical (MD5 verified) |
 | AVION Main codes / logs | `flight_20261007_234721.log` | 7.7 KB | `flight_software/logs/flight_20261007_234721.log` | Identical (MD5 verified) |
-| AVION Main codes / logs | `flight_20261007_182801.log` | 30.6 KB | `flight_software/logs/flight_20261007_182801.log` | Identical (MD5 verified) |
+| AVION Main codes / logs | `flight_20261007_182801.log` | 30.6 KB | `flight_software/logs/flight_20261007_182801.log` | Identical except GPS coordinates replaced with `[redacted]` |
 | AVION Main codes / logs | `flight_20261007_151352.log` | 3.7 KB | `flight_software/logs/flight_20261007_151352.log` | Identical (MD5 verified) |
 | AVION Main codes / logs | `flight_20261007_150304.log` | 3.3 KB | `flight_software/logs/flight_20261007_150304.log` | Identical (MD5 verified) |
-| AVION Main codes / logs | `flight_20261005_161250.log` | 35.4 KB | `flight_software/logs/flight_20261005_161250.log` | Identical (MD5 verified) |
-| AVION Main codes / logs | `flight_20261005_160724.log` | 7.5 KB | `flight_software/logs/flight_20261005_160724.log` | Identical (MD5 verified) |
-| AVION Main codes / logs | `flight_20261004_181750.log` | 69.6 KB | `flight_software/logs/flight_20261004_181750.log` | Identical (MD5 verified) |
-| AVION Main codes / logs | `flight_20261004_181500.log` | 11.0 KB | `flight_software/logs/flight_20261004_181500.log` | Identical (MD5 verified) |
-| AVION Main codes / logs | `flight_20261004_135605.log` | 75.2 KB | `flight_software/logs/flight_20261004_135605.log` | Identical (MD5 verified) |
-| AVION Main codes / logs | `flight_20261003_165916.log` | 45.0 KB | `flight_software/logs/flight_20261003_165916.log` | Identical (MD5 verified) |
+| AVION Main codes / logs | `flight_20261005_161250.log` | 35.4 KB | `flight_software/logs/flight_20261005_161250.log` | Identical except GPS coordinates replaced with `[redacted]` |
+| AVION Main codes / logs | `flight_20261005_160724.log` | 7.5 KB | `flight_software/logs/flight_20261005_160724.log` | Identical except GPS coordinates replaced with `[redacted]` |
+| AVION Main codes / logs | `flight_20261004_181750.log` | 69.6 KB | `flight_software/logs/flight_20261004_181750.log` | Identical except GPS coordinates replaced with `[redacted]` |
+| AVION Main codes / logs | `flight_20261004_181500.log` | 11.0 KB | `flight_software/logs/flight_20261004_181500.log` | Identical except GPS coordinates replaced with `[redacted]` |
+| AVION Main codes / logs | `flight_20261004_135605.log` | 75.2 KB | `flight_software/logs/flight_20261004_135605.log` | Identical except GPS coordinates replaced with `[redacted]` |
+| AVION Main codes / logs | `flight_20261003_165916.log` | 45.0 KB | `flight_software/logs/flight_20261003_165916.log` | Identical except GPS coordinates replaced with `[redacted]` |
 | AVION Main codes / logs | `flight_20261003_163641.log` | 9.5 KB | `flight_software/logs/flight_20261003_163641.log` | Identical (MD5 verified) |
-| AVION Main codes / logs | `flight_20261003_151442.log` | 15.0 KB | `flight_software/logs/flight_20261003_151442.log` | Identical (MD5 verified) |
+| AVION Main codes / logs | `flight_20261003_151442.log` | 15.0 KB | `flight_software/logs/flight_20261003_151442.log` | Identical except GPS coordinates replaced with `[redacted]` |
 | AVION Main codes / logs | `flight_20261002_170849.log` | 13.0 KB | `flight_software/logs/flight_20261002_170849.log` | Identical (MD5 verified) |
 | AVION Main codes / logs | `flight_20261002_170739.log` | 2.3 KB | `flight_software/logs/flight_20261002_170739.log` | Identical (MD5 verified) |
 | AVION Main codes / logs | `flight_20261002_121026.log` | 3.0 KB | `flight_software/logs/flight_20261002_121026.log` | Identical (MD5 verified) |

@@ -250,7 +250,7 @@ See [`tools/README.md`](tools/README.md) for details.
 
 ## Flight logs
 
-[`flight_software/logs/`](flight_software/logs/) contains 30 logs from the test sessions on 2–9 October 2026. Each one records the startup banner, Pixhawk firmware and pre-arm messages, every state transition, detection and depth readings, and operator actions. They are useful for tuning and for seeing how the mission logic changed over the week of testing.
+[`flight_software/logs/`](flight_software/logs/) contains 30 logs from the test sessions on 2–9 October 2026. Each one records the startup banner, Pixhawk firmware and pre-arm messages, every state transition, detection and depth readings, and operator actions. They are useful for tuning and for seeing how the mission logic changed over the week of testing. The test-site GPS coordinates in these logs were replaced with `[redacted]` before publishing.
 
 ## Large files
 
