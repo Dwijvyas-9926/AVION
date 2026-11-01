@@ -6,7 +6,7 @@ The parts are grouped by subsystem. Meshes (`.stl`) are ready to print. Solid mo
 
 ![CAD parts overview](../docs/images/cad_parts_overview.png)
 
-The full airframe assembly (`AVION ASSEMBLY.step`, 43 MB) is too large for this repository; see [Large files](../README.md#large-files). The ground station's 3D digital twin (`flight_software/gui_assets/avion_twin.glb`) was exported from that assembly.
+The full airframe assembly is [`avion_assembly.step`](avion_assembly.step) (43 MB; Drive name `AVION ASSEMBLY.step`). The ground station's 3D digital twin (`flight_software/gui_assets/avion_twin.glb`) was exported from that assembly.
 
 Part descriptions come from the geometry and the original file names. Sizes are bounding boxes in millimetres. The *Original name* column gives each file's name in the team's Google Drive.
 

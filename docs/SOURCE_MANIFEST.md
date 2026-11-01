@@ -73,8 +73,8 @@ The `venv/` folder (a Python virtual environment with third-party packages) and 
 | AVION Gallery | `IMG_5630 (1).JPG` | 6.13 MB | `docs/images/avion_three_quarter_view.jpg` | Resized to 2400 px, metadata (incl. GPS) removed — duplicate of IMG_5630.JPG |
 | AVION Gallery | `IMG_5630.JPG` | 6.13 MB | `docs/images/avion_three_quarter_view.jpg` | Resized to 2400 px, metadata (incl. GPS) removed |
 | AVION Gallery | `reload_popup_step2.png` | 219.3 KB | `docs/images/gcs_reload_prompt.png` | Identical (MD5 verified) |
-| AVION Gallery | `IMG_7617.MOV` | 195.82 MB | — | Not in repo: 196 MB, over GitHub's 100 MB file limit. Publish as a GitHub Release asset |
-| AVION CAD Files | `AVION ASSEMBLY.step` | 43.33 MB | — | Not in repo yet: 43 MB, upload manually (see README → Large files) |
+| AVION Gallery | `IMG_7617.MOV` | 195.82 MB | — | Drive only: over GitHub's 100 MB file limit |
+| AVION CAD Files | `AVION ASSEMBLY.step` | 43.33 MB | `cad/avion_assembly.step` | Identical (size verified via release upload) |
 | AVION CAD Files | `plate_lidar.stl` | 27.5 KB | `cad/avionics/lidar_mount_plate.stl` | Identical (MD5 verified) |
 | AVION CAD Files | `hook upper cap.stl` | 189.1 KB | `cad/payload/payload_hook_upper_cap.stl` | Identical (MD5 verified) |
 | AVION CAD Files | `payload hook.stl` | 231.8 KB | `cad/payload/payload_hook.stl` | Identical (MD5 verified) |
@@ -95,8 +95,8 @@ The `venv/` folder (a Python virtual environment with third-party packages) and 
 | AVION CAD Files | `bottom plate updated.stl` | 232.7 KB | `cad/frame/bottom_plate.stl` | Identical (MD5 verified) |
 | AVION CAD Files | `Untitled.stl` | 462.0 KB | `cad/frame/landing_foot.stl` | Identical (MD5 verified) |
 | AVION CAD Files | `final updated T mount.stl` | 454.6 KB | `cad/frame/tube_t_joint.stl` | Identical (MD5 verified) |
-| (top level) | `Avion Digital Simulator.html` | 6.37 MB | — | Not in repo yet: upload manually to `simulator/` |
-| (top level) | `AVION Presentation.pptx` | 9.32 MB | — | Not in repo yet: upload manually to `docs/` |
-| (top level) | `avion description video.mp4` | 69.76 MB | — | Not in repo: 70 MB. Publish as a GitHub Release asset |
-| (top level) | `AVION ASSEMBLY CAD.step` | 43.33 MB | — | Duplicate of `AVION ASSEMBLY.step` (same size); one copy is enough |
+| (top level) | `Avion Digital Simulator.html` | 6.37 MB | `simulator/avion_digital_simulator.html` | Identical (size verified via release upload) |
+| (top level) | `AVION Presentation.pptx` | 9.32 MB | `docs/avion_presentation.pptx` | Identical (size verified via release upload) |
+| (top level) | `avion description video.mp4` | 69.76 MB | GitHub Release v1.0 | Release asset (too large to keep in git history) |
+| (top level) | `AVION ASSEMBLY CAD.step` | 43.33 MB | `cad/avion_assembly.step` | Duplicate of `AVION ASSEMBLY.step`; stored once |
 | AVION Main codes / venv | `pyvenv.cfg` | 0.2 KB | — | Excluded: Python virtual environment (rebuilt from `requirements.txt`) |

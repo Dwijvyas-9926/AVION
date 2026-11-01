@@ -80,9 +80,10 @@ AVION/
 │   ├── payload/              Servo release hook and cap
 │   └── avionics/             Pi/Pixhawk stack, sensor and camera mounts
 ├── docs/
-│   ├── images/               Photos, ground-station screenshot, CAD overview
+│   ├── images/               Photos, screenshots, CAD overview
+│   ├── avion_presentation.pptx  Project presentation
 │   └── SOURCE_MANIFEST.md    Every Drive file mapped to its repository path (checksum-verified)
-├── simulator/                Standalone digital simulator (see simulator/README.md)
+├── simulator/                Browser-based 3D digital twin and mission simulator
 └── requirements.txt
 ```
 
@@ -243,7 +244,7 @@ See [`tools/README.md`](tools/README.md) for details.
 
 ## CAD
 
-[`cad/`](cad/) holds 20 parts grouped into `frame/`, `payload/` and `avionics/`, in STL (for printing), STEP (for editing) and 3MF (slicer project). [`cad/README.md`](cad/README.md) lists every part with its size, purpose and original file name. The full assembly STEP is listed under [Large files](#large-files).
+[`cad/`](cad/) holds 20 parts grouped into `frame/`, `payload/` and `avionics/`, in STL (for printing), STEP (for editing) and 3MF (slicer project). [`cad/README.md`](cad/README.md) lists every part with its size, purpose and original file name. The full airframe assembly is [`cad/avion_assembly.step`](cad/avion_assembly.step).
 
 <p align="center"><img src="docs/images/cad_parts_overview.png" width="85%" alt="Overview of all printable AVION parts"></p>
 
@@ -253,15 +254,15 @@ See [`tools/README.md`](tools/README.md) for details.
 
 ## Large files
 
-Every file in the team's Drive folder is accounted for in [`docs/SOURCE_MANIFEST.md`](docs/SOURCE_MANIFEST.md). The files below are part of the project but are not in the repository yet, because they were too large to transfer automatically:
+Every file in the team's Drive folder is accounted for in [`docs/SOURCE_MANIFEST.md`](docs/SOURCE_MANIFEST.md).
 
-| File | Size | Where it belongs |
+| File | Size | Location |
 |---|---|---|
-| `Avion Digital Simulator.html` | 6.4 MB | `simulator/avion_digital_simulator.html` |
-| `AVION Presentation.pptx` | 9.3 MB | `docs/avion_presentation.pptx` |
-| `AVION ASSEMBLY.step` | 43 MB | `cad/avion_assembly.step` |
-| `avion description video.mp4` | 70 MB | GitHub Release asset |
-| `IMG_7617.MOV` (flight test footage) | 196 MB | GitHub Release asset (exceeds GitHub's 100 MB file limit) |
+| Digital simulator | 6.4 MB | [`simulator/avion_digital_simulator.html`](simulator/) |
+| Project presentation | 9.3 MB | [`docs/avion_presentation.pptx`](docs/avion_presentation.pptx) |
+| Full airframe assembly | 43 MB | [`cad/avion_assembly.step`](cad/avion_assembly.step) |
+| Project description video | 70 MB | [GitHub Release v1.0](https://github.com/Dwijvyas-9926/AVION/releases) |
+| Flight test footage (`IMG_7617.MOV`) | 196 MB | Google Drive only; it exceeds GitHub's 100 MB limit for repository files |
 
 ## Known issues and notes
 
