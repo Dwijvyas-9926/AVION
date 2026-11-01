@@ -15,7 +15,7 @@ Run these in order when setting up a new Pi or after changing hardware.
 
 ## `prototypes/`: early experiments
 
-These are the standalone pymavlink scripts the team used to prove each capability before it went into `flight_software/`. They are kept for reference and are not used by the mission code.
+These are the standalone scripts the team used to prove each capability before it went into `flight_software/`. They are kept for reference and are not used by the mission code.
 
 | Script | Original name | Purpose |
 |---|---|---|

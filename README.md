@@ -7,9 +7,9 @@ AVION is a quadcopter built by Team Avion at BVM (Birla Vishvakarma Mahavidyalay
 Project mentor: Dr. Dipak M. Patel
 
 <p align="center">
-  <img src="docs/images/avion_side_view.jpg" width="49%" alt="AVION on the test field, side view">
-  <img src="docs/images/avion_three_quarter_view.jpg" width="24%" alt="AVION, three-quarter view">
-  <img src="docs/images/avion_top_view.jpg" width="24%" alt="AVION, top view">
+  <img src="docs/images/avion_side_view.jpg" height="280" alt="AVION on the test field, side view">
+  <img src="docs/images/avion_three_quarter_view.jpg" height="280" alt="AVION, three-quarter view">
+  <img src="docs/images/avion_top_view.jpg" height="280" alt="AVION, top view">
 </p>
 
 ---
@@ -22,6 +22,7 @@ Project mentor: Dr. Dipak M. Patel
 - [Flight software](#flight-software)
 - [Mission sequence](#mission-sequence)
 - [Ground control station and digital twin](#ground-control-station-and-digital-twin)
+- [Digital simulator](#digital-simulator)
 - [Getting started](#getting-started)
 - [Configuration reference](#configuration-reference)
 - [Bench tests and prototypes](#bench-tests-and-prototypes)
@@ -35,56 +36,65 @@ Project mentor: Dr. Dipak M. Patel
 ## System overview
 
 ```
-                ┌──────────────────────── Operator laptop / phone ───────────────────────┐
-                │  Browser → http://<pi-ip>:5000   (live video · 3D twin · telemetry ·   │
-                │                                   APPROACH / IGNORE · reload · ABORT)  │
-                └───────────────────────────────▲────────────────────────────────────────┘
-                                                │ Wi-Fi (Flask + Socket.IO, 10 Hz telemetry,
-                                                │        MJPEG camera stream)
-┌────────────────────────── Raspberry Pi 4 (companion computer) ─────────────────────────┐
-│  main.py                                                                               │
-│   ├── mission_manager.py   two-phase state machine (red drop → reload → blue drop)     │
-│   ├── vision.py            D455 RGB + aligned depth, HSV colour detection, 3 zones      │
-│   ├── flight_controller.py DroneKit / MAVLink wrapper, position hold, yaw, servo, watchdog│
-│   ├── rover.py             optional ground-drive mode (TB6612 via pigpio, RC CH6)      │
-│   └── gui.py + gui_assets/ ground control station served from the Pi (works offline)  │
-└───────────────▲───────────────────────────────────────────────▲────────────────────────┘
-                │ USB (MAVLink, /dev/ttyACM0 @ 57600)            │ USB 3
-┌───────────────┴─────────────────┐                   ┌─────────┴──────────────┐
-│ Pixhawk 2.4.8 · ArduCopter 4.7  │                   │ Intel RealSense D455   │
-│ GPS · ESCs · AUX1 → payload hook│                   │ 640×480 @ 15 fps RGB-D │
-└─────────────────────────────────┘                   └────────────────────────┘
+┌─────────────────────────────── Operator laptop / phone ────────────────────────────────┐
+│ Browser → http://<pi-ip>:5000                                                          │
+│ live camera · 3D digital twin · telemetry · APPROACH / IGNORE · reload · ABORT         │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+                                             ▲
+                                             │  Wi-Fi: Socket.IO telemetry (10 Hz) + MJPEG video
+                                             ▼
+┌───────────────────────── Raspberry Pi 4 · companion computer ──────────────────────────┐
+│ main.py                                                                                │
+│ ├── mission_manager.py    two-phase state machine: red drop → reload → blue drop       │
+│ ├── vision.py             D455 RGB + aligned depth, HSV colour detection, 3 zones      │
+│ ├── flight_controller.py  DroneKit / MAVLink: position hold, yaw, servo, watchdog      │
+│ ├── rover.py              optional ground-drive mode (TB6612 via pigpio, RC CH6)       │
+│ └── gui.py + gui_assets/  ground control station served from the Pi (offline)          │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+                  ▲                                                     ▲
+                  │ USB · MAVLink @ 57600                               │ USB 3
+                  ▼                                                     ▼
+┌───────── Pixhawk 2.4.8 ──────────┐                  ┌────── Intel RealSense D455 ──────┐
+│ ArduCopter 4.7 · GPS · ESCs      │                  │ 640×480 @ 15 fps                 │
+│ AUX1 → payload hook servo        │                  │ RGB + aligned depth              │
+└──────────────────────────────────┘                  └──────────────────────────────────┘
 ```
 
 ## Repository layout
 
 ```
 AVION/
-├── flight_software/          Code that runs on the Raspberry Pi (run from this folder)
-│   ├── main.py               Entry point: connects Pixhawk + camera, starts mission, rover, GUI
-│   ├── config.py             All tunable parameters (edit before every flight)
-│   ├── mission_manager.py    Autonomous state machine with operator confirmation
-│   ├── flight_controller.py  DroneKit/MAVLink wrapper: arm, takeoff, velocity, yaw, servo, watchdog
-│   ├── vision.py             RealSense D455 pipeline: red/blue detection, depth sampling, HUD
-│   ├── rover.py              Ground-drive mode: RC-controlled differential drive
-│   ├── gui.py                Flask + Socket.IO ground control station (port 5000)
-│   ├── calibrate_hsv.py      Web HSV tuner (port 5001); writes thresholds into config.py
-│   ├── logger.py             Timestamped file + console logging to logs/
-│   ├── gui_assets/           GCS page, 3D twin model, three.js, socket.io, fonts (all local)
-│   └── logs/                 Flight logs from test sessions, 2–9 Oct 2026
+├── flight_software/                   Code that runs on the Raspberry Pi (run from this folder)
+│   ├── main.py                        Entry point: connects Pixhawk and camera, starts mission and GUI
+│   ├── config.py                      All tunable parameters (edit before every flight)
+│   ├── mission_manager.py             Autonomous state machine with operator confirmation
+│   ├── flight_controller.py           DroneKit/MAVLink: arm, takeoff, velocity, yaw, servo, watchdog
+│   ├── vision.py                      RealSense D455 pipeline: red/blue detection, depth sampling, HUD
+│   ├── rover.py                       Ground-drive mode: RC-controlled differential drive
+│   ├── gui.py                         Flask + Socket.IO ground control station (port 5000)
+│   ├── calibrate_hsv.py               Web HSV tuner (port 5001); writes thresholds into config.py
+│   ├── logger.py                      Timestamped file + console logging to logs/
+│   ├── gui_assets/                    GCS page, 3D twin model, three.js, Socket.IO, fonts (all local)
+│   └── logs/                          28 flight logs from test sessions, 2–9 Oct 2026
+├── simulator/
+│   ├── avion_digital_simulator.html   Browser-based 3D digital twin and mission simulator
+│   └── README.md
+├── cad/
+│   ├── frame/                         Centre tray, plates, tube joints, collars, clamps, landing foot
+│   ├── payload/                       Servo release hook and cap
+│   ├── avionics/                      Pi/Pixhawk stack, sensor and camera mounts
+│   ├── avion_assembly.step            Full airframe assembly
+│   └── README.md                      Parts list with sizes and original names
 ├── tools/
-│   ├── bench/                Hardware bring-up tests: motors, camera, depth, hover
-│   └── prototypes/           Early single-file pymavlink scripts that led to flight_software/
-├── cad/                      Printable and editable parts, grouped by subsystem
-│   ├── frame/                Centre tray, plates, tube joints, collars, clamps, landing feet
-│   ├── payload/              Servo release hook and cap
-│   └── avionics/             Pi/Pixhawk stack, sensor and camera mounts
+│   ├── bench/                         Hardware bring-up tests: motors, camera, depth, hover
+│   ├── prototypes/                    Early single-file scripts that led to flight_software/
+│   └── README.md
 ├── docs/
-│   ├── images/               Photos, screenshots, CAD overview
-│   ├── avion_presentation.pptx  Project presentation
-│   └── SOURCE_MANIFEST.md    Every Drive file mapped to its repository path (checksum-verified)
-├── simulator/                Browser-based 3D digital twin and mission simulator
-└── requirements.txt
+│   ├── images/                        Photos, screenshots, CAD overview
+│   ├── avion_presentation.pptx        Project presentation
+│   └── SOURCE_MANIFEST.md             Every Drive file mapped to its repository path
+├── requirements.txt
+└── README.md
 ```
 
 ## Hardware
@@ -128,19 +138,23 @@ The mission is a two-phase delivery. The first parcel goes to a **red** target, 
 
 ```
 IDLE → PREFLIGHT → ARMING → TAKEOFF (1.7 m) → HOVER (2 s)
-   │
-   ├─ PHASE 1 · RED ─────────────────────────────────────────────────────────┐
-   │   YAW_SEARCH → TARGET_LOCK → CONFIRM_TARGET ──IGNORE──┐                 │
-   │        ▲                         │ APPROACH           │ blacklist object│
-   │        └─────────────────────────┼────────────────────┘ and keep sweeping
-   │                                  ▼                                      │
-   │                      ALIGN → APPROACH → DROP                            │
-   └──────────────────────────────────────────────────────────────────────────┘
-   → RETURN_HOME → RELOAD (operator: CLOSE HOOK → RELOAD DONE)
-   ├─ PHASE 2 · BLUE  (same search / confirm / align / approach / drop) ─────┤
-   → RETURN_HOME → LAND → COMPLETE
+  │
+  ▼
+PHASE 1 · RED target
+  YAW_SEARCH → TARGET_LOCK → CONFIRM_TARGET ──APPROACH──▶ ALIGN → APPROACH → DROP
+       ▲                           │
+       └────────── IGNORE ─────────┘   object is blacklisted, sweep continues
+  │
+  ▼
+RETURN_HOME → RELOAD   (operator presses CLOSE HOOK, then RELOAD DONE)
+  │
+  ▼
+PHASE 2 · BLUE target  (same search → confirm → align → approach → drop)
+  │
+  ▼
+RETURN_HOME → LAND → COMPLETE
 
-   ABORT at any time → stop, land in place.   Heartbeat lost → LAND.
+ABORT at any time → stop and land in place.   Heartbeat lost > 3 s → LAND.
 ```
 
 | Stage | What happens |
@@ -170,6 +184,12 @@ Open `http://<pi-ip>:5000` from any device on the same network. The page (`gui_a
 - A Drone/Rover mode toggle
 
 three.js, Socket.IO and the fonts are all served from `gui_assets/`, so the GCS works at a venue with no internet access.
+
+## Digital simulator
+
+[`simulator/avion_digital_simulator.html`](simulator/) is a self-contained 3D digital twin that runs in any browser. It flies the full relief mission (base camp → broken bridge → cut-off village) with operator-confirmed drops, and it also offers manual flight, a clickable assembly inspector, wind settings and a low-battery failsafe test. See [`simulator/README.md`](simulator/README.md).
+
+<p align="center"><img src="docs/images/digital_simulator.jpg" width="85%" alt="Avion Digital Simulator"></p>
 
 ## Getting started
 
@@ -240,21 +260,21 @@ See [`tools/README.md`](tools/README.md) for details.
 | `tools/bench/cam_test.py` | D455 as a plain USB webcam, without librealsense; streams to port 8000 |
 | `tools/bench/depth_test.py` | Live RGB and depth side by side, click-to-measure, valid-pixel percentage |
 | `tools/bench/hover_test.py` | Arm, take off to 2 m, hover 5 s, land |
-| `tools/prototypes/*` | Early standalone pymavlink scripts: takeoff/land, forward flight, auto yaw, hook servo, payload delivery, image capture |
+| `tools/prototypes/*` | Early standalone scripts: takeoff/land, forward flight, auto yaw, hook servo, payload delivery, image capture |
 
 ## CAD
 
-[`cad/`](cad/) holds 20 parts grouped into `frame/`, `payload/` and `avionics/`, in STL (for printing), STEP (for editing) and 3MF (slicer project). [`cad/README.md`](cad/README.md) lists every part with its size, purpose and original file name. The full airframe assembly is [`cad/avion_assembly.step`](cad/avion_assembly.step).
+[`cad/`](cad/) holds 19 parts (20 files) grouped into `frame/`, `payload/` and `avionics/`, in STL (for printing), STEP (for editing) and 3MF (slicer project). [`cad/README.md`](cad/README.md) lists every part with its size, purpose and original file name. The full airframe assembly is [`cad/avion_assembly.step`](cad/avion_assembly.step).
 
 <p align="center"><img src="docs/images/cad_parts_overview.png" width="85%" alt="Overview of all printable AVION parts"></p>
 
 ## Flight logs
 
-[`flight_software/logs/`](flight_software/logs/) contains 30 logs from the test sessions on 2–9 October 2026. Each one records the startup banner, Pixhawk firmware and pre-arm messages, every state transition, detection and depth readings, and operator actions. They are useful for tuning and for seeing how the mission logic changed over the week of testing. The test-site GPS coordinates in these logs were replaced with `[redacted]` before publishing.
+[`flight_software/logs/`](flight_software/logs/) contains 28 logs from the test sessions on 2–9 October 2026. Each one records the startup banner, Pixhawk firmware and pre-arm messages, every state transition, detection and depth readings, and operator actions. They are useful for tuning and for seeing how the mission logic changed over the week of testing. The test-site GPS coordinates in these logs were replaced with `[redacted]` before publishing.
 
 ## Large files
 
-Every file in the team's Drive folder is accounted for in [`docs/SOURCE_MANIFEST.md`](docs/SOURCE_MANIFEST.md).
+The largest project files and where to find them. Every file from the team's Drive folder is accounted for in [`docs/SOURCE_MANIFEST.md`](docs/SOURCE_MANIFEST.md).
 
 | File | Size | Location |
 |---|---|---|
@@ -262,7 +282,6 @@ Every file in the team's Drive folder is accounted for in [`docs/SOURCE_MANIFEST
 | Project presentation | 9.3 MB | [`docs/avion_presentation.pptx`](docs/avion_presentation.pptx) |
 | Full airframe assembly | 43 MB | [`cad/avion_assembly.step`](cad/avion_assembly.step) |
 | Project description video | 70 MB | [Download from Release v1.0.0](https://github.com/Dwijvyas-9926/AVION/releases/download/v1.0.0/avion.description.video.mp4) |
-| Flight test footage (`IMG_7617.MOV`) | 196 MB | Google Drive only; it exceeds GitHub's 100 MB limit for repository files |
 
 ## Known issues and notes
 

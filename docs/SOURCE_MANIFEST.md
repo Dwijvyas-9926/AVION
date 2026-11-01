@@ -75,7 +75,7 @@ The `venv/` folder (a Python virtual environment with third-party packages) and 
 | AVION Gallery | `IMG_5630 (1).JPG` | 6.13 MB | `docs/images/avion_three_quarter_view.jpg` | Resized to 2400 px, metadata (incl. GPS) removed — duplicate of IMG_5630.JPG |
 | AVION Gallery | `IMG_5630.JPG` | 6.13 MB | `docs/images/avion_three_quarter_view.jpg` | Resized to 2400 px, metadata (incl. GPS) removed |
 | AVION Gallery | `reload_popup_step2.png` | 219.3 KB | `docs/images/gcs_reload_prompt.png` | Identical (MD5 verified) |
-| AVION Gallery | `IMG_7617.MOV` | 195.82 MB | — | Drive only: over GitHub's 100 MB file limit |
+| AVION Gallery | `IMG_7617.MOV` | 195.82 MB | — | Not included (by choice) |
 | AVION CAD Files | `AVION ASSEMBLY.step` | 43.33 MB | `cad/avion_assembly.step` | Identical (size verified via release upload) |
 | AVION CAD Files | `plate_lidar.stl` | 27.5 KB | `cad/avionics/lidar_mount_plate.stl` | Identical (MD5 verified) |
 | AVION CAD Files | `hook upper cap.stl` | 189.1 KB | `cad/payload/payload_hook_upper_cap.stl` | Identical (MD5 verified) |
